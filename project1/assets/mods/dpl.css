@@ -1,0 +1,78 @@
+/**
+ * 模板样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 下午2:43 
+ */
+body{
+    background:url(http://img02.taobaocdn.com/tps/i2/T10mfjXappXXc9H8sk-104-104.png)
+}
+
+
+/* main width */
+.wide{
+    width:1000px;
+    margin:auto;
+}
+.oh{
+    text-indent:-999em;
+    overflow:hidden;
+}
+
+a:link{
+    color:#333
+}
+a:visited{
+    color:#333;
+}
+a:hover{
+    color:#f60;
+}
+
+a.blue:link{
+    color:#1a8dc6
+}
+a.blue:visited{
+    color:#1a8dc6
+}
+a.blue:hover{
+    color:#f60;
+}
+.h{color:#f60}  /* 橙色 */
+.g{color:#666}  /* 深灰 */
+.g2{color:#999} /* 浅灰 */
+.red{color:#f00}    /* 红色 */
+.c{clear:both}  /* 清除浮动 */
+
+/* 弹出层 */
+.tender{
+    width:600px;
+    border:1px solid  #d1d1d1;
+    background: #fbfbfb;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
+}
+.tender .title{
+    height: 35px;
+    background-color:#f60;
+    line-height: 35px;
+    padding:0 15px;
+    color:#fff;
+
+}
+.tender .title b{
+    font-size: 14px;
+    float:left;
+}
+.title a.close{
+    float:right;
+    color:#fff;
+}
+.ks-overlay {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+}
+.ks-ext-mask{
+    background-color: #666;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}

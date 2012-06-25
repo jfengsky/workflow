@@ -1,0 +1,95 @@
+/**
+ * 支付宝支付页面
+ * Author: wb-jiangfeng
+ * Time: 12-6-14 下午3:22 
+ */
+.pay_li .note{
+    background:url(http://img02.taobaocdn.com/tps/i2/T1dmfkXe0fXXbhmJLt-97-36.png) no-repeat
+}
+.pay_li a.next{
+    background:url(http://img01.taobaocdn.com/tps/i1/T1taHkXbdpXXX6w9.3-102-40.png) no-repeat
+}
+.pay{
+    width:960px;
+    margin:20px auto 80px auto;
+}
+    .pay_li{
+        margin-top:50px;
+    }
+        .pay_li li{
+            width:100%;
+            float:left;
+            line-height: 22px;
+        }
+            .pay_li label{
+                padding-right:15px;
+                float:left;
+                color: #999999;
+            }
+            .pay_li .descr_demand{
+                clear: both;
+                padding-left: 20px;
+            }
+            .pay_li .descr_demand h2{
+                margin-bottom: 5px;
+                font-size: 14px;
+            }
+            .pay_li .descr_demand li p{
+                color: #999999;
+            }
+            .pay_li .payment{
+                border: 2px solid #ffeacb;
+                float: left;
+                width: 671px;
+                padding: 20px;
+                margin-bottom: 50px;
+                *margin-bottom:0px;
+            }
+            .pay_li .payment .method{
+                margin-top:20px;
+            }
+            .pay_li .payment label{
+                  font-weight: bold;
+                  font-size: 15px;
+                  color: #000;
+              }
+            .pay_li .descr_freezing{
+                clear:both;
+                color: #999999;
+            }
+            .pay_li span.h{
+                font-family:arial,verdana;
+                font-weight: bold;
+                font-size: 16px;
+                float:left;
+            }
+            .pay_li .note{
+                width: 100px;
+                float:left;
+                height:40px;
+                background-position:0 0px;
+            }
+        .pay_li a.next{
+            width: 102px;
+            height: 40px;
+            display: block;
+            text-indent:-999em;
+            overflow:hidden;
+            float:left;
+        }
+        .pay_li .nextorreturn{
+            clear: both;
+            float: left;
+            margin-top: 20px;
+        }
+        .pay_li div.return{
+            width: 102px;
+            float:left;
+            padding-top: 9px;
+            margin-left:22px;
+            display: inline;
+        }
+            .pay_li div.return a.col_067bb1{
+                color: #067bb1;
+            }
+

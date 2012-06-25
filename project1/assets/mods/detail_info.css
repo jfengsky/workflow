@@ -1,0 +1,172 @@
+/**
+ * 需求详情
+ * Author: wb-jiangfeng
+ * Time: 12-6-13 下午2:01 
+ */
+.step a.bid, .user-info .buyer{
+    background:url(http://localhost/ying/DEMO/assets/img/bid.png) no-repeat
+}
+.detail{
+    border:1px solid #cfcfcf;
+    border-top:none;
+    width:988px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+    .detail .l{
+        width:725px;
+        border-right:1px solid #cfcfcf;
+        border-top:3px solid #f60;
+        background: #fff;
+        box-shadow:0 0 15px #ccc;
+        float:left;
+        min-height: 500px;
+        _height:auto !important;
+        _height:500px;
+    }
+        .detail .l .user-info{
+            padding-top:10px;
+            height: 46px;
+            border-bottom:1px solid #eaeaea;
+            color:#999;
+        }
+            .user-info .buyer{
+                width:44px;
+                height: 41px;
+                display:block;
+                float:left;
+                margin:0 17px 0 19px;
+            }
+            .user-info a{
+                color:#666;
+            }
+                .user-info b{
+                    float:right
+                }
+            /*
+            .user-info a img.head{
+                border:1px solid #FFF;
+                float:left;
+                margin:3px 15px 0 10px;
+            }
+            */
+        .caution{
+            height: 36px;
+            margin:32px 0 10px 20px;
+        }
+            .caution span{
+                color:#999;
+                line-height:36px;
+            }
+            .money{
+                border:2px solid #f60;
+                border-radius:3px 3px 3px 3px;
+                float:left;
+                overflow: hidden;
+                color:#f60;
+                padding-right:10px;
+            }
+                .money span{
+                    background-color: #f60;
+                    font-family:arial,verdana;
+                    height: 32px;
+                    display:block;
+                    float:left;
+                    color:#fff;
+                    width:28px;
+                    text-align: center;
+                    line-height: 36px;
+                    font-size: 24px;
+                }
+                .money b{
+                    line-height: 32px;
+                    font-size:28px;
+                    padding:0 15px 0 10px;
+                    float:left;
+                }
+                .money em{
+                    float:left;
+                    line-height: 32px;
+                }
+
+        .detail .l h3{
+            font-size:20px;
+            color:#333;
+            padding:0 0 40px 16px;
+        }
+        .editor{
+            padding:0 0 30px 20px;
+        }
+        .annex{
+            border:1px dashed #bdbdbd;
+            margin:0 20px 40px 20px;
+            padding:5px 10px;
+            background: #fcfcfc;
+        }
+
+    .detail .r{
+        float:right;
+        width:261px;
+        border-top:3px solid #0679b0
+
+    }
+        .step, .step2{
+            border-top:1px solid #fff;
+            border-bottom:1px solid #dedede;
+            padding:0 0 0 15px;
+        }
+        .detail .r .on{
+            background-color: #fff;
+        }
+            .step h4{
+                color:#1e75f6;
+                font-size:20px;
+                text-align:center;
+                padding:30px 0 10px 0;
+            }
+            .step p{
+                text-align: center;
+            }
+                .step p b{
+                    font-size: 28px;
+                }
+            .step a.bid{
+                width:131px;
+                height: 41px;
+                display: block;
+                margin:20px auto auto;
+            }
+            .step span.g{
+                margin:auto;
+                width:131px;
+                display:block;
+                text-align: center;
+            }
+            .rule{
+                border-top:1px dashed #ccc;
+                width:210px;
+                margin:20px auto auto;
+                padding:15px 0 18px 20px;
+            }
+                .rule b{
+                    font-weight:normal;
+                }
+                .rule li{
+                    color:#999;
+                    list-style:disc;
+                    margin-left:20px;
+                }
+            .step2{
+                height: 34px;
+                line-height: 32px;
+                color:#666;
+            }
+            .step2 span{
+                line-height: 34px;
+                font-size: 24px;
+                font-family: Tahoma;
+                float:left;
+                margin:0 12px 0 18px;
+            }

@@ -1,0 +1,135 @@
+/**
+ *
+ * Author: wb-jiangfeng
+ * Time: 12-6-14 ÉÏÎç10:54 
+ */
+
+
+    .tender-info{
+
+    }
+        .tender-info li{
+            padding-top:13px;
+        }
+            .tender-info label{
+                width:100px;
+                float:left;
+                text-align: right;
+                height: 27px;
+                line-height: 27px;
+                padding-right:10px;
+            }
+            .tender-info .url, .tender-info .price, .tender-info textarea{
+                border:1px solid #d1d1d1;
+                background-color: #ececec;
+                border-radius:3px 3px 3px 3px;
+                height: 25px;
+                width:300px;
+                padding:0 5px;
+                line-height: 25px;
+            }
+            .tender-info .price{
+                width:100px;
+            }
+            .tender-info textarea{
+                height: 88px;
+                width:300px;
+                float:left;
+            }
+            .tender .tender-updata{
+                clear: both;
+                padding-left:110px;
+            }
+                .tender-updata dd {
+                    width:100%;
+                    float:left;
+                }
+                    .tender-updata dd em, .tender-updata dd span , .tender-updata dd a{
+                        float: left;
+                    }
+                        .tender-updata span.bord{
+                            border:1px solid #cdcbce;
+                            padding:1px;
+                            height: 7px;
+                            width:100px;
+                            overflow:hidden;
+                            display: block;
+                            margin:5px 10px 0 10px;
+                        }
+                            .tender-updata span.rate{
+                                background-color: #f39800;
+                                height: 7px;
+                                display:block
+                            }
+            .tender-info b{
+                margin-top:8px;
+                float:left;
+            }
+                .tender-info b.box span{
+                    width:170px;
+                    height:170px;
+                    display:table-cell;
+                    border:1px solid #dddddd;
+                    background-color:#ececed;
+                    vertical-align:middle;
+                    text-align: center;
+                    *display: block;
+                    *font-size: 148px;
+                    *font-family:Arial;/
+                }
+                    .tender-info b.box img{
+                        vertical-align:middle;
+                    }
+                    .updata-btn{
+                        clear:both;
+                        float:left;
+                    }
+            .pack{
+                clear:both;
+            }
+            .tender-btn{
+                width:102px;
+                margin:auto auto auto 108px;
+
+            }
+                .tender-btn input{
+                    width:102px;
+                    height: 40px;
+                    border:none;
+                    cursor:pointer;
+                    margin:auto;
+                }
+    .success{
+        padding:27px;
+        text-align: center;
+    }
+        .success em{
+            padding:5px 0 10px 0;
+            font-size:24px;
+            color:#359800;
+            font-weight: bold;
+            display: block
+        }
+        .success a.close{
+            width:86px;
+            height: 26px;
+            display:block;
+            border:1px solid #a0a0a0;
+            font-weight: bold;
+            background-color: #ddd;
+            line-height: 26px;
+            margin:30px auto 40px auto;
+            border-radius:2px 2px 2px 2px;
+        }
+        .success p{
+            height: 34px;
+            border:1px dashed #bebebe;
+            background: #fff;
+            padding:0 20px;
+            line-height: 34px;
+            text-align: left;
+        }
+            .success p span{
+                color:#f60;
+                font-weight: bold;
+            }

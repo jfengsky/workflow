@@ -1,0 +1,122 @@
+/**
+ * 需求详情
+ * Author: wb-jiangfeng
+ * Time: 12-6-13 下午2:01 
+ */
+.tender .title_bg0b7eb5{background-color: #0b7eb5;}
+.tender .title_bgfa7725{ background-color: #fa7725;}
+.tender-info li {
+    padding-top: 13px;
+    zoom:1;
+    clear: both;
+}
+.tender-info textarea{
+    float: none;
+}
+.add_attach,.success .bindalipay .agreebind,.tender_success,.success .bindalipay .finish_bind,.success .bindalipay .error_bind,.btn_tender{background:url(http://img01.taobaocdn.com/tps/i1/T1XFYmXfNmXXcUZ66W-483-210.png) no-repeat;}
+.btn_tender{
+    background-position: -328px -33px;
+}
+.add_attach{
+    width: 100px;
+    display: block;
+    height: 20px;
+    background-position: -396px -96px;
+    text-indent: -999em;
+}
+.tender{float: left;}
+.success{float: left;}
+.tender_success{
+    background-position: 96px -131px;
+    height: 60px;
+    width:537px;
+    text-indent: -999em;
+
+ }
+.upload_tender{
+    width: 680px;
+    float:left;
+}
+.upload_tender .tender-info{
+    background: url(http://img02.taobaocdn.com/tps/i2/T1Ry6nXeJXXXXAREz9-483-32.jpg) 111px 23px  no-repeat;
+}
+.upload_tender .mb_5{
+    margin-bottom: 5px;
+}
+.upload_tender .tender-info{
+    padding:80px 0px 50px 0px;
+    float: left;
+}
+.upload_tender .price{
+    color: #ff6600;
+}
+.upload_tender .preview{
+    border-radius: 5px;
+    width: 180px;
+    height: 309px;
+    border: 1px solid #b8b8b8;
+    margin-top: 8px;
+}
+.upload_tender .result_show{
+    border-bottom: 1px solid #c0c0c0;
+    height: 259px;
+    padding: 6px;
+}
+.upload_tender .preview .instruct{
+    height:90px;
+}
+.upload_tender .bid{
+    height: 35px;
+    line-height: 35px;
+    color: #ff6600;
+    font-weight: 700;
+    background-color: #f4f4f4;
+    border-top: 1px #fff solid;
+    padding-left:6px;
+}
+.upload_tender .bid span{
+    font-weight: normal;
+    color: #333333;
+}
+.success .bindalipay em{
+    color:#333;
+    font-size:14px;
+    padding: 29px 0px;
+}
+.success .bindalipay ol{
+    list-style: decimal;
+    width: 455px;
+    margin: 0px auto;
+    text-align: left;
+}
+.success .bindalipay li{
+    padding:5px 0px;
+}
+.success .bindalipay .agreebind{
+    display: block;
+    width: 220px;
+    background-position: -2px -34px;
+    height: 39px;
+    text-indent: -999em;
+    border: none;
+}
+.success .bindalipay .finish_bind{
+    width: 123px;
+    background-position: -2px -90px;
+    height: 39px;
+    text-indent: -999em;
+    border: none;
+    margin:20px 10px 0px 105px ;
+    _margin-left:50px;
+    float: left;
+}
+.success .bindalipay .error_bind{
+    width: 147px;
+    background-position: -134px -89px;
+    height: 39px;
+    text-indent: -999em;
+    border: none;
+    margin-top:20px;
+    float: left;
+
+}

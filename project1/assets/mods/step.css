@@ -1,0 +1,17 @@
+/**
+ * 发布需求步骤
+ * Author: wb-jiangfeng
+ * Time: 12-6-11 下午4:19 
+ */
+.step, .step2, .step3{
+    background:url(http://img03.taobaocdn.com/tps/i3/T1xVbjXiVtXXcarV3G-717-90.png) no-repeat;
+    height:30px;
+    width:717px;
+    overflow:hidden;
+}
+.step2{
+    background-position: 0 -30px;
+}
+.step3{
+    background-position: 0 -60px;
+}

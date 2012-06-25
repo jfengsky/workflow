@@ -1,0 +1,50 @@
+/**
+ * Ä£°åÑ¡Ôñ
+ * Author: wb-jiangfeng
+ * Time: 12-6-21 ÏÂÎç4:24 
+ */
+.model-btn a{
+    background: url(http://img02.taobaocdn.com/tps/i2/T1X8YmXctrXXc7usE4-103-40.png) no-repeat;
+}
+.pub-models{
+
+}
+    .pub-models ul{
+        margin-left:-80px;
+        height:178px;
+    }
+        .pub-models  li{
+            height: 30px;
+            width: 80px;
+            line-height: 30px;
+            text-align: center;
+            margin:10px 0 5px 0;
+            background-color: #d1d1d1;
+            cursor:pointer;
+        }
+        .pub-models  li.ks-active{
+            background-color: #fbfbfb;
+            cursor:auto;
+        }
+    .pm-comtent{
+        background-color: #fbfbfb;
+        padding:10px 20px;
+        width:560px;
+        height: 412px;
+        margin-top:-185px;
+        overflow-y: scroll;
+    }
+    .model-btn{
+        border-top:1px solid #e9e9e9;
+        margin: auto;
+        width: 550px;
+        padding:10px 0;
+        text-align: center;
+    }
+        .model-btn a{
+            width:103px;
+            height: 40px;
+            display: block;
+            text-indent: -999em;
+            overflow: hidden;
+        }

@@ -1,0 +1,124 @@
+/**
+ * 竞标商品列表
+ * Author: wb-jiangfeng
+ * Time: 12-6-13 下午5:08 
+ */
+.pro-list .ks-switchable-content li{
+    background:url(http://img01.taobaocdn.com/tps/i1/T1GzYjXmFpXXc9IoIt-185-312.png) no-repeat
+}
+.pro-list{
+    width:988px;
+    margin:23px auto 50px;
+
+}
+    .pro-nav{
+        border:1px solid #d0d0d0;
+        height: 33px;
+        line-height: 33px;
+        background-color: #fff;
+    }
+        .pro-nav li{
+            float:left;
+            padding:0 20px;
+            border-right:1px solid #d0d0d0;
+            font-size:14px;
+            cursor:pointer;
+        }
+        .pro-nav li.ks-active{
+            background-color: #f60;
+            color:#fff;
+            font-weight:bold;
+            cursor:auto;
+        }
+            .pro-vote{
+                width:990px;
+                overflow:hidden;
+            }
+            .pro-vote ul{
+                width:1100px;
+            }
+                .pro-list .ks-switchable-content li{
+                    width:169px;
+                    height: 336px;
+                    background-position: 0 35px;
+                    margin-top:10px;
+                    padding:8px;
+                    float:left;
+                    margin-right:16px;
+                }
+                    .pro-vote b{
+                        height: 28px;
+                        line-height: 28px;
+                        float:left;
+                    }
+                    .pro-vote span.btn{
+                        float:right;
+                        color:#f60;
+                        font-weight:bold;
+                        height: 28px;
+                        line-height: 28px;
+                    }
+                        .pro-vote span.btn input{
+                            float:right;
+                            width:40px;
+                            height:22px;
+                            line-height: 18px;
+                            text-align: center;
+                        }
+                    .pro-pic{
+                        width:169px;
+                        height:150px;
+                        float:left;
+                        overflow: hidden;
+                        position: relative;
+                        margin-top:7px;
+                    }
+                        .pro-pic span{
+                            height: 30px;
+                            padding-left:10px;
+                            background-color: #fff;
+                            width:100%;
+                            line-height: 30px;
+                            display: block;
+                            filter:alpha(opacity=80);
+                            opacity:0.8;
+                            position:absolute;
+                            left: 0;
+                            bottom: 0;
+                            font-weight:bold;
+                            color:#333;
+                        }
+                    .pro-vote h5{
+                        font-weight: normal;
+                        width:100%;
+                        height: 14px;
+                        line-height: 14px;
+                        white-space: nowrap;
+                        overflow:hidden;
+                        padding:17px 0 11px 0;
+                    }
+                    .pro-vote p{
+                        color:#999;
+                        height: 36px;
+                        line-height: 18px;
+                        width: 100%;
+                        overflow:hidden;
+                        padding-bottom:14px;
+                    }
+                    .pro-vote span.ww{
+                        width:100%;
+                        display: block;
+                    }
+                    .pro-vote em{
+                        padding-top:3px;
+                        height: 34px;
+                        line-height: 34px;
+                        display: block
+                    }
+                        .pro-vote em span{
+                            color:#f60;
+                            font-weight:bold;
+                            font-family:arial,verdana;
+                            font-size: 14px;
+                            padding-left:5px;
+                        }

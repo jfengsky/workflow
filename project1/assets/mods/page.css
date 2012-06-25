@@ -1,0 +1,49 @@
+/**
+ * 翻页按钮样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-21 上午11:17 
+ */
+.pagination{
+    padding:20px 50px 20px 0;
+    float: right
+}
+    .pagination a.pg-page, .pagination a.pg-prev, .pagination span.pg-current, .pagination a.pg-next{
+        height: 23px;
+        padding:0 9px;
+        line-height: 23px;
+        text-align: center;
+        border:1px solid #bababa;
+        background-color:#f7f7f7;
+        color:#666;
+        margin-right: 4px;
+        display: block;
+        box-shadow: 2px 2px 2px 0 #eee;
+        border-radius: 3px;
+        float:left;
+    }
+    .pagination a:hover{
+        text-decoration: none;
+    }
+    .pagination a.pg-page:hover, .pagination a.pg-prev:hover, .pagination a.pg-next:hover{
+        border:1px solid #f60;
+        color:#f60;
+
+    }
+    .pagination span.pg-item{
+        float:left;
+        margin:0 5px;
+    }
+    .pagination span.pg-current{
+        background-color: #fa7725;
+        color:#fff;
+        border:1px solid #de5f12;
+        font-weight: bold;
+        box-shadow: 1px 1px 4px 2px #e65c01 inset;
+        text-shadow: 1px 1px 1px #de5f12;
+    }
+    .pagination a.pg-disabled, .pagination a.pg-disabled:hover{
+        cursor: auto;
+        border:1px solid #ccc;
+        color:#ccc;
+        background-color:#fff;
+    }

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<project name="refund" default="build">
+    <dirname property="current.dir" file="${ant.file}"/>
+    <echo>ant.file.path:${ant.file}</echo>
+    <property name="uploader.dir" location="${current.dir}/"/>
+    <echo>uploader.dir:${uploader.dir}</echo>
+    <property name="yuicompressor.path" location="${current.dir}/yuicompressor-2.4.7.jar"/>
+    <target name="build" depends="index,publish,list,detail,pay,compirecss"/>
+    <target name="index">
+        <echo>开始合并首页css文件</echo>
+        <concat destfile="assets/index.css">
+            <path path="assets/mods/dpl.css"/>
+            <path path="assets/mods/top.css"/>
+            <path path="assets/mods/index_top.css"/>
+            <path path="assets/mods/index_count.css"/>
+            <path path="assets/mods/index_hot.css"/>
+            <path path="assets/mods/index_main.css"/>
+            <path path="assets/mods/footer.css"/>
+        </concat>
+    </target>
+    <target name="publish">
+        <echo>开始合并需求发布css文件</echo>
+        <concat destfile="assets/publish.css">
+            <path path="assets/mods/dpl.css"/>
+            <path path="assets/mods/top.css"/>
+            <path path="assets/mods/index_top.css"/>
+            <path path="assets/mods/publish_type.css"/>
+            <path path="assets/mods/step.css"/>
+            <path path="assets/mods/publish_overlay_type.css"/>
+            <path path="assets/mods/publish_model.css"/>
+            <path path="assets/mods/footer.css"/>
+        </concat>
+    </target>
+    <target name="list">
+        <echo>开始合并需求列表css文件</echo>
+        <concat destfile="assets/list.css">
+            <path path="assets/mods/dpl.css"/>
+            <path path="assets/mods/top.css"/>
+            <path path="assets/mods/index_top.css"/>
+            <path path="assets/mods/history.css"/>
+            <path path="assets/mods/list_left.css"/>
+			<path path="assets/mods/page.css"/>
+            <path path="assets/mods/footer.css"/>
+        </concat>
+    </target>
+    <target name="detail">
+        <echo>开始合并投标投票页面css文件</echo>
+        <concat destfile="assets/detail.css">
+            <path path="assets/mods/dpl.css"/>
+            <path path="assets/mods/top.css"/>
+            <path path="assets/mods/index_top.css"/>
+            <path path="assets/mods/history.css"/>
+            <path path="assets/mods/detail_info.css"/>
+            <path path="assets/mods/detail_product.css"/>
+            <path path="assets/mods/dpl_toubiao.css"/>
+			<path path="assets/mods/attachments.css"/>
+			<path path="assets/mods/bindalipay.css"/>
+            <path path="assets/mods/footer.css"/>
+        </concat>
+    </target>
+    <target name="pay">
+        <echo>开始合并支付页面css文件</echo>
+        <concat destfile="assets/pay.css">
+            <path path="assets/mods/dpl.css"/>
+            <path path="assets/mods/top.css"/>
+            <path path="assets/mods/index_top.css"/>
+            <path path="assets/mods/step.css"/>
+            <path path="assets/mods/pay_step.css"/>
+            <path path="assets/mods/footer.css"/>
+        </concat>
+    </target>
+    <!--压缩css-->
+    <target name="compirecss">
+        <apply executable="java" verbose="true" dest="${uploader.dir}/assets/"   failonerror="true" parallel="false">
+            <fileset dir="${uploader.dir}/assets/" includes="*.css"/>
+            <arg line="-jar"/>
+            <arg path="${yuicompressor.path}"/>
+            <arg line="--charset gbk"/>
+            <arg value="--type"/>
+            <arg value="css"/>
+            <arg value="-o"/>
+            <targetfile/>
+            <mapper type="glob" from="*.css" to="*-min.css"/>
+        </apply>
+    </target>
+</project>

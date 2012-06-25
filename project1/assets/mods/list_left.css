@@ -1,0 +1,149 @@
+/**
+ * 列表页面 左侧分类
+ * Author: wb-jiangfeng
+ * Time: 12-6-12 下午5:42 
+ */
+.main-list .l h5 span, .list-type ul li{
+    background:url(http://img03.taobaocdn.com/tps/i3/T1rPbkXn4gXXaEEKA.-12-54.png) no-repeat;
+}
+
+.main-list{
+    border:1px solid #dfdfdf;
+    width:988px;
+    margin:auto auto 50px;
+    background-color: #fff;
+}
+    .main-list .l{
+        width:188px;
+        float:left;
+        background: #ebebeb;
+    }
+        .main-list .l h4{
+            height: 35px;
+            line-height: 35px;
+            background-color:#fa802d;
+            color:#fff;
+            text-indent:15px;
+            font-size:14px;
+            border-bottom: 1px solid #c8c8c8;
+        }
+        .list-type{
+
+        }
+            .list-type ul{
+                display:none;
+                padding-bottom:20px;
+            }
+                .list-type ul li{
+                    height: 27px;
+                    line-height: 27px;
+                    text-indent:50px;
+                    background-position: 34px -3px;
+                }
+            .list-type h5{
+                border-top:1px solid #fff;
+                border-bottom:1px solid #c8c8c8;
+                background-color: #dfdfdf;
+                height: 29px;
+                line-height: 29px;
+                cursor:pointer;
+                font-weight: normal;
+            }
+                .main-list .l h5 span{
+                    height:12px;
+                    width:12px;
+                    display: block;
+                    float:left;
+                    background-position:0 -42px;
+                    margin:9px 7px 0 15px;
+                }
+                    .main-list .l .on h5 span{
+                        background-position:0 -30px;
+                    }
+            .list-type h5:hover{
+                background-color:#eaeaea;
+            }
+            .main-list .l .on{
+                background:#f8f8f8;
+            }
+                .main-list .l .on ul{
+                    display: block;
+                }
+                .main-list .l .on h5{
+                    border-top:1px solid #f8f8f8;
+                    border-bottom:1px solid #f8f8f8;
+                    background-color: #f8f8f8;
+                    height: 29px;
+                    line-height: 29px;
+                    cursor:pointer;
+                    font-weight: bold;
+                }
+    .main-list .r{
+        border-left:1px solid #dfdfdf;
+        float:left;
+        width:798px;
+    }
+        .rank{
+            height:28px;
+            background-color: #f5f5f5;
+            border-bottom: 1px solid #dfdfdf;
+            padding-top:7px;
+        }
+            .rank b{
+                padding:0 20px 0 30px;
+            }
+            .list-disc{
+                float:right
+            }
+                .rank select{
+                    margin-right:10px;
+                }
+        .list-need{
+            width:766px;
+            margin:auto;
+        }
+            .list-need tr.first{
+                border-bottom:1px solid #dfdfdf;
+                height: 40px;
+                line-height: 40px;
+            }
+            .list-need tr.on{
+                background-color: #f6f7f8
+            }
+                .list-need tr.first th{
+                    _border-bottom:1px solid #dfdfdf;
+                }
+            .list-need tr{
+                border-bottom:1px solid #f6f6f6;
+                height: 54px;
+            }
+                .list-need tr td{
+                    _border-bottom:1px solid #f6f6f6;
+                }
+                .list-need td{
+                    text-align: center;
+                }
+                .list-need td.price{
+                    color:#f60;
+                    font-family:arial,verdana;
+                    font-weight: bold;
+
+                }
+                .list-need td.title{
+                    text-align: left;
+                }
+                    .list-need td a.pub{
+                        border:1px solid #e05e12;
+                        display:block;
+                        height: 19px;
+                        padding:0 5px;
+                        border-radius:3px;
+                        background-color: #fa7727;
+                        float:left;
+                        color:#fff;
+                        visibility: hidden;
+                        text-shadow: 1px 1px 0 #e05e12;
+                    }
+            .list-need tr.on td a.pub{
+                visibility:visible;
+            }

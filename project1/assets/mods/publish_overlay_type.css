@@ -1,0 +1,63 @@
+/**
+ * 类目浮层内容
+ * Author: wb-jiangfeng
+ * Time: 12-6-11 下午4:49 
+ */
+.pub_types{
+    width:348px;
+    background:#fff;
+    border:6px solid #ebebeb;
+    padding:10px 60px 60px;
+}
+    .pub_types h4{
+        height:18px;
+        line-height: 18px;
+        color:#666;
+        margin:0 0 20px -34px
+    }
+
+    .pub_types table{
+        width:330px;
+    }
+    .pub_types td{
+        border:1px solid #ebebeb;
+        text-align: center;
+        vertical-align: middle;
+        height: 54px;
+        width:90px;
+        padding: 10px;
+        cursor: pointer;
+        overflow: hidden;
+        *height:34px;
+    }
+    .pub_types td.on, .pub_types td:hover{
+        background:#f60;
+        color:#fff;
+        font-weight: bold;
+    }
+    /*
+    .pub_types ul{
+        border-top:1px solid #ebebeb;
+        border-left:1px solid #ebebeb;
+        float:left;
+    }
+        .pub_types li{
+            border-right:1px solid #ebebeb;
+            border-bottom:1px solid #ebebeb;
+            float:left;
+            padding:10px;
+            width:90px;
+            height: 34px;
+            line-height: 17px;
+            text-align: center;
+            cursor:pointer;
+            vertical-align: middle;
+
+        }
+        .pub_types li:hover, .pub_types li.on{
+            background:#f60;
+            color:#fff;
+            font-weight: bold;
+
+        }
+        */

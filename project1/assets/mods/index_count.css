@@ -1,0 +1,104 @@
+/**
+ * 顶部右侧统计区域
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 下午4:34 
+ */
+.index_count, .scroll-text span, .online-count li span, .index_count a.publish,.hot h3, .hot-list li, .hot-list li h4, .index_publish h3 span, .hot-type h3 span, .qa h3 span, .pub_info p span, .type-list a, .type-list a span, .qa-list li{
+    background:url(http://img03.taobaocdn.com/tps/i3/T1E3_mXetmXXbA6iwR-335-458.png) no-repeat
+}
+
+.index_count{
+    width:275px;
+    height:186px;
+    float:right;
+    padding:30px;
+    margin-top:15px;
+    overflow:hidden;
+    background-position:0 -14px;
+}
+    .index_count h3{
+        font-weight: normal;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+    }
+    .scroll-text{
+        width:150px;
+        height:14px;
+        overflow:hidden;
+        margin:10px auto 24px auto;
+        white-space: nowrap;
+    }
+        .scroll-text span{
+            height: 14px;
+            width:14px;
+            display: block;
+            background-position: -323px -273px;
+            float:left;
+        }
+        .scroll-text p{
+            float:left;
+            width:130px;
+            height:14px;
+            line-height: 14px;
+            overflow:hidden;
+        }
+            .scroll-text p em{
+                white-space: nowrap;
+            }
+    .online-count{
+        border-bottom:1px dashed #d2d2d2;
+        height: 36px;
+        padding-bottom: 19px
+    }
+        .online-count b{
+            float:left;
+            font-weight: normal;
+            height:36px;
+            line-height: 36px;
+        }
+        .online-count ul{
+            float:left;
+            width:155px;
+            overflow:hidden;
+            height:36px;
+            margin:0 4px;
+        }
+            .online-count li{
+                float:left;
+                position: relative;
+                width:27px;
+                height:36px;
+                margin:0 2px;
+                _display:inline;
+            }
+                .online-count li em{
+                    font-weight:bold;
+                    font-size:28px;
+                    width:27px;
+                    height:36px;
+                    line-height: 36px;
+                    text-align: center;
+                    display: block;
+                    font-family:arial,tahoma;
+                    background-color: #fff;
+                }
+                .online-count li span{
+                    width:27px;
+                    height:36px;
+                    display: block;
+                    background-position:-308px -302px;
+                    position: absolute;
+                    left: 0;
+                    top:0;
+                }
+    .index_count a.publish{
+        width:181px;
+        height: 48px;
+        display: block;
+        background-position: 0 -350px;
+        margin:21px auto auto;
+    }
+    .index_count a.publish:hover{
+        background-position: 0 -302px;
+    }

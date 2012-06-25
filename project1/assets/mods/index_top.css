@@ -1,0 +1,22 @@
+/**
+ * 首页顶部大图和需求统计
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 下午3:48 
+ */
+.index_top{
+    background:url(http://img04.taobaocdn.com/tps/i4/T14tYeXfRyXXaY3JLX-2-278.png) repeat-x
+}
+
+
+.index_top{
+    height:279px;
+    width:100%;
+    border-bottom:1px solid #e2e2e0;
+}
+    .index_swit{
+        width:446px;
+        height:248px;
+        margin:16px 0 0 70px;
+        float:left;
+        _display:inline;
+    }
