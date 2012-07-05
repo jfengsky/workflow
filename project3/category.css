@@ -1,0 +1,62 @@
+/**
+ *  首屏左侧分类
+ *
+ */
+
+/* images */
+.pai-category{
+    width:158px;
+    height: 372px;
+    padding:10px 17px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+    overflow:hidden;
+    margin-right:10px;
+    *border:1px solid #eee;
+    *width:156px;
+    *height: 370px;
+}
+.pai-category h3{
+    height:18px;
+    line-height:18px;
+    text-indent:5px;
+    float:left;
+    width:100%;
+}
+.pai-category h3 a{
+    float:left;
+}
+.pai-category h3 img{
+    height:18px;
+    float:left;
+    *margin-top:-1px;
+    _margin-top:0;
+}
+.pai-category ul{
+    width:180px;
+    float:left;
+    padding-bottom:5px
+}
+.pai-category li{
+    float:left;
+    height:20px;
+    line-height: 20px;
+    width:60px;
+    white-space: nowrap;
+    overflow:hidden
+}
+.pai-category h3 a:link{
+    color:#333
+}
+.pai-category h3 a:visited{
+    color:#333
+}
+.pai-category li a:link{
+    color:#666
+}
+.pai-category li a:visited{
+    color:#666
+}
+.pai-category h3 a:hover, .category li a:hover{
+    color:#f60
+}

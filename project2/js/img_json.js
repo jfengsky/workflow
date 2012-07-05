@@ -1,0 +1,11 @@
+[
+    {"img":"http://img02.taobaocdn.com/poster_pic/i2/T18QJ2Xi4AXXaH.X6X.JPEG","data":"data_json.js"},
+	{"img":"http://img01.taobaocdn.com/poster_pic/i1/T1JkJ2XX0AXXaH.X6X.JPEG","data":"data_json.js"}, 
+	{"img":"http://img04.taobaocdn.com/poster_pic/i4/T1lAR2Xh0zXXaH.X6X.JPEG","data":"data_json.js"}, 
+	{"img":"http://img02.taobaocdn.com/poster_pic/i2/T1T7R2XbVzXXaH.X6X.JPEG","data":"data_json.js"},
+	{"img":"http://img01.taobaocdn.com/poster_pic/i1/T1zAV2XjpyXXaH.X6X.JPEG","data":"data_json.js"},
+	{"img":"http://img03.taobaocdn.com/bao/uploaded/i3/T14c08Xg8dXXa6r8Yb_095132.jpg","data":"data_json.js"},
+	{"img":"http://img04.taobaocdn.com/tps/i4/T1O7N.XnBqXXXXXXXX-80-80.png","data":"data_json.js"},
+	{"img":"http://img01.taobaocdn.com/bao/uploaded/i5/134334803/T24KFjXhVXXXXXXXXX_!!134334803.jpg","data":"data_json.js"},
+	{"img":"http://img03.taobaocdn.com/bao/uploaded/i3/T14c08Xg8dXXa6r8Yb_095132.jpg","data":"data_json.js"}
+]

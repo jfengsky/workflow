@@ -1,0 +1,23 @@
+<div class="pai-hot">
+    <div class="heading">
+        <h2>
+            <span class="title">人气拍品</span>
+            <span class="sub-title">Hot</span>
+        </h2>
+    </div>
+    <div class="hot-content">
+        <cms:imageLink group="左侧大图" title="左侧大图" name="1496b110-9e4e-4f4c-85cb-28fa3d7a8b68">
+            <a class="hot-logo" href="$href">
+                <img src="$img" alt="$!text">
+            </a>
+        </cms:imageLink>
+        <ul class="hot-list clearfix"  id="J_hot">
+
+        </ul>
+    </div>
+</div>
+<script>
+    KISSY.use('PaiHot',function(S, hot){
+        new hot();
+    });
+</script>

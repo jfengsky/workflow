@@ -1,0 +1,14 @@
+<!-- 焦点图 -->
+<div class="pai-slide" id="J_Slide">
+    <ol class="ks-switchable-content">
+    <cms:imageLink group="焦点图" title="图片和链接列表 540x290" row="5" defaultRow="1"> #foreach ($i in $imageLinkList)
+        <li><a href="$i.href"><img src="$i.img" alt="$!i.text"></a></li>
+    #end </cms:imageLink>
+    </ol>
+    <ul class="ks-switchable-nav">
+        <cms:text group="图片序号" title="图片序号"><li class="ks-active">$!text</li></cms:text>
+        <cms:text group="图片序号" title="图片序号" row="4" defaultRow="1"> #foreach ($i in $textList)
+        <li>$!i.text</li>
+        #end </cms:text>
+    </ul>
+</div>

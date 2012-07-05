@@ -1,0 +1,165 @@
+/*******************¼´½«½áÊø*************************************/
+.pai-last{
+    /*margin-top: 20px;*/
+}
+.pai-last h2 {
+    background-position: 10px -174px;
+    height: 28px;
+    padding-left: 10px;
+}
+.pai-last h2 a {
+    float: left;
+    width: 86px;
+    height: 24px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.last-content{
+    border: 1px solid #E6E6E6;
+    border-left: none;
+    height:428px;
+}
+.last-col{
+    float: left;
+    width: 190px;
+    margin-right: 25px;
+}
+.last-logo{
+   display: block;
+   font-size: 0;
+}
+.last-logo img{
+    width: 190px;
+    height: 213px;
+}
+
+.last-col .more{
+    font-size: 14px;
+    color: #666666;
+    background: none;
+    margin-left: 10px;
+}
+.pai-last-main{
+    width:770px;
+    overflow:hidden;
+}
+.last-main{
+    width:820px;
+}
+.more-list{
+    border: 4px solid #EEEEEE;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    padding-top: 18px;
+    height: 191px;
+    overflow: hidden;
+}
+#J_MoreCon{
+    height: 170px;
+    overflow: hidden;
+}
+.more-con{
+
+}
+.more-item{
+    border-top: 1px dotted #B2B2B2;
+    padding:10px 0  5px;
+    margin: 0 3px;
+    line-height: 1.6;
+}
+.more-last{
+    border-bottom: none;
+}
+.more-item .name, .more-item .sau{
+    margin: 0 10px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 156px;
+}
+.small-clock,.big-clock{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background: url("http://fed.ued.taobao.net/u/yilian/demo/project/u_paimai/index/home2012/images/sprites.png") transparent 0 0 no-repeat;
+}
+
+.small-clock{
+    width: 12px;
+    height: 13px;
+    margin-right: 0;
+    background-position: -1px -25px;
+}
+
+.big-clock{
+    width: 18px;
+    height: 21px;
+    margin-right: 5px;
+    background-position: -1px -1px;
+    vertical-align: text-bottom;
+}
+
+.more-item var {
+    font: bold normal 12px/100% Arial;
+    color: black;
+}
+
+.more-item .time{
+    font-size: 14px;
+}
+
+.more-item .price{
+    color: #3F3F3F;
+    font: 10px Arial;
+    margin-left: 15px;
+}
+
+.price strong{
+    background: none;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.last-item{
+    margin: 15px 37px 15px 0;
+    /*width: 120px;*/
+    float: left;
+    *margin:15px 36px 2px 0;
+    _display:inline;
+}
+.last-last{
+    margin-right: 25px;
+}
+
+.last-item img{
+    width: 120px;
+    height: 120px;
+    border: none;
+}
+
+.last-item .title{
+    display: block;
+    text-align: center;
+    line-height: 1;
+    width:120px;
+    white-space: nowrap;
+    overflow:hidden;
+    line-height:20px;
+
+}
+
+.last-item .price{
+    margin-top: 5px;
+    color: #3F3F3F;
+    text-align: center;
+}
+
+.last-item .time{
+    margin-top: 0;
+    text-align: center;
+}
+
+.last-item var {
+    font: bold normal 16px/120% Arial;
+    color: black;
+}

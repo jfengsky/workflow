@@ -1,0 +1,149 @@
+<style>
+    .pai-limit ul, .pai-limit li, .pai-limit dt, .pai-limit li.nw, .pai-limit li.nv, .pai-limit li.na, .pai-limit li.np, .pai-limit li.ns, .pai-limit-info a.auc, .pai-limit-info a.wil, .pai-limit-info a.fih{
+        background: url(http://img01.taobaocdn.com/tps/i1/T1h9S2Xc0tXXXXXXXX-188-256.png) no-repeat;
+        _background: url(http://img03.taobaocdn.com/tps/i3/T1srO3XdtiXXXXXXXX-188-256.png) no-repeat;
+    }
+    .pai-limit dl{
+        float:left;
+        width:750px;
+        position: relative;
+    }
+    .pai-limit dd{
+        color:#c00;
+        font-weight:bold;
+        padding:0 91px 0 40px;
+        float:left
+    }
+    .pai-limit dd.ls{
+        float:left;
+        padding:0 0 0 36px;
+    }
+    .pai-limit dt{
+        background-position: -169px -192px;
+        height:20px;
+        width:20px;
+        position:absolute;
+        right:17px;
+        top:20px;
+    }
+    .pai-limit{
+        width:740px;
+        overflow: hidden;
+    }
+    .pai-limit ul{
+        width:686px;
+        height:23px;
+        padding-left:54px;
+        float:left;
+        margin-top:-4px;
+    }
+    .pai-limit li{
+        width:174px;
+        height:25px;
+        overflow:hidden;
+        float:left;
+        background-position: 0 -26px;
+        margin-left:-7px;
+        _display:inline;
+        text-indent: -999em;
+        cursor:pointer
+    }
+    .pai-content{
+        width:740px;
+        overflow:hidden;
+        float:left
+    }
+
+    .pai-limit li.na{
+        background-position: 0 -52px ;
+    }
+    .pai-limit li.np{
+        background-position: 0 -156px ;
+    }
+    .pai-limit li.nv{
+        background-position: 0 -130px ;
+    }
+    .pai-limit li.nw{
+        background-position: 0 -104px ;
+    }
+    .pai-limit li.ns{
+        background-position: 0 -78px ;
+    }
+
+    .pai-limit-info a.auc, .pai-limit-info a.wil, .pai-limit-info a.fih{
+        width:67px;
+        height:23px;
+        background-position: 0 -185px;
+        display: block;
+        text-indent: -999em;
+        overflow: hidden;
+        float:left
+    }
+
+    .pai-limit-info a.auc:hover{
+        background-position:-68px -185px;
+    }
+
+
+    .pai-limit-info a.wil{
+        background-position: -68px -209px;
+    }
+    .pai-limit-info a.wil:hover{
+        background-position: 0 -233px;
+    }
+    .pai-limit-info a.fih{
+        background-position: 0 -209px;
+    }
+    .pai-limit-info h4 a:link, .pai-comming-item h5 a:link, .pai-comming-item p a:link{
+        color:#404040
+    }
+    .pai-limit-info h4 a:visited, .pai-comming-item h5 a:visited, .pai-comming-item p a:visited{
+        color:#404040
+    }
+    .pai-limit-info h4 a:hover, .pai-comming-item h5 a:hover, .pai-comming-item p a:hover{
+        color:#f60
+    }
+</style>
+<input type="hidden" value="<?=date('H',time())?>" id="J_NowTime">
+<div class="pai-limit" id="J_limcon">
+    <dl>
+        <dd>10:00</dd>
+        <dd>13:00</dd>
+        <dd>16:00</dd>
+        <dd>19:00</dd>
+        <dd class="ls">22:00</dd>
+        <dt></dt>
+    </dl>
+    <ul class="ks-switchable-nav" id="J_limit">
+        <li>0</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <div style="pai-content">
+        <cms:repeat group="限时拍" title="商品列表" row="4" defaultRow="1" name="fe32f90e-e09f-4da5-8254-fff7977e7ee9">
+            <div class="ks-switchable-content">
+                <cms:custom group="限时拍" title="商品信息" fields="id:商品ID:string,img:商品图片180x160:url,text:商品标题:string,href:商品链接:url,num:商品数量:string,text1:类目:string,href1:类目链接:url,text2:文字:string,href2:文字链接:url,text3:类目文字:string,href3:类目链接:url,text4:文字:string,href4:文字链接:url,hrefm:更多链接:url" row="2" defaultRow="1" name="c3c3e375-d6dd-417d-8fe6-13513f1ec498"> #foreach ($i in $customList)
+                    <div class="pai-limit-item" id="$i.id">
+                        <a href="$i.href"><img src="$i.img"></a>
+                        <div class="pai-limit-info">
+                            <h4><a href="$i.href">$!i.text</a></h4>
+                            <p>当前价格：<em class="rmb">&yen;</em><span class="limit_price lp"></span><br />出价次数:<span class="limit_num lc">0</span>次 <br />宝贝数量：$!i.num件 <br /><span class="J_end">剩余时间</span>:<span class="J_limitTime"><var>00</var>:<var>00</var>:<var>00</var></span><i class="ms"></i></p>
+                            <a href="$i.href" class="wil">即将开始</a>
+                            <a href="$i.hrefm" class="more">更多</a>
+                        </div>
+                        <div class="lm">
+                            <a href="$!i.href1" class="limit-cat">[$!i.text1]</a><a href="$!i.href2">$!i.text2</a>
+                            <a href="$!i.href3" class="limit-cat">[$!i.text3]</a><a href="$!i.href4">$!i.text4</a>
+                        </div>
+                    </div>
+                    #end </cms:custom>
+            </div>
+        </cms:repeat>
+    </div>
+</div>
+<script>
+    KISSY.use('PaiLimit',function(S, limit){
+        new limit();
+    });
+</script>

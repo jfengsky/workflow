@@ -1,0 +1,1057 @@
+/*
+ * 专题日历 by shidu 20120224
+ */
+
+.pai-calendar {
+  background: #fff8d7;
+  width: 240px;
+  color: #333;
+}
+.pai-calendar .pointer {
+  cursor: pointer;
+}
+.pai-calendar-detail a:hover, .pai-calendar-week a:hover {
+  color: #F60;
+}
+.pai-calendar-month {
+  background-color: #fdf9e7;
+  border: #efe3a8 1px solid;
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  z-index: 99;
+}
+.pai-calendar-month li {
+  padding: 3px 20px;
+  border: #fdf9e7 1px solid;
+  border-width: 1px 0;
+  line-height: 100%;
+  text-align: center;
+  font-weight: normal;
+  color: #b0b0b0;
+}
+.pai-calendar-month li.pointer {
+  color: #333;
+}
+.pai-calendar-month li.hover {
+  background: #fff8d7;
+  border-color: #ebebeb;
+}
+
+/* 日历 */
+.pai-calendar-days {
+  border-bottom: #f1e8bf 1px solid;
+  height: auto!important;
+  height: 160px;
+  min-height: 160px;
+}
+.pai-calendar-days h3 {
+  height: 30px;
+  padding: 0 15px;
+  line-height: 30px;
+}
+.pai-calendar-days h3 strong {
+  float: left;
+  padding: 8px 18px 0 16px;
+  font: bold 16px/120% Arial;
+  position: relative;
+}
+.pai-calendar-days h3 i, .pai-calendar-days h3 b {
+  background: url(http://img04.taobaocdn.com/tps/i4/T1GL9YXnlqXXXXXXXX-5-55.gif) no-repeat left top;
+  border: #fff8d7 1px solid;
+}
+.pai-calendar-days h3 i.hover, .pai-calendar-days h3 b.hover {
+  background-color: #fdf9e7;
+  border-color: #efe3a8;
+}
+.pai-calendar-days h3 b {
+  background-position: 3px 5px;
+  width: 5px;
+  height: 5px;
+  padding: 5px 3px;
+  font-size: 0px;
+  position: absolute;
+  left: -3px;
+  top: 9px;
+}
+.pai-calendar-days h3 b.next {
+  background-position: 3px -10px;
+  left: auto;
+  right: 0px;
+}
+.pai-calendar-days h3 i {
+  background-position: 45px -42px;
+  padding: 3px 5px;
+  padding-right: 15px;
+  font-style: normal;
+}
+.pai-calendar-days h3 a, .pai-calendar-days h3 a:link {
+  float: right;
+  padding-top: 9px;
+  font: normal 12px/120% Arial;
+  color: #666;
+}
+.pai-calendar-days h3 ul {
+  background-color: #fdf9e7;
+  border: #efe3a8 1px solid;
+  position: absolute;
+  top: 27px;
+  left: 89px;
+  z-index: 100;
+}
+.pai-calendar-days table {
+  width: 100%;
+  border: none;
+  text-align: center;
+}
+.pai-calendar-days th, .pai-calendar-days td {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.pai-calendar-days th {
+  height: 24px;
+  font-weight: bold;
+}
+.pai-calendar-days td.current, .pai-calendar-days td.today, .pai-calendar-days td.hover {
+  background: url(http://img04.taobaocdn.com/tps/i4/T1lLCUXhBgXXXXXXXX-19-120.gif) no-repeat 7px center;
+}
+.pai-calendar-days td.kill {
+  text-decoration: line-through;
+  color: #b0b0b0;
+}
+.pai-calendar-days td.today{
+  background-position: 7px top;
+}
+.pai-calendar-days td.current{
+  background-position: 7px center;
+  color: #fff;
+}
+.pai-calendar-days td.hover{
+  background-position: 7px -100px;
+}
+
+/* 当天专场 */
+.pai-calendar-detail {
+  height: 108px;
+  padding: 0 7px;
+  position: relative;
+  overflow: hidden;
+}
+.pai-calendar-detail p.empty {
+  text-align: center;
+  line-height: 100px;
+  color: #666;
+}
+.pai-calendar-detail ol {
+  display: none;
+  background: #fff8d7;
+  height: auto!important;
+  height: 92px;
+  min-height: 92px;
+  padding: 8px 5px;
+  border-bottom: #ccc 1px solid;
+  position: absolute;
+  z-index: 100;
+}
+.pai-calendar-detail li {
+  width: 218px;
+  padding-top: 6px;
+  position: relative;
+}
+.pai-calendar-detail li.current {
+  background-color: #fffdf4;
+}
+.pai-calendar-detail li.current p {
+  display: block;
+  padding: 3px 0;
+}
+.pai-calendar-detail li b {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  position: absolute;
+  left: 4px;
+  top: 8px;
+}
+.pai-calendar-detail li.top b, .pai-calendar-detail li.minor b {
+  background: url(http://img01.taobaocdn.com/tps/i1/T1jy5UXm8aXXXXXXXX-15-65.gif) no-repeat left top;
+  color: white;
+}
+.pai-calendar-detail li.minor b {
+  background-position: left -50px;
+}
+.pai-calendar-detail li a, .pai-calendar-detail li p {
+  margin-left: 25px;
+}
+.pai-calendar-detail li a {
+  color: #333;
+}
+.pai-calendar-detail li p {
+  display: none;
+}
+
+/* 专场一周预告 */
+.pai-calendar-week {
+  height: 120px;
+  padding: 0 5px 5px;
+}
+.pai-calendar-week h3, .pai-calendar-week ul {
+  background-color: white;
+}
+.pai-calendar-week h3 {
+  background-position: 5px 10px;
+  height: 28px;
+  padding: 3px 0 0 5px;
+  font: bold 14px/30px "Microsoft YaHei", "SimHei";
+  position: relative;
+}
+.pai-calendar-week h3 b {
+  background: url(http://img03.taobaocdn.com/tps/i3/T1lwiYXmVqXXXXXXXX-29-25.gif) no-repeat left top;
+  width: 15px;
+  height: 13px;
+  font-size: 0px;
+  position: absolute;
+  right: 24px;
+  top: 10px;
+}
+.pai-calendar-week h3 b.next {
+  background-position: -14px top;
+  right: 10px;
+}
+.pai-calendar-week h3 b.prev-hover {
+  background-position: left -12px;
+}
+.pai-calendar-week h3 b.next-hover {
+  background-position: -14px -12px;
+}
+.pai-calendar-week p.empty {
+  background: white;
+  line-height: 90px;
+  text-align: center;
+}
+.pai-calendar-week div {
+  display: none;
+  background: white;
+  height: 92px;
+  overflow: hidden;
+  position: relative;
+}
+.pai-calendar-week ul {
+  position: absolute;
+}
+.pai-calendar-week li {
+  height: 42px;
+  padding-top: 4px;
+}
+.pai-calendar-week li span {
+  float: left;
+  width: 38px;
+  text-align: center;
+  color: #b0b0b0;
+}
+.pai-calendar-week li strong {
+  color: #12a8e0;
+  font-weight: bold;
+  font-size: 14px;
+}
+.pai-calendar-week li p {
+  padding: 0 10px 0 50px;
+  color: #b0b0b0;
+}
+.pai-calendar-week a {
+  color: #b0b0b0;
+}
+.pai-calendar-week a.pai-calendar-week-list {
+  color: #333;
+}
+/**
+ *  棣栧睆宸︿晶鍒嗙被
+ *
+ */
+
+/* images */
+.pai-category{
+    width:158px;
+    height: 372px;
+    padding:10px 17px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+    overflow:hidden;
+    margin-right:10px;
+    *border:1px solid #eee;
+    *width:156px;
+    *height: 370px;
+}
+.pai-category h3{
+    height:18px;
+    line-height:18px;
+    text-indent:5px;
+    float:left;
+    width:100%;
+}
+.pai-category h3 a{
+    float:left;
+}
+.pai-category h3 img{
+    height:18px;
+    float:left;
+    *margin-top:-1px;
+    _margin-top:0;
+}
+.pai-category ul{
+    width:180px;
+    float:left;
+    padding-bottom:5px
+}
+.pai-category li{
+    float:left;
+    height:20px;
+    line-height: 20px;
+    width:60px;
+    white-space: nowrap;
+    overflow:hidden
+}
+.pai-category h3 a:link{
+    color:#333
+}
+.pai-category h3 a:visited{
+    color:#333
+}
+.pai-category li a:link{
+    color:#666
+}
+.pai-category li a:visited{
+    color:#666
+}
+.pai-category h3 a:hover, .category li a:hover{
+    color:#f60
+}/**
+ *  明日预告
+ *
+ */
+
+/* images */
+.pai-comming .ks-switchable-nav li{background: url(http://img04.taobaocdn.com/tps/i4/T1b3yUXhVbXXXXXXXX-75-17.png) no-repeat}
+
+
+.pai-comming{
+    width:228px;
+    height:224px;
+    overflow: hidden;
+    background-color:#f9f9f9;
+    padding:6px;
+    position:relative
+}
+.pai-comming h4{
+    font: bold 14px/120% "Microsoft Yahei";
+    height:18px;
+    width:66px;
+    margin-bottom: 12px;
+}
+.comming-switchable{
+    height:190px;
+    overflow:hidden;
+    position:relative;
+    width:228px;
+}
+.pai-comming .ks-switchable-content{
+    overflow:hidden;
+}
+.pai-comming .ks-switchable-content li{
+    height:190px;
+    overflow:hidden;
+}
+.pai-comming .ks-switchable-nav{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+.pai-comming .ks-switchable-nav li{
+    height:7px;
+    width:7px;
+    text-indent:-999em;
+    overflow:hidden;
+    background-position: -68px -9px;
+    float:left;
+    margin-left:5px;
+    cursor:pointer
+}
+.pai-comming .ks-switchable-nav li.ks-active{
+    background-position:-68px 0;
+    cursor:auto
+}
+.pai-comming b{
+    color:#666;
+    font-weight:normal;
+}
+.pai-comming-info{
+}
+.pai-comming-item{
+    background-color:#fff;
+    width:220px;
+    height:60px;
+    padding:4px;
+    margin-top:4px;
+    margin-bottom:10px;
+}
+.pai-comming-item h5{
+    width:150px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.pai-comming-item img{
+    float:left;
+    margin-right:10px;
+}
+.pai-comming-item p{
+    height:36px;
+    padding-top:5px;
+    overflow:hidden
+}/**
+ *  焦点图
+ *
+ */
+
+/* images */
+.pai-slide{
+    width:540px;
+    height: 290px;
+    overflow: hidden;
+    position: relative;
+}
+.pai-slide .ks-switchable-content{
+    z-index:900
+}
+.pai-slide .ks-switchable-nav{
+    position:absolute;
+    z-index: 1000;
+    right:5px;
+    bottom:5px;
+}
+.pai-slide .ks-switchable-nav li{
+    height: 18px;
+    width:18px;
+    border-radius: 9px 9px 9px 9px;
+    background-color:#ccc;
+    text-align: center;
+    line-height: 18px;
+    float:left;
+    margin-right:3px;
+    _display:inline;
+    cursor: pointer;
+    filter:alpha(opacity=80);
+    opacity: 0.8;
+}
+.pai-slide .ks-switchable-nav li.ks-active{
+    background: #c50007;
+    color:#fff;
+    cursor: auto;
+    filter:alpha(opacity=100);
+    opacity:1;
+}/******************人气拍品**********************************/
+.pai-hot a, .pai-last a{
+    color: #666;
+}
+.pai-hot h2 {
+    background-position: 10px -136px;
+    height: 28px;
+    padding-left: 10px;
+}
+.pai-hot h2 a {
+    float: left;
+    width: 86px;
+    height: 24px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.hot-content {
+    border: 1px solid #E6E6E6;
+    border-left: none;
+    height:213px;
+}
+
+.hot-logo{
+    float: left;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    width: 190px;
+    font-size: 0;
+    margin-right: 25px;
+}
+
+.hot-logo img{
+    width: 190px;
+    height: 213px;
+}
+.pai-hot-list{
+    width:770px;
+    overflow:hidden;
+}
+.hot-list{
+    width:810px;
+}
+.hot-item{
+    float: left;
+    margin: 15px 37px 2px 0;
+    *margin:15px 36px 2px 0;
+   /* _margin:15px 36px 2px 0; */
+    _display:inline
+}
+.hot-last{
+    margin-right: 25px;
+}
+.hot-item img{
+    width: 120px;
+    height: 120px;
+    border: none;
+}
+.hot-item .current{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.hot-item .title{
+    display: block;
+    text-align: center;
+    line-height: 1;
+    width:120px;
+    white-space: nowrap;
+    overflow:hidden;
+    line-height:20px;
+}
+
+.hot-item .J_AuctionCount{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "arial";
+    color: #CA0007;
+}/*******************即将结束*************************************/
+.pai-last{
+    /*margin-top: 20px;*/
+}
+.pai-last h2 {
+    background-position: 10px -174px;
+    height: 28px;
+    padding-left: 10px;
+}
+.pai-last h2 a {
+    float: left;
+    width: 86px;
+    height: 24px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.last-content{
+    border: 1px solid #E6E6E6;
+    border-left: none;
+    height:428px;
+}
+.last-col{
+    float: left;
+    width: 190px;
+    margin-right: 25px;
+}
+.last-logo{
+   display: block;
+   font-size: 0;
+}
+.last-logo img{
+    width: 190px;
+    height: 213px;
+}
+
+.last-col .more{
+    font-size: 14px;
+    color: #666666;
+    background: none;
+    margin-left: 10px;
+}
+.pai-last-main{
+    width:770px;
+    overflow:hidden;
+}
+.last-main{
+    width:820px;
+}
+.more-list{
+    border: 4px solid #EEEEEE;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    padding-top: 18px;
+    height: 191px;
+    overflow: hidden;
+}
+#J_MoreCon{
+    height: 170px;
+    overflow: hidden;
+}
+.more-con{
+
+}
+.more-item{
+    border-top: 1px dotted #B2B2B2;
+    padding:10px 0  5px;
+    margin: 0 3px;
+    line-height: 1.6;
+}
+.more-last{
+    border-bottom: none;
+}
+.more-item .name, .more-item .sau{
+    margin: 0 10px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 156px;
+}
+.small-clock,.big-clock{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background: url("http://img03.taobaocdn.com/tps/i3/T13.a1XdpmXXXXXXXX-50-50.png") transparent 0 0 no-repeat;
+}
+
+.small-clock{
+    width: 12px;
+    height: 13px;
+    margin-right: 0;
+    background-position: -1px -25px;
+}
+
+.big-clock{
+    width: 18px;
+    height: 21px;
+    margin-right: 5px;
+    background-position: -1px -1px;
+    vertical-align: text-bottom;
+}
+
+.more-item var {
+    font: bold normal 12px/100% Arial;
+    color: black;
+}
+
+.more-item .time{
+    font-size: 14px;
+}
+
+.more-item .price{
+    color: #3F3F3F;
+    font: 10px Arial;
+    margin-left: 15px;
+}
+
+.price strong{
+    background: none;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.last-item{
+    margin: 15px 37px 15px 0;
+    /*width: 120px;*/
+    float: left;
+    *margin:15px 36px 2px 0;
+    _display:inline;
+}
+.last-last{
+    margin-right: 25px;
+}
+
+.last-item img{
+    width: 120px;
+    height: 120px;
+    border: none;
+}
+
+.last-item .title{
+    display: block;
+    text-align: center;
+    line-height: 1;
+    width:120px;
+    white-space: nowrap;
+    overflow:hidden;
+    line-height:20px;
+
+}
+
+.last-item .price{
+    margin-top: 5px;
+    color: #3F3F3F;
+    text-align: center;
+}
+
+.last-item .time{
+    margin-top: 0;
+    text-align: center;
+}
+
+.last-item var {
+    font: bold normal 16px/120% Arial;
+    color: black;
+}
+#page {
+  width: 100%;
+}
+.rmb {
+  font-style: normal;
+  font-family: Arial;
+}
+.pai-first-screen {
+  background: #f3f3f3;
+  padding-top: 10px;
+}
+.pai-first-screen .content-layout, .bottom-layout {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.content-layout {
+  background-color: white;
+  width: 990px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  overflow: hidden;
+}
+.bottom-layout {
+  background: white url(http://img02.taobaocdn.com/tps/i2/T1YiCYXdNtXXXXXXXX-1-4.gif) repeat-x left top;
+  width: auto;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.content-layout .l {
+  float: left;
+}
+.content-layout .r {
+  float: right;
+}
+div.pai-module {
+  position: relative;
+}
+div.pai-module:hover a.pai-editor-link {
+  display: block;
+  position: absolute;
+}
+a.pai-editor-link {
+  display: none;
+  float: right;
+  background: red;
+  border: #333 1px solid;
+  padding: 3px 10px;
+  color: yellow;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.pai-position-tool {
+  background: url(http://img01.taobaocdn.com/tps/i1/T1oJ5YXhRaXXXXXXXX-74-97.gif) no-repeat left top;
+  width: 74px;
+  height: 97px;
+  position: fixed;
+  top: 250px;
+  left: 50%;
+  margin-left: 505px;
+}
+.pai-title {
+  background: url(http://img02.taobaocdn.com/tps/i2/T1mEuYXo4XXXXXXXXX-155-194.png) no-repeat left top;
+}
+/* for ie6 fix */
+.ie6 .pai-position-tool {
+  position: absolute;
+  top: expression((function(d){ return (d.scrollTop+250)+'px'; })(document.documentElement));
+}
+* html {
+  background-image: url(about:blank);
+  background-attachment: fixed;
+}
+/* for ie6 fix */
+div.pai-position-tool a {
+  display: block;
+  margin-top: 55px;
+  height: 20px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+div.pai-position-tool a.back-top {
+  margin-top: 3px;
+}
+/**
+*   限时拍
+*
+*/
+.pai-limit ul, .pai-limit li, .pai-limit li.nw, .pai-limit li.nv, .pai-limit li.na, .pai-limit li.np, .pai-limit li.ns, .pai-limit-info a.auc, .pai-limit-info a.wil, .pai-limit-info a.fih{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1qu9VXbBrXXXXXXXX-188-256.png) no-repeat;
+    _background: url(http://img03.taobaocdn.com/tps/i3/T1f19VXflsXXXXXXXX-188-256.png) no-repeat;
+}
+.pai-limit dl{
+    float:left;
+}
+.pai-limit dd{
+    color:#c00;
+    font-weight:bold;
+    padding:0 96px 0 40px
+}
+.pai-limit dd{
+    float:left
+}
+
+.pai-limit{
+    width:740px;
+    overflow:hidden
+}
+.pai-limit ul{
+    width:740px;
+    height:23px;
+    padding-left:56px;
+    float:left;
+    margin-top:-4px;
+}
+.pai-limit li{
+    width:178px;
+    height:25px;
+    overflow:hidden;
+    float:left;
+    background-position: 0 -26px;
+    margin-left:-7px;
+    _display:inline;
+    text-indent: -999em;
+    cursor:pointer
+}
+.pai-content{
+    width:750px;
+    overflow:hidden;
+}
+.pai-limit .ks-switchable-content{
+    width:750px;
+    height: 202px;
+    padding-top:3px;
+    overflow: hidden;
+    float:left;
+    display: none;
+}
+.pai-limit-item{
+    height:205px;
+    width:360px;
+    border-right:1px solid #ececec;
+    float:left;
+    padding-left:10px;
+}
+
+
+.pai-limit li.na{
+    background-position: 0 -52px ;
+}
+.pai-limit li.np{
+    background-position: 0 -156px ;
+}
+.pai-limit li.nv{
+    background-position: 0 -130px ;
+}
+.pai-limit li.nw{
+    background-position: 0 -104px ;
+}
+.pai-limit li.ns{
+    background-position: 0 -78px ;
+}
+.pai-limit-item{
+    
+}
+.pai-limit-item p{
+    padding-bottom:10px
+}
+.pai-limit-item .lm{
+    float:left;
+    padding-top:17px;
+    width:360px;
+}
+.pai-limit-item .lm a{
+    margin-right:20px;
+}
+.pai-limit-item .lm a:link{
+    color:#666
+}
+.pai-limit-item .lm a:visited{
+    color:#666
+}
+.pai-limit-item .lm a:hover{
+    color:#f60
+}
+.pai-limit-item a.limit-cat:link, .pai-limit-item a.limit-cat:visited{
+    color:#f00;
+    margin:0;
+}
+.pai-limit-item a img{
+    float:left;
+    margin-right:20px
+}
+.pai-limit-info{
+
+}
+.pai-limit-info{
+    float:left
+}
+.pai-limit-info h4{
+    padding:30px 0 4px 0;
+    width:150px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.pai-limit-info a.auc, .pai-limit-info a.wil, .pai-limit-info a.fih{
+    width:67px;
+    height:23px;
+    background-position: 0 -185px;
+    display: block;
+    text-indent: -999em;
+    overflow: hidden;
+    float:left
+}
+.pai-limit-info a.more{
+    float:left;
+    background:none;
+    padding:0;
+    line-height:23px;
+    margin-left:15px;
+    color:#333
+}
+.pai-limit-info a.auc:hover{
+    background-position:-68px -185px;
+}
+
+
+.pai-limit-info a.wil{
+    background-position: -68px -209px;
+}
+.pai-limit-info a.wil:hover{
+    background-position: 0 -233px;
+}
+.pai-limit-info a.fih{
+    background-position: 0 -209px;
+}
+
+h3.pai-limit-title {
+    background-position: 8px -95px;
+    height: 30px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    border-bottom: #e6e6e6 1px solid;
+    position: relative;
+}
+h3.pai-limit-title a {
+  float: left;
+  width: 66px;
+  height: 22px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+h3.pai-limit-title a.more {
+    background-position: left -66px;
+    width: 52px;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}/**
+ *  首屏热拍中
+ *
+ */
+
+/* images */
+.pai-recommend, .pai-recommend-item b{
+    background:url(http://img01.taobaocdn.com/tps/i1/T1CoKZXmRnXXXXXXXX-55-142.png) no-repeat;
+    *background:url(http://img02.taobaocdn.com/tps/i2/T1tG10XdRjXXXXXXXX-55-142.png) no-repeat;
+}
+.pai-recommend-item a.auc, .pai-recommend-item a.wil, .pai-recommend-item a.fih{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1qu9VXbBrXXXXXXXX-188-256.png) no-repeat;
+    _background: url(http://img03.taobaocdn.com/tps/i3/T1f19VXflsXXXXXXXX-188-256.png) no-repeat;
+}
+.pai-recommend{
+    width:535px;
+    height:100px;
+    background-color: #fff;
+    background-position: 0 72px;
+    background-repeat: repeat-x;
+    padding-left:5px;
+}
+.pai-recommend-item{
+    position:relative;
+    float: left;
+    width:220px;
+    padding-left:40px;
+    margin-top:12px;
+    margin-right:7px
+}
+.pai-recommend-item h4{
+    margin-top:-4px;
+    font-weight:normal;
+    white-space: nowrap;
+    width:114px;
+    overflow:hidden
+}
+.pai-recommend-item h4 a:link{
+    color:#333
+}
+.pai-recommend-item h4 a:visited{
+    color:#333
+}
+.pai-recommend-item h4 a:hover{
+    color:#f60
+}
+.pai-recommend-item a img{
+    float:left;
+    margin-right:10px;
+    display: inline
+}
+.pai-recommend-info{
+    float:left;
+    width:130px;
+}
+.pai-recommend-item a.auc, .pai-recommend-item a.wil, .pai-recommend-item a.fih{
+    width:67px;
+    height:23px;
+    line-height: 23px;
+    text-align: center;
+    color:#fff;
+    display:block;
+    background-position: 0 -185px;
+    text-indent: -999em;
+    overflow:hidden;
+}
+.pai-recommend-item a.auc:hover{
+    background-position:-68px -185px;
+}
+.pai-recommend-item a.wil{
+    background-position:-68px -209px;
+}
+.pai-recommend-item a.wil:hover{
+    background-position:0 -233px;
+}
+.pai-recommend-item a.fih{
+    background-position:0 -209px;
+}
+.pai-recommend p{
+    font-family: arial,verdana;
+    padding-top:4px;
+    padding-bottom:3px;
+    white-space: nowrap;
+}
+.pai-recommend-item b, .hot-sec b{
+    width:55px;
+    height:53px;
+    background-position: 0 -33px;
+    display:block;
+    position: absolute;
+    left:-5px;
+    top:-6px;
+    text-indent:-999em;
+    overflow:hidden;
+    filter:alpha(opacity=80);
+    opacity: 0.8;
+}
+.pai-recommend-item b.pt2{
+    background-position: 0 -89px
+}

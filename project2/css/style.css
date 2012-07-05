@@ -1,0 +1,147 @@
+/* temp */
+#content{ width:950px; margin:auto}
+
+
+
+
+/* images */
+.s_btn a, .s_btn a span{ background:url(../img/img1.png) no-repeat;}
+.vis p{ background: url(../img/ico1.png) no-repeat 83px 13px;}
+.nav_title{ background:url(../img/img2.png) repeat-x}
+
+.top{ height:71px; border-bottom:1px solid #000; padding-top:18px}
+.tp_search{ height:39px; padding-top:10px}
+.tp_search li{ float:left; margin-right:28px; line-height:30px}
+.sipt{ width:238px; height:28px; border:1px solid #ccc; line-height:28px; padding: 0 5px;color: #ADADAD;}
+.vis{ width:180px; position:relative}
+.vis p{ height:28px; width:100px; float:right; border:1px solid #ccc; cursor:pointer; text-indent:10px}
+.sels{ position:absolute; width:100px; border:1px solid #ccc; top:29px; right:0}
+.sels dl{ margin-top:-1px}
+.sels dd{height:29px; line-height:29px; text-indent:10px; border-top:1px dashed #ccc; cursor:pointer; background-color:#fff}
+.sels dd:hover{ background-color:#f1f1f1; color:#f60}
+.per input{ height:28px; border:1px solid #ccc; width:37px; line-height:28px}
+.s_btn a{height:31px; display:block; padding-left:20px; float:left; margin-right:8px;}
+.s_btn a span{ background-position:right -31px; display:block; height:31px; padding-right:20px; float:left; color:#fff; line-height:31px}
+.s_btn a:hover span{ text-decoration:underline}
+
+.nav_title{ border:1px solid #ddd; height:30px; line-height:30px}
+.nav li{ float:left; color:#888; padding-right:10px}
+.nav li.seall, .info li.seall, .bn li.seall{ color:#404040; position:relative; padding-left:30px; width:30px}
+.seall input{ position:absolute; left:9px; top:9px}
+.n1{ width:130px}
+.n2{ width:160px}
+.n3{ width:80px}
+.n4{ width:90px}
+.n5{ width:168px}
+.n6{ width:100px}
+.info{}
+.info b{ font-weight:normal; color:#999}
+.info ul{ height:130px; border-bottom:1px dashed #adadad; width:100%; padding-top:10px}
+.info li{ float:left; height:130px; padding-right:10px}
+.info li.n1{border:1px solid #ddd; height:120px; width:120px; display:block; padding:0; margin-right:10px; overflow:hidden; text-align:center}
+.n1 a{height:120px; width:120px; display:block; text-align:center;display: table-cell;vertical-align:middle;*font-size:105px;*font-family:Arial;}
+.n1 a img{vertical-align:middle;}
+.bn .s_btn{ float:right; margin-right:10px}
+.bn{ border-bottom:1px solid #000}
+.bn ul{ height:31px; padding:10px 0; line-height:31px}
+.bn li.seall{ float:left}
+
+/* page */
+.pagination .page-start,.pagination .page-prev,.pagination .page-next,.pagination .page-end,.pagination .page-skip button,.p4p-more a,.p4p-tabbed .p4p-more a span{background:url(http://img03.taobaocdn.com/tps/i3/T1CW00XlFdXXXXXXXX-200-312.png) no-repeat;}
+.pagination{width:750px;overflow:hidden;padding-top:15px;text-align:center;font-family:Tahoma;font-size:12px; margin-bottom:50px}.pagination a,.pagination .page-info,.pagination .page-start,.pagination .page-prev,.pagination .page-cur,.pagination .page-end,.pagination .page-break,.pagination .page-skip{display:inline-block;min-width:16px;_width:16px;height:24px;margin:0;margin-right:3px\9;padding:0 5px;text-align:center;vertical-align:top;line-height:24px;white-space:nowrap;font-family:Tahoma,SimSun,Arial;}.pagination a,.pagination .page-info,.pagination .page-start,.pagination .page-prev,.pagination .page-cur,.pagination .page-end,.pagination .page-break{border:1px solid #ccc;}.pagination a:hover{text-decoration:none;border:1px solid #FD6D01;}.pagination .page-start,.pagination .page-prev,.pagination .page-next,.pagination .page-end{width:36px;}.pagination .page-start{padding-left:16px;background-position:-70px -192px;}.pagination .page-prev{padding-left:16px;background-position:-80px -211px;}.pagination .page-next{padding-right:16px;background-position:-97px -211px;}.pagination .page-end{padding-right:16px;background-position:-88px -192px;}.pagination .page-cur{font-weight:bold;color:#fd6d01;background-color:#ffede1;border:1px solid #fd6d01;}.pagination .page-break{border:none;}.pagination .page-skip{width:auto;color:#666;border:none;}.pagination .page-skip input{width:30px;height:18px;margin:0 5px;text-align:center;vertical-align:middle;font-family:Tahoma,SimSun,Arial;color:#000;border:1px solid #999;}.pagination .page-skip button{width:42px;height:20px;overflow:hidden;margin:0 0 0 5px;text-indent:-9999px;vertical-align:middle;cursor:pointer;background-position:0 -179px;border:0 none;}.pagination .page-skip button span{display:none;}
+
+/* pics */
+.top_pics{ height:120px; width:948px; border:1px solid #ddd; margin-top:10px}
+
+.main{ width:950px; margin:10px auto 900px auto;}
+.l_img{ float:left; width:620px; height:620px; border:1px solid #ccc; background-color:#eee; overflow:auto; position:relative; margin-bottom:20px; position:absolute; z-index:10}
+.m_img{}
+#J_MainImg{ position:absolute}
+.r_con{ float:right; width:320px; float:right}
+.add_tips{ border-bottom:1px dotted #d7d7d7; height:170px}
+.r_con label{ font-weight:normal; line-height:30px; display:block; height:30px}
+.add_tips textarea{ border:1px solid #ccc; height:80px; width:310px; margin-bottom:7px; padding:5px; color:#adadad}
+.add_tips .s_btn a, .add_mark .s_btn a, .mark_info .s_btn a{ padding-left:37px}
+.add_tips .s_btn a span, .add_mark .s_btn a span, .mark_info .s_btn a span{ padding-right:37px; font-weight:bold}
+.add_mark{ height:70px; border-bottom:1px dotted #d7d7d7; position:relative}
+.mark_zin{ position:absolute; left:0; top:30px; z-index:40}
+.gmarks{ position:relative}
+.mark_info{ border:1px solid #ccc; margin-top:10px}
+.mi_tit{ line-height:38px; padding:0 10px; border-bottom:1px solid #ccc}
+.mi_tit a, .m_sell a{ float:right}
+.mi_tit em{ color:#666}
+.mi_tit em span, .mi_tit a, .m_sell a{ color:#f60}
+.minfo{ padding:10px}
+.m_pic{ float:left;margin-right:10px; height:98px; width:98px; border:1px solid #ccc; overflow:hidden}
+.minfo p{ height:27px}
+.m_pic a, .add_tk li a, .ks-switchable-content p a{ height:100px; width:100px; display:block; text-align:center;display: table-cell;vertical-align:middle;*font-size: 85px;*font-family:Arial; overflow:hidden}
+.m_pic a img, .add_tk li a img, .ks-switchable-content p a img{vertical-align:middle;}
+.minfo h3{ font-weight:normal;  height:55px; overflow:hidden}
+.minfo p span{ color:#f60; font-weight:bold; font-family:Arial; font-size:20px}
+.m_add{ height:31px; padding-left:80px}
+.c9{ color:#999}
+
+.changes{ border:1px solid #ccc; background-color:#eee; float:left; width:318px; overflow:hidden; position:absolute; left:; top:0;_left:-1px}
+.c_search{ border-bottom:1px solid #ccc; padding:10px 0 10px 10px; height:69px}
+.c_search input{ float:left; width:108px; height:28px; border:1px solid #ccc; line-height:28px; padding:0 5px; color:#adadad; margin-right:10px; display:inline}
+.sele, .add_type{ height:28px; border:1px solid #ccc; width:68px; float:left; background-color:#fff; overflow:hidden; margin-right:10px}
+.sele div, .add_type div{ height:20px; *height:17px; overflow:hidden; margin:5px 0 0 4px; width:58px;_width:56px}
+.sele select, .add_type select{*margin:-2px;border:none;margin:-2px; width:60px}
+.c_search .s_btn a, .tip_btn .s_btn a{ padding-left:31px}
+.c_search .s_btn a span, .tip_btn .s_btn a span{ padding-right:31px; font-weight:bold;_width:26px}
+
+.add_url{ padding:0 10px 10px; height:110px}
+.add_url b{ display:block; line-height:24px; font-weight:normal; margin-bottom:16px}
+.add_url input{ width:285px; height:28px; border:1px solid #ccc; line-height:28px; padding:0 5px; color:#adadad; margin-bottom:10px}
+.add_url a.can, .typeb a.can{ background:url(../img/img4.png) no-repeat; width:98px; height:29px; display:block; text-align:center; line-height:29px; float:left; border:1px solid #ccc; color:#333}
+.add_url .s_btn a{ padding-left:31px}
+.add_url .s_btn a span{ padding-right:31px; font-weight:bold}
+.add_type{ width:148px}
+.add_type div{ width:143px;_width:137px}
+.add_type select{ width:140px}
+.add_tit{ padding:10px; height:30px }
+.pg b{ line-height:30px; color:#999; float:right; font-weight:normal}
+.pg a.prev, .pg a.next{ background:url(../img/img5.png) no-repeat; height:24px; display:block; float:right; margin:3px 0 0 10px}
+.pg a.prev{ width:24px; text-indent:-9999px; overflow:hidden;}
+.pg a.next{ width:54px; background-position:right 0; line-height:24px; text-align:center; color:#333}
+.add_tk ul{ float:left; width:318px; padding-left:4px}
+.add_tk li{ float:left; margin:0 5px 5px 0; height:98px; width:98px; border:1px solid #ccc; overflow:hidden; background-color:#fff; text-align:center}
+.add_tk li:hover{ border:1px solid #f60}
+.add_tk li.cur{ border:3px solid #f60; height:94px; width:94px}
+.typeb{ float:left; width:300px; border-top:1px solid #ccc}
+.typeb .add_type{ border:none; height:31px; width:100px;}
+.g_tip{ position:absolute; left:0; top:0; z-index:30; width:348px; height:208px; border:1px solid #ccc; background-color:#fff}
+.g_tip h5{ background-color:#eee; border-bottom:1px solid #ccc; line-height:28px; text-indent:10px; font-weight:normal}
+.g_tip h5 a.close{ float:right; background:url(../img/img6.png) no-repeat; height:12px; width:12px; display:block; margin:8px 10px 0 0}
+.tpinfo{ padding:10px}
+.tpinfo .m_pic{ margin-top:5px}
+.tpinfo h3{ height:39px; overflow:hidden}
+.tpinfo em{ color:#999}
+.tip_btn{ width:230px; margin:auto}
+.tip_btn a.can, .mark_zin a.can{ background:url(../img/img4.png) no-repeat; height:31px; width:100px; text-align:center; line-height:31px; display:block; float:left; color:#333}
+.mark_zin .s_btn, .mark_zin a.can{ float:left}
+.marks{ background:url(../img/img7.png) no-repeat; height:27px; width:27px; line-height:27px; text-align:center; color:#fff; position:absolute; z-index:20; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold}
+
+/* scroll */
+.scrollable {position: relative;width: 948px;border:1px solid #ddd;height:120px;margin-top:10px;}
+.scrollable .prev, .scrollable .next {position: absolute;background:url(../img/img8.png) no-repeat -39px 0;cursor: pointer;height:100px; width:20px; text-indent:-9999px; overflow:hidden}
+.scrollable .prev { left: 9px; top:9px }
+.scrollable .next { right: 9px; top:9px; background-position:-58px 0}
+.scrollable .disable { background-position:0 0;}
+
+.scrollable .ks-switchable-nav { display:none}
+.scrollable .ks-switchable-nav li {float: left;padding: 5px;font-size: 18px;cursor: pointer;}
+.scrollable .ks-switchable-nav li.ks-active {color: #C8282B;}
+
+.scroller {position: relative;width: 880px;height: 100px;margin:10px auto auto;overflow: hidden;}
+.ks-switchable-content p{ float:left; margin:0 5px 0 5px; height:98px; width:98px; border:1px solid #ccc; overflow:hidden; background-color:#fff; position:relative; text-align:center}
+.ks-switchable-content p:hover{ border:1px solid #f60}
+.ks-switchable-content p.cur{ height:94px; width:94px; border:3px solid #f60;}
+.ks-switchable-content p b{ position:absolute; height:18px; line-height:18px; width:18px; background-color:#333;filter:alpha(opacity=80);opacity:0.8; color:#fff; font-weight:normal; left:0; top:0}
+.ks-switchable-content p.cur b{ background-color:#f60}
+.ine{ height:28px; width:98px; border:1px solid #ccc; background:#fff url(../img/img3.png) no-repeat center center; float:left; text-indent:-9999px; overflow:hidden; cursor:pointer; margin:8px 10px 0 0 }
+.c_url{ height:28px; width:98px; border:1px solid #ccc; float:left; cursor:pointer; line-height:28px; text-align:center; background-color:#fff; margin-top:8px; color:#333}
+
+.ks-ext-mask { background-color: #000000; opacity: 0.5; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)'; position:absolute; left:0; top:0; width:100%; height:100%}
+
+.cur_mask{ position:absolute;left:0; top:0; height:100%; width:100%; background-color:#fff; filter:alpha(opacity=50); opacity:0.5;cursor:url(http://ieake.com/cursor.cur),auto; display:none}

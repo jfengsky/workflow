@@ -1,0 +1,78 @@
+/******************ÈËÆøÅÄÆ·**********************************/
+.pai-hot a, .pai-last a{
+    color: #666;
+}
+.pai-hot h2 {
+    background-position: 10px -136px;
+    height: 28px;
+    padding-left: 10px;
+}
+.pai-hot h2 a {
+    float: left;
+    width: 86px;
+    height: 24px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.hot-content {
+    border: 1px solid #E6E6E6;
+    border-left: none;
+    height:213px;
+}
+
+.hot-logo{
+    float: left;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    width: 190px;
+    font-size: 0;
+    margin-right: 25px;
+}
+
+.hot-logo img{
+    width: 190px;
+    height: 213px;
+}
+.pai-hot-list{
+    width:770px;
+    overflow:hidden;
+}
+.hot-list{
+    width:810px;
+}
+.hot-item{
+    float: left;
+    margin: 15px 37px 2px 0;
+    *margin:15px 36px 2px 0;
+   /* _margin:15px 36px 2px 0; */
+    _display:inline
+}
+.hot-last{
+    margin-right: 25px;
+}
+.hot-item img{
+    width: 120px;
+    height: 120px;
+    border: none;
+}
+.hot-item .current{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.hot-item .title{
+    display: block;
+    text-align: center;
+    line-height: 1;
+    width:120px;
+    white-space: nowrap;
+    overflow:hidden;
+    line-height:20px;
+}
+
+.hot-item .J_AuctionCount{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "arial";
+    color: #CA0007;
+}

@@ -1,0 +1,19 @@
+<div class="pai-recommend" id="J_recom">
+    <cms:custom group="推荐热拍" title="推荐热拍" fields="id:商品ID:string,img:商品图片80x80:url,text:商品标题 9个字以内:string,href:商品链接:url,isShow:热拍图标:boolean" row="2" defaultRow="1" name="9a5a4e19-69fb-4bb7-9695-794962c2cfd6">#foreach ($i in $customList)
+        <div class="pai-recommend-item" id="$i.id">
+            <a href="$i.href"><img alt="$!i.text" src="$i.img"></a>
+            <div class="pai-recommend-info">
+                <h4><a href="$i.href">$!i.text</a></h4>
+                <p>当前价格：￥<span class="recom_price"></span><br />
+                    剩余时间：<span class="J_recomTime"><var>00</var>:<var>00</var>:<var>00</var></span><i class="ms"></i></p>
+                <a href="$i.href" class="wil"></a>
+                <b #if ($i.isShow) class="pt2" #end>热拍中</b>
+            </div>
+        </div>
+        #end </cms:custom>
+</div>
+<script>
+    KISSY.use('PaiRecommend',function(S, recommend){
+        new recommend();
+    });
+</script>

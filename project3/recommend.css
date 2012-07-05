@@ -1,0 +1,98 @@
+/**
+ *   ◊∆¡»»≈ƒ÷–
+ *
+ */
+
+/* images */
+.pai-recommend, .pai-recommend-item b{
+    background:url(http://img01.taobaocdn.com/tps/i1/T1CoKZXmRnXXXXXXXX-55-142.png) no-repeat;
+    *background:url(http://img02.taobaocdn.com/tps/i2/T1tG10XdRjXXXXXXXX-55-142.png) no-repeat;
+}
+.pai-recommend-item a.auc, .pai-recommend-item a.wil, .pai-recommend-item a.fih{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1qu9VXbBrXXXXXXXX-188-256.png) no-repeat;
+    _background: url(http://img03.taobaocdn.com/tps/i3/T1f19VXflsXXXXXXXX-188-256.png) no-repeat;
+}
+.pai-recommend{
+    width:535px;
+    height:100px;
+    background-color: #fff;
+    background-position: 0 72px;
+    background-repeat: repeat-x;
+    padding-left:5px;
+}
+.pai-recommend-item{
+    position:relative;
+    float: left;
+    width:220px;
+    padding-left:40px;
+    margin-top:12px;
+    margin-right:7px
+}
+.pai-recommend-item h4{
+    margin-top:-4px;
+    font-weight:normal;
+    white-space: nowrap;
+    width:114px;
+    overflow:hidden
+}
+.pai-recommend-item h4 a:link{
+    color:#333
+}
+.pai-recommend-item h4 a:visited{
+    color:#333
+}
+.pai-recommend-item h4 a:hover{
+    color:#f60
+}
+.pai-recommend-item a img{
+    float:left;
+    margin-right:10px;
+    display: inline
+}
+.pai-recommend-info{
+    float:left;
+    width:130px;
+}
+.pai-recommend-item a.auc, .pai-recommend-item a.wil, .pai-recommend-item a.fih{
+    width:67px;
+    height:23px;
+    line-height: 23px;
+    text-align: center;
+    color:#fff;
+    display:block;
+    background-position: 0 -185px;
+    text-indent: -999em;
+    overflow:hidden;
+}
+.pai-recommend-item a.auc:hover{
+    background-position:-68px -185px;
+}
+.pai-recommend-item a.wil{
+    background-position:-68px -209px;
+}
+.pai-recommend-item a.wil:hover{
+    background-position:0 -233px;
+}
+.pai-recommend-item a.fih{
+    background-position:0 -209px;
+}
+.pai-recommend p{
+    font-family: arial,verdana;
+    padding-top:4px;
+    padding-bottom:3px;
+    white-space: nowrap;
+}
+.pai-recommend-item b, .hot-sec b{
+    width:55px;
+    height:53px;
+    background-position: 0 -33px;
+    display:block;
+    position: absolute;
+    left:-5px;
+    top:-6px;
+    text-indent:-999em;
+    overflow:hidden;
+}
+.pai-recommend-item b.pt2{
+    background-position: 0 -89px
+}

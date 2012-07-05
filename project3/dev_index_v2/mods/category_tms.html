@@ -1,0 +1,11 @@
+<!-- 首屏分类 -->
+<div class="pai-category">
+    <cms:repeat group="拍卖类目" title="分类列表" row="6" defaultRow="6">
+    <h3><cms:imageLink group="图标和标题" title="图标标题和链接"><img src="$img" alt="$!text"><a href="$href">$!text</a></cms:imageLink></h3>
+    <ul>
+        <cms:textLink group="分类列表" title="分类列表" row="8" defaultRow="1"> #foreach ($i in $textLinkList)
+            <li><a href="$i.href">$!i.text</a></li>
+        #end </cms:textLink>
+    </ul>
+    </cms:repeat>
+</div>

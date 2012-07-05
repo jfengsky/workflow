@@ -1,0 +1,26 @@
+<div class="pai-comming" id="J_comming">
+    <h4>明日预告</h4>
+    <div class="comming-switchable">
+        <ul class="ks-switchable-content">
+            <cms:repeat group="明日预告" title="预告列表" row="5" defaultRow="1" name="e83aec3b-fc07-49cb-8ac8-a25784ea38fd">
+                <li>
+                    <cms:custom group="预告列表" title="预告列表" fields="id:商品ID:string,text:开拍时间:string,text1:商品标题:string,text2:商品描述:string,href:商品链接:url,img:商品图片:url" row="2" defaultRow="1" name="84f83d9d-e5b7-475d-8abc-72439933a897"> #foreach ($i in $customList)
+                        <div class="pai-comming-info" id="$!i.id">
+                            <b>$!i.text</b>
+                            <div class="pai-comming-item">
+                                <a href="$i.href"><img src="$i.img"></a>
+                                <h5><a href="$i.href">$!i.text1</a></h5>
+                                <p><a href="$i.href">$!i.text2</a></p>
+                            </div>
+                        </div>
+                        #end </cms:custom>
+                </li>
+            </cms:repeat>
+        </ul>
+    </div>
+</div>
+<script>
+    KISSY.use('PaiComming',function(S, comming){
+        new comming();
+    });
+</script>

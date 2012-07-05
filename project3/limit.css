@@ -1,0 +1,195 @@
+/**
+*   ÏÞÊ±ÅÄ
+*
+*/
+.pai-limit ul, .pai-limit li, .pai-limit dt, .pai-limit li.nw, .pai-limit li.nv, .pai-limit li.na, .pai-limit li.np, .pai-limit li.ns, .pai-limit-info a.auc, .pai-limit-info a.wil, .pai-limit-info a.fih{
+    background: url(http://img01.taobaocdn.com/tps/i1/T1h9S2Xc0tXXXXXXXX-188-256.png) no-repeat;
+    _background: url(http://img03.taobaocdn.com/tps/i3/T1srO3XdtiXXXXXXXX-188-256.png) no-repeat;
+}
+.pai-limit dl{
+    float:left;
+    width:750px;
+    position: relative;
+}
+.pai-limit dd{
+    color:#c00;
+    font-weight:bold;
+    padding:0 91px 0 40px;
+    float:left
+}
+.pai-limit dd.ls{
+    float:left;
+    padding:0 0 0 36px;
+}
+.pai-limit dt{
+    background-position: -169px -192px;
+    height:20px;
+    width:20px;
+    position:absolute;
+    right:17px;
+    top:20px;
+}
+.pai-limit{
+    width:740px;
+    overflow: hidden;
+}
+.pai-limit ul{
+    width:686px;
+    height:23px;
+    padding-left:54px;
+    float:left;
+    margin-top:-4px;
+}
+.pai-limit li{
+    width:174px;
+    height:25px;
+    overflow:hidden;
+    float:left;
+    background-position: 0 -26px;
+    margin-left:-7px;
+    _display:inline;
+    text-indent: -999em;
+    cursor:pointer
+}
+
+.pai-content{
+    width:740px;
+    overflow:hidden;
+    float:left
+}
+.pai-limit .ks-switchable-content{
+    width:750px;
+    height: 202px;
+    padding-top:3px;
+    overflow: hidden;
+    float:left;
+    display: none;
+}
+.pai-limit-item{
+    height:205px;
+    width:360px;
+    border-right:1px solid #ececec;
+    float:left;
+    padding-left:10px;
+}
+
+
+.pai-limit li.na{
+    background-position: 0 -52px ;
+}
+.pai-limit li.np{
+    background-position: 0 -156px ;
+}
+.pai-limit li.nv{
+    background-position: 0 -130px ;
+}
+.pai-limit li.nw{
+    background-position: 0 -104px ;
+}
+.pai-limit li.ns{
+    background-position: 0 -78px ;
+}
+.pai-limit-item p{
+    padding-bottom:10px
+}
+.pai-limit-item .lm{
+    float:left;
+    padding-top:17px;
+    width:360px;
+}
+.pai-limit-item .lm a{
+    margin-right:20px;
+}
+.pai-limit-item .lm a:link{
+    color:#666
+}
+.pai-limit-item .lm a:visited{
+    color:#666
+}
+.pai-limit-item .lm a:hover{
+    color:#f60
+}
+.pai-limit-item a.limit-cat:link, .pai-limit-item a.limit-cat:visited{
+    color:#f00;
+    margin:0;
+}
+.pai-limit-item a img{
+    float:left;
+    margin-right:20px
+}
+.pai-limit-info{
+
+}
+.pai-limit-info{
+    float:left
+}
+.pai-limit-info h4{
+    padding:30px 0 4px 0;
+    width:150px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.pai-limit-info h4 a:link{
+    color:#404040
+}
+.pai-limit-info h4 a:visited{
+    color:#404040
+}
+.pai-limit-info h4 a:hover{
+    color:#f60
+}
+.pai-limit-info a.auc, .pai-limit-info a.wil, .pai-limit-info a.fih{
+    width:67px;
+    height:23px;
+    background-position: 0 -185px;
+    display: block;
+    text-indent: -999em;
+    overflow: hidden;
+    float:left
+}
+.pai-limit-info a.more{
+    float:left;
+    background:none;
+    padding:0;
+    line-height:23px;
+    margin-left:15px;
+    color:#333
+}
+.pai-limit-info a.auc:hover{
+    background-position:-68px -185px;
+}
+
+
+.pai-limit-info a.wil{
+    background-position: -68px -209px;
+}
+.pai-limit-info a.wil:hover{
+    background-position: 0 -233px;
+}
+.pai-limit-info a.fih{
+    background-position: 0 -209px;
+}
+
+h3.pai-limit-title {
+    background-position: 8px -95px;
+    height: 30px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    border-bottom: #e6e6e6 1px solid;
+    position: relative;
+}
+h3.pai-limit-title a {
+  float: left;
+  width: 66px;
+  height: 22px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+h3.pai-limit-title a.more {
+    background-position: left -66px;
+    width: 52px;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

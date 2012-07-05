@@ -1,0 +1,42 @@
+/**
+ *  Ωπµ„Õº
+ *
+ */
+
+/* images */
+.pai-slide{
+    width:540px;
+    height: 290px;
+    overflow: hidden;
+    position: relative;
+}
+.pai-slide .ks-switchable-content{
+    z-index:900
+}
+.pai-slide .ks-switchable-nav{
+    position:absolute;
+    z-index: 1000;
+    right:5px;
+    bottom:5px;
+}
+.pai-slide .ks-switchable-nav li{
+    height: 18px;
+    width:18px;
+    border-radius: 9px 9px 9px 9px;
+    background-color:#ccc;
+    text-align: center;
+    line-height: 18px;
+    float:left;
+    margin-right:3px;
+    _display:inline;
+    cursor: pointer;
+    filter:alpha(opacity=80);
+    opacity: 0.8;
+}
+.pai-slide .ks-switchable-nav li.ks-active{
+    background: #c50007;
+    color:#fff;
+    cursor: auto;
+    filter:alpha(opacity=100);
+    opacity:1;
+}

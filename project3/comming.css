@@ -1,0 +1,92 @@
+/**
+ *  Ã÷ÈÕÔ¤¸æ
+ *
+ */
+
+/* images */
+.pai-comming .ks-switchable-nav li{background: url(http://img04.taobaocdn.com/tps/i4/T1b3yUXhVbXXXXXXXX-75-17.png) no-repeat}
+
+
+.pai-comming{
+    width:228px;
+    height:224px;
+    overflow: hidden;
+    background-color:#f9f9f9;
+    padding:6px;
+    position:relative
+}
+.pai-comming h4{
+    font: bold 14px/120% "Microsoft Yahei";
+    height:18px;
+    width:66px;
+    margin-bottom: 12px;
+}
+.comming-switchable{
+    height:190px;
+    overflow:hidden;
+    position:relative;
+    width:228px;
+}
+.pai-comming .ks-switchable-content{
+    overflow:hidden;
+}
+.pai-comming .ks-switchable-content li{
+    height:190px;
+    overflow:hidden;
+}
+.pai-comming .ks-switchable-nav{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+.pai-comming .ks-switchable-nav li{
+    height:7px;
+    width:7px;
+    text-indent:-999em;
+    overflow:hidden;
+    background-position: -68px -9px;
+    float:left;
+    margin-left:5px;
+    cursor:pointer
+}
+.pai-comming .ks-switchable-nav li.ks-active{
+    background-position:-68px 0;
+    cursor:auto
+}
+.pai-comming b{
+    color:#666;
+    font-weight:normal;
+}
+.pai-comming-info{
+}
+.pai-comming-item{
+    background-color:#fff;
+    width:220px;
+    height:60px;
+    padding:4px;
+    margin-top:4px;
+    margin-bottom:10px;
+}
+.pai-comming-item h5{
+    width:150px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.pai-comming-item h5 a:link, .pai-comming-item p a:link{
+    color:#404040
+}
+.pai-comming-item h5 a:visited, .pai-comming-item p a:visited{
+    color:#404040
+}
+.pai-comming-item h5 a:hover, .pai-comming-item p a:hover{
+    color:#f60
+}
+.pai-comming-item img{
+    float:left;
+    margin-right:10px;
+}
+.pai-comming-item p{
+    height:36px;
+    padding-top:5px;
+    overflow:hidden
+}
