@@ -1,0 +1,252 @@
+/**
+ * 有求必应公益版 项目发主内容区
+ * Author: wb-jiangfeng
+ * Time: 2012-07-17 15:21
+ */
+.publish .left h3, .left span.pub-err, .budget input.money, .editmore a.showedit span{
+	background: url(http://img04.taobaocdn.com/tps/i4/T1qzfrXgFrXXaLz8cK-195-169.png) no-repeat;
+}
+.form-sub input.sub, .form-sub span.subing{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.publish{
+	width:990px;
+	margin:35px auto 80px;
+	border-top:2px solid #666;
+}
+	.publish .left{
+		float:left;
+		width:645px;
+		padding-left:10px;
+		float:left;
+	}
+		.publish .left h3{
+			height:17px;
+			width:158px;
+			text-indent: -999em;
+			margin-bottom:15px;
+			overflow: hidden;
+		}
+
+	/* 项目描述 */
+	.title{
+		padding-top:25px;
+		height: 120px;
+		position:relative;
+	}
+		.title .count input{
+			height: 33px;
+			padding:0 5px;
+			border:1px solid #d7d7d7;
+			border-right:none;
+			font-size:14px;
+			color:#999;
+			float:left;
+			line-height: 33px;
+			width:490px;
+			border-radius: 3px 0 0 3px;
+		}
+		.title .count em{
+			border:1px solid #d7d7d7;
+			border-left:none;
+			height: 33px;
+			display:block;
+			padding: 0 10px;
+			line-height: 33px;
+			float:left;
+			border-radius:0 3px 3px 0;
+		}
+			/* 错误提示 */
+			.left span.pub-err{
+				position:absolute;
+				background-position:-179px -68px;
+				padding-left: 20px;
+				height:16px;
+				line-height: 16px;
+				display:block;
+				color:#f00;
+			}
+			.title span.pub-err{
+				left:0;
+				top:98px;
+			}
+
+	/* 图片上传 */
+	.pic {
+		min-height: 120px;
+		height:auto !important; 
+    	height:120px; 
+		position:relative;
+	}
+		.left .pic h3{
+			background-position:0 -17px;
+			width:95px;
+		}
+		.left .pic span.pub-err{
+			left:220px;
+			top:35px;
+		}
+		.pic em, .budget em, .video em{
+			display:block;
+			color:#999;
+			padding-top:3px;
+		}
+	/* 您的预算 */
+	.budget{
+		height: 120px;
+		position:relative;
+	}
+		.left .budget h3{
+			background-position:0 -34px;
+			width:80px;
+		}
+		.budget .mn{
+			width:154px;
+			height: 27px;
+			overflow:hidden;
+		}
+			.budget input.money{
+				width:120px;
+				height: 27px;
+				border:none;
+				overflow:hidden;
+				padding:0 4px 0 30px;
+				background-position:0 -68px;
+				font-size:14px;
+				color:#999;
+			}
+		.left .budget span.pub-err{
+			left:220px;
+			top:35px;
+		}
+
+	/* 投标天数 */
+	.votetime{
+		height: 120px;
+		position:relative;
+	}
+		.left .votetime h3{
+			background-position:-83px -34px;
+			width:112px;
+		}
+		.votetime input{
+			height: 25px;
+			width:142px;
+			padding:0 5px;
+			line-height: 25px;
+			border:1px solid #d0d0d0;
+			color:#999;
+			border-radius:3px;
+		}
+		.left .votetime span.pub-err{
+			left:220px;
+			top:35px;
+		}
+	/* 招募天数 */
+		.left .recruit h3{
+			background-position:0 -51px;
+			width:112px;
+		}
+	/* 项目描述 */
+	.video{
+		height: 120px;
+	}
+		.video input{
+			height: 25px;
+			width:410px;
+			padding:0 5px;
+			line-height: 25px;
+			border:1px solid #d0d0d0;
+			color:#999;
+			border-radius:3px;
+		}
+		.video a{
+			color:#689900;
+			font-weight:bold;
+			margin-left:10px;
+		}
+
+	/* 富文本编辑器 */
+	.edit{
+
+	}
+		.editmore{
+			height: 18px;
+		    line-height: 18px;
+		    padding-bottom: 8px;
+		    width: 540px;
+		}
+			.editmore a.showedit {
+			    float: left;
+			    width: 84px;
+			}
+				.editmore a.showedit em {
+				    float: left;
+				    color:#666;
+				}
+				.editmore a.showedit span{
+				    background-position: -188px -3px;
+				    display: block;
+				    float: right;
+				    height: 4px;
+				    margin: 8px 0 0 3px;
+				    overflow: hidden;
+				    width: 7px;
+				}
+				/*.editmore a.showedit span:hover{
+					background-position: -188px right;
+				}*/
+			.editmore a.blue {
+			    float: right;
+			    color:#649901;
+			}
+		.edit textarea{
+			border:1px solid #ced4e0;
+			width:540px;
+			height: 390px;
+		}
+		.pub-age{
+			margin:20px 0 30px 0;
+			position:relative;
+		}
+			.pub-age input{
+				vertical-align: middle;
+			}
+			.left .pub-age span.pub-err{
+				left:300px;
+				top:1px;
+			}
+			.pub-age a{
+				color:#f60;
+			}
+	/* 提交表单 */
+	.form-sub{
+		height:50px;
+	}
+		.form-sub input.sub, .form-sub span.subing{
+			background-position:0 -204px;
+			width:102px;
+			height: 40px;
+			border:none;
+			font-size:14px;
+			color:#fff;
+			font-weight:bold;
+			text-shadow:1px 1px #390;
+			cursor:pointer;
+		}
+		.form-sub span.subing{
+			background-position:0 -244px;
+			display:block;
+			cursor:auto;
+			text-align:center;
+			line-height: 40px;
+		}
+	.publish .right{
+		background-color: #f3f3f3;
+		height: 1160px;
+		width:330px;
+		float:right;
+	}
+.ke-editor-status{
+	display: none;
+}

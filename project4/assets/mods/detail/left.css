@@ -1,0 +1,263 @@
+/**
+ * 有求必应公益版 detail 左侧
+ * Author: wb-jiangfeng
+ * Time: 2012-07-19 13:20
+ */
+.d-step span.date{
+	background: url(http://img02.taobaocdn.com/tps/i2/T1xDrwXdVgXXXw61jL-368-476.png) no-repeat;
+}
+.left{
+	width:580px;
+	float:left;
+}
+	.tab{
+		padding-top:10px;
+		width:100%;
+		height:29px;
+		border-bottom:1px solid #bebebe;
+	}
+	.tab .ks-switchable-nav li{
+		float:left;
+		line-height: 29px;
+		border-top:1px solid #bebebe;
+		border-left:1px solid #bebebe;
+		border-right:1px solid #bebebe;
+		margin-right:10px;
+		padding:0 10px;
+	}
+		.tab .ks-switchable-nav li a:link{
+			color:#333;
+		}
+		.tab .ks-switchable-nav li a:visited{
+			color:#333;
+		}
+		.tab .ks-switchable-nav li a:hover{
+			color:#85c442;
+		}
+		.tab .ks-switchable-nav li.ks-active{
+			font-weight:bold;
+			color:#fff;
+			border-top:1px solid #589318;
+			border-left:1px solid #589318;
+			border-right:1px solid #589318;
+			background-color: #85c442;
+		}
+		.tab .ks-switchable-nav li.ks-active a{
+			color:#fff;
+		}
+		.tab .ks-switchable-nav li.ks-active a:hover{
+			text-decoration: none;
+		}
+		.tab .ks-switchable-nav li.last{
+			border:none;
+			border-top:1px solid #fff;
+		}
+	.tab .ks-switchable-content{
+		clear:both;
+		padding-top:10px;
+	}
+	.pur-item{
+	}
+		.pur-item .item-info ul{
+			padding-top:20px;
+		}
+		.pur-item .item-info li{
+			width:100%;
+			font-size:14px;
+			line-height: 40px;
+		}
+			.pur-item .item-info li em{
+				color:#589318;
+				padding-right:20px;
+			}
+			.pur-item .item-info li span{
+				font-family: Verdana
+			}
+		.editarea{
+			margin-bottom: 20px;
+		}
+		.item-more{
+
+		}
+			.item-more b{
+				font-size:14px;
+				color:#589318;
+				font-weight: normal;
+			}
+			.item-more li{
+				float:left;
+				padding-right:20px;
+				line-height: 30px;
+			}
+				.item-more li a{
+					color:#333;
+				}
+	/* 项目公示 */
+	.d-show{
+		border-left:5px solid #eee;
+		margin:30px 0 0 8px;
+	}
+		.d-step{
+			width:546px;
+			float:right;
+			position: relative;
+		}
+			.d-step span.date{
+				padding-left:34px;
+				width:129px;
+				height: 23px;
+				display: block;
+				background-position:-182px -422px;
+				color:#fff;
+				text-align: center;
+				margin:-3px 0 0 -33px;
+				line-height: 23px;
+			}
+			.d-step span.on{
+				background-position:-182px -445px;
+				font-weight: bold;
+			}
+		.d-products{
+			margin-top:10px;
+			width:560px;
+			overflow: hidden;
+		}	
+			.d-products ul{
+				width:580px;
+			}
+			.d-products li{
+				width:122px;
+				height: 240px;
+				float:left;
+				margin-right:20px;
+			}
+				.d-products .box{
+					margin-top:5px;
+				}
+				.d-products .box a{
+					height:120px;
+					width:120px;
+					display:table-cell;
+        			vertical-align:middle;
+        			text-align:center;
+        			*display: block;
+        			*font-size: 105px;
+        			*font-family:Arial;
+					border:1px solid #eee;
+				}
+					.d-products .box a img, .i-box a img{
+						vertical-align:middle;
+					}
+				.d-products h4{
+					font-weight: normal;
+					width:120px;
+					white-space: nowrap;
+					overflow: hidden;
+					line-height: 30px;
+				}
+					.d-products h4 a{
+						color:#0064de
+					}
+					.vte-price, .old-price{
+						font-family: Verdana;
+					}
+					.vte-price span{
+						color:#f60;
+						font-weight: bold;
+					}
+					.old-price{
+						color:#999;
+						margin-bottom:6px;
+						text-decoration: line-through
+					}
+		.d-info{
+			padding:10px;
+			border:1px solid #eee;
+			border-radius:5px;
+			margin:10px 0;
+		}
+		.d-item{
+			border:1px solid #eee;
+			color:#333;
+			margin:10px 0 40px 0
+		}
+			.d-item .tle{
+				background-color:#f3f3f3;
+				padding:5px;
+				border:1px solid #eee;
+			}
+				.d-item .tle span{
+					padding-right:10px;
+				}
+				.i-box{
+					float:left;
+					margin:0 10px 10px 0;
+				}
+					.i-box a{
+						height:50px;
+						width:50px;
+						display:block;
+						display:table-cell;
+	        			vertical-align:middle;
+	        			text-align:center;
+	        			*display: block;
+	        			*font-size: 43px;
+	        			*font-family:Arial;
+						border:1px solid #eee;
+					}
+			.d-item td{
+				padding:10px;
+				vertical-align: top;
+				text-align: center;
+			}
+			.d-item td.tda{
+				width:260px;
+				text-align: left;
+			}
+			.d-item td b{
+				display: block;
+			}
+			.d-item td em{
+				color:#999;
+			}
+			.d-item td.tdb{
+				border-left:1px solid #eee;
+			}
+		.d-step span.b-cir{
+			height: 20px;
+			width:0;
+			padding-left:20px;
+		}
+			/*
+			.d-item li{
+				float:left;
+				padding:10px 0;
+				border-left:1px solid #eee;
+				border-bottom:1px solid #eee;
+				border-right:1px solid #eee;
+			}
+			
+			.d-item li.i-info{
+				width:356px;
+			}
+			.d-item li.i-pri, .d-item li.i-sta{
+				width:100px;
+				text-align:center;
+				margin-left:-1px;
+			}
+			.d-item li.i-sta{
+				width:70px;
+			}
+				.d-item li p{
+					float:left;
+					width:170px;
+				}
+				.d-item li span.price{
+					float:left;
+					padding:0 10px;
+				}
+				.d-item li em.num{
+					float:left;
+					padding:0 10px;
+				}
+			*/

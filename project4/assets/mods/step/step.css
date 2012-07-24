@@ -1,0 +1,19 @@
+/**
+ * 有求必应公益版 发布进度模块样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 13:59
+ */
+.step, .step2, .step3, .pub-succ i, .pub-succ b{
+	background: url(http://img03.taobaocdn.com/tps/i3/T1t9zuXeRoXXX0gx6h-987-124.png) no-repeat;
+}
+.step, .step2, .step3{
+	width:990px;
+	height: 30px;
+	margin:30px auto auto;
+}
+.step2{
+	background-position:0 -30px;
+}
+.step3{
+	background-position:0 -60px;
+}

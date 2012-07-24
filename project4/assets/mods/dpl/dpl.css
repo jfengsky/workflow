@@ -1,0 +1,15 @@
+/**
+ * 顶部样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 14:25
+ */
+.wide{
+	width:990px;
+	margin:auto
+}
+.clear{
+	clear:both;
+}
+.h{
+	color:#f60;
+}

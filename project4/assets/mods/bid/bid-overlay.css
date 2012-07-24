@@ -1,0 +1,89 @@
+/**
+ * 有求必应公益版 卖家投标浮层
+ * Author: wb-jiangfeng
+ * Time: 2012-07-23 20:43
+ */
+.transport .bidstep, .transport b.bidsucc, .bidclose{
+	background: url(http://localhost/gongyi/imgs/bid2.png) no-repeat;
+}
+.tender {
+    background:#fbfbfb;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 680px;
+    color:#333;
+}
+	.tender .title {
+	    background-color: #FF6600;
+	    color: #FFFFFF;
+	    height: 35px;
+	    line-height: 35px;
+	    padding: 0 15px;
+	}
+	.tender .blue{
+		background-color: #0b7eb5;
+	}
+		.tender .title b {
+		    float: left;
+		    font-size: 14px;
+		}
+		.title a.close {
+		    color: #FFFFFF;
+		    float: right;
+		}
+	.tender .cnt{
+		padding:30px 8px;
+	}
+	.transport .bidstep{
+		width:483px;
+		height: 32px;
+		text-indent: -999em;
+		overflow: hidden;
+		margin: auto;
+	}
+	.transport b.bidsucc{
+		width:314px;
+		height: 42px;
+		display: block;
+		background-position:0 -33px;
+		text-indent: -999em;
+		overflow:hidden;
+		margin:55px auto 40px auto;
+	}
+	.bidclose{
+		background-position:-395px -37px;
+		width:88px;
+		height: 28px;
+		display: block;
+		text-align: center;
+		line-height: 28px;
+		font-weight: bold;
+		cursor: pointer;
+		margin: auto;
+	}
+.biditem{
+
+}
+	.biditem ul{
+
+	}
+		.biditem li{
+			width:100%;
+			float: left;
+			padding-bottom:30px;
+		}
+			.biditem li label{
+				text-align: right;
+				padding-right:10px;
+				width:80px;
+				display:block;
+				float: left;
+			}
+			.biditem li input.text{
+				float: left;
+				height: 25px;
+				border:1px solid #d1d1d1;
+				background-color: #ececec;
+				border-radius:3px;
+				padding:0 5px;
+			}

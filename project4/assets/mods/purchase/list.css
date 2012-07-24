@@ -1,0 +1,106 @@
+
+/**
+ * 有求必应公益版 编辑添加采购需求列表 左侧采购清单
+ * Author: wb-jiangfeng
+ * Time: 12-7-18 10:25
+ */
+.pru-list h3, .list-edit a, .pru-list a.add, .pru-edit h3, .pru-edit h3, .editmore a.showedit span, .pru-edit p.err{
+	background: url(http://img04.taobaocdn.com/tps/i4/T1qzfrXgFrXXaLz8cK-195-169.png) no-repeat;
+}
+.pru-list a.next, .pru-edit input.sub{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.pru-list{
+	float:left;
+	width:620px;
+}
+	.pru-list h3, .pru-edit h3{
+		height:17px;
+		width:97px;
+		display:block;
+		text-indent:-999px;
+		background-position:0 -128px;
+		overflow:hidden;
+		margin:18px 0 27px 0;
+	}
+		.list-title{
+			height: 37px;
+			width:100%;
+			margin-bottom:20px;
+		}
+			.list-title em{
+				height: 35px;
+				width:35px;
+				border:1px solid #86c543;
+				display:block;
+				color:#86c543;
+				line-height: 35px;
+				text-align: center;
+				font-size:20px;
+				border-radius: 2px;
+				font-family: Verdana;
+				float:left;
+			}
+			.list-title b{
+				color:#f60;
+				font-size:16px;
+				float:left;
+				height: 35px;
+				line-height: 35px;
+				font-family: Verdana;
+				padding:0 4px;
+			}
+			.list-title h4{
+				float:left;
+				font-size:14px;
+				height: 35px;
+				line-height: 35px;
+				width:500px;
+				white-space:nowrap;
+				overflow:hidden;
+			}
+		.list-main{
+			padding-bottom:20px;
+		}
+		.list-edit{
+			border-bottom:1px solid #ccc;
+			height: 57px;
+			margin-bottom:30px;
+		}
+			.list-edit a{
+				width:62px;
+				height:24px;
+				display: block;
+				background-position:0 -145px;
+				text-align: center;
+				line-height: 22px;
+				float:left;
+				margin-right:5px;
+				color:#646f73;
+				text-shadow:1px 1px #fff;
+			}
+		.pru-list a.add{
+			width:110px;
+			height:33px;
+			display: block;
+			background-position:0 -95px;
+			font-size: 14px;
+			line-height: 33px;
+			text-align:center;
+			padding-left:27px;
+			margin:13px auto;
+			color:#333;
+			text-shadow:1px 1px #fff;
+		}
+		.pru-list a.next{
+			background-position:0 -204px;
+			height:40px;
+			width:102px;
+			display:block;
+			text-align: center;
+			line-height: 36px;
+			color:#fff;
+			font-weight: bold;
+			font-size: 14px;
+			margin-top:80px;
+		}

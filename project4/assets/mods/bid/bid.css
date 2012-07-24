@@ -1,0 +1,241 @@
+/**
+ * 有求必应公益版 卖家竞标css
+ * Author: wb-jiangfeng
+ * Time: 2012-07-20 18:55
+ */
+.bid .right .bg, .cd li span, .bid-btn a.tobid, .b-rule li{
+	background: url(http://img03.taobaocdn.com/tps/i3/T1NcbxXk8dXXaxy0HL-368-417.png) no-repeat;
+}
+.bid{
+	width:990px;
+	margin:auto;
+}
+.bid .left{
+	width:620px;
+	margin-top:15px;
+	padding-bottom:80px;
+	float:left;
+}
+.bid .budge{
+
+}
+.bid .budge p{
+	border:2px solid #85c441;
+	border-radius:3px;
+	float:left;
+	height: 32px;
+	color:#85c441;
+}
+.bid .budge span{
+	font-size: 24px;
+	font-family: Verdana;
+	background-color:#85c441;
+	color:#fff;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	float:left;
+	padding:0 10px;
+}
+.bid .budge b{
+	font-size: 28px;
+	
+	font-family: Arial;
+	padding:0 5px;
+	line-height: 32px;
+}
+.bid .budge em{
+	padding:0 10px 0 0;
+
+}
+.bid h3.title{
+	display: block;
+	width:100%;
+	clear: both;
+	font-size: 14px;
+	line-height: 50px;
+}
+.bid .edits{
+	margin-bottom:30px;
+}
+.bid h5.desc{
+	color:#589318;
+	font-weight: normal;
+	font-size:14px;
+	line-height: 30px;
+}
+.need-more li{
+	float:left;
+	width:80px;
+	overflow:hidden;
+	margin-right:15px;
+	height: 20px;
+}
+
+
+
+/* 右侧 */
+.bid .right{
+	float:right;
+	width:368px;
+	border:1px solid #ddd;
+	border-top: none;
+	margin-bottom: 60px;
+}
+
+.bid .right .bg{
+	text-indent: -999em;
+	overflow: hidden;
+}
+.btep0{
+	height: 40px;
+}
+.bid .right .btep1{
+	background-position:0 -40px;
+	height: 44px;
+}
+.bid .right .bend1{
+	background-position:0 -128px;
+	height: 47px;
+}
+.bid .right .btep2{
+	background-position:0 -174px;
+	height: 47px;
+}
+.bid .right .bon2{
+	background-position:0 -84px;
+	height: 44px;
+}
+.bid .right .bend2{
+	background-position:0 -266px;
+	height: 47px;
+}
+.bid .right .btep3{
+	background-position:0 -221px;
+	height: 44px;
+}
+.bid .right .bon3{
+	background-position:0 -313px;
+	height: 43px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.count{
+			height: 130px;
+			border-bottom:1px solid #d1d0d0
+		}
+		.count em{
+			color:#999;
+			display: block;
+			text-align: center;
+			height:30px;
+			padding-top:10px;
+			line-height: 30px;
+		}
+		.cd{
+			width:100%;
+			height: 80px;
+			position:relative;
+		}
+			.cd ul{
+				width:248px;
+				margin:auto;
+				height: 80px;
+			}
+				.cd li{
+					text-align: center;
+					width:55px;
+					float:left;
+					color:#333;
+					margin-right:7px;
+				}
+					.cd li span{
+						width:55px;
+						height: 59px;
+						display:block;
+						background-position:-184px -358px ;
+					}
+		.cdtime{
+			width:248px;
+			height: 59px;
+			position:absolute;
+			left:60px;
+			top:0;
+		}
+			.cdtime var{
+				text-align: center;
+				width:55px;
+				line-height: 59px;
+				float:left;
+				color:#333;
+				margin-right:7px;
+				height: 59px;
+				display:block;
+				font-size:40px;
+				font-family:Arial,'黑体';
+				color:#9ac100;
+			}
+.bid-btn{
+	height: 174px;
+	border-top: 1px solid #e7e7e7;
+	background-color:#fafafa;
+}
+.bid-btn{
+	text-align: center;
+}
+.donate{
+	color:#666;
+}
+.bid-btn a.tobid{
+	width: 178px;
+	height: 47px;
+	display: block;
+	text-indent: -999em;
+	overflow: hidden;
+	margin:17px auto 10px auto;
+	background-position:0 -358px;
+}
+.bid-btn span b{
+	color:#86c540;
+}
+.b-rule{
+	padding: 10px 25px;
+	color:#999;
+	text-align: left;
+}
+.b-rule li{
+	padding-left:10px;
+	background-position:-365px -364px;
+}
+
+.bid .succ{
+	width:180px;
+	margin-left:100px;
+	padding: 10px 0 30px 0;
+}
+.bid .succ ul{
+	width:180px;
+	height: 330px;
+	padding:0;
+}
+.bid .succ li{
+	height: 330px;
+}
+.suc-btn{
+	width:100%;
+	float:left;
+	padding:10px 0 0;
+}
+.suc-btn a{
+	width:74px;
+	height: 26px;
+	background-color: #F97624;
+    border: 1px solid #DE5F12;
+    border-radius:3px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+    margin: auto;
+    display: block;
+}

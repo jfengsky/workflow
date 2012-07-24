@@ -1,0 +1,131 @@
+
+/**
+ * 有求必应公益版 编辑添加采购需求列表 右侧部分
+ * Author: wb-jiangfeng
+ * Time: 12-7-18 10:25
+ */
+.pru-edit{
+	float:left;
+	width:645px;
+}
+	.pru-edit ul{
+
+	}
+		.pru-edit li{
+			width:100%;
+			float:left;
+			padding-bottom:20px;
+		}
+			.pru-edit li label{
+				font-size:14px;
+				float:left;
+				width:90px;
+				height:33px;
+				line-height: 33px;
+				text-align: right;
+				padding-right:10px;
+			}
+			.pru-edit .count input{
+				height: 33px;
+				padding:0 5px;
+				border:1px solid #d7d7d7;
+				border-right:none;
+				font-size:14px;
+				color:#999;
+				float:left;
+				line-height: 33px;
+				width:470px;
+				border-radius: 3px 0 0 3px;
+			}
+			.pru-edit .count em{
+				border:1px solid #d7d7d7;
+				border-left:none;
+				height: 33px;
+				display:block;
+				padding: 0 10px;
+				line-height: 33px;
+				float:left;
+				border-radius:0 3px 3px 0;
+			}
+			.pru-edit li.pay input{
+				height: 33px;
+				width:142px;
+				padding:0 5px;
+				line-height: 33px;
+				border:1px solid #d0d0d0;
+				color:#999;
+				border-radius:3px;
+			}
+
+		.editmore{
+			height: 18px;
+		    line-height: 18px;
+		    padding-bottom: 8px;
+		    padding-top:7px;
+		    width: 620px;
+		    padding-left:10px;
+		}
+			.editmore a.showedit {
+			    float: left;
+			    width: 84px;
+			}
+				.editmore a.showedit em {
+				    float: left;
+				    color:#666;
+				}
+				.editmore a.showedit span{
+				    background-position: -188px -3px;
+				    display: block;
+				    float: right;
+				    height: 4px;
+				    margin: 8px 0 0 3px;
+				    overflow: hidden;
+				    width: 7px;
+				}
+				/*.editmore a.showedit span:hover{
+					background-position: -188px right;
+				}*/
+			.editmore a.blue {
+			    float: right;
+			    color:#649901;
+			}
+		.edt textarea{
+			border:1px solid #ced4e0;
+			width:530px;
+			height: 390px;
+			margin-left:100px;
+		}
+
+		.pru-edit .check{
+			padding:8px 0 0 100px;
+		}
+			.pru-edit .check li{
+				width:200px;
+			}
+				.pru-edit .check input{
+					vertical-align: middle;
+				}
+		.pru-edit input.sub{
+			background-position:0 -204px;
+			height:40px;
+			width:102px;
+			display:block;
+			cursor:pointer;
+			border:none;
+			text-align: center;
+			line-height: 36px;
+			color:#fff;
+			font-weight: bold;
+			font-size: 14px;
+			margin:80px 0 0 100px;
+		}
+		.pru-edit p.err{
+			height: 22px;
+			border:1px solid #f2dd66;
+			background-color: #fbf6ce;
+			line-height: 22px;
+			border-radius: 3px;
+			padding:0 5px 0 30px;
+			background-position:-170px -65px;
+			margin-top:10px;
+		}

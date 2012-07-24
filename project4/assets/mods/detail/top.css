@@ -1,0 +1,15 @@
+/**
+ * 有求必应公益版 detail 顶部
+ * Author: wb-jiangfeng
+ * Time: 2012-07-18 16:04
+ */
+.detail{
+	width:990px;
+	margin:auto;
+}
+.dtop{
+	height:142px;
+	width:990px;
+	border-bottom:2px solid #666;
+	margin:auto;
+}

@@ -1,0 +1,624 @@
+/**
+ * ������ʽ
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 14:25
+ */
+.top, .top a.logo, .top li.issu a, .top li.find a, .top li.dream a, .top li a.userhead, .top em.y_test{
+    background:url(http://img03.taobaocdn.com/tps/i3/T1RJ2wXXdcXXce7kDe-140-544.png) no-repeat
+}
+.top{
+    width:100%;
+    height:68px;
+    background-repeat: repeat-x;
+}
+    .top a.logo{
+        float:left;
+        width:140px;
+        height: 68px;
+        display: block;
+        text-indent: -999em;
+        overflow:hidden;
+        background-position:0 -68px;
+    }
+    .top em.y_test{
+        background-position:-101px -189px;
+
+        width:39px;
+        height:15px;
+        text-indent:-999em;
+        overflow: hidden;
+        display:block;
+        float:left;
+        margin:33px 0 0 8px;
+        display:inline;
+    }
+    .top ul{
+        float:right;
+    }
+        .top li{
+            float:left;
+            margin-right:-1px;
+        }
+            .top li a:link{
+                color:#fff;
+            }
+            .top li a:visited{
+                color:#fff;
+            }
+            .top li a:hover{
+                color:#fff;
+            }
+            .top li.issu a, .top li.find a, .top li.dream a{
+                width:92px;
+                height: 68px;
+                display:block;
+                text-indent: -999em;
+                overflow: hidden;
+            }
+            .top li.issu a{
+                background-position:0 -136px;
+            }
+            .top li.issu a:hover{
+                background-position:0 -204px;
+            }
+            .top li.find a{
+                background-position:0 -272px ;
+            }
+            .top li.find a:hover{
+                background-position:0 -340px;
+            }
+            .top li.dream a{
+                background-position:0 -408px ;
+            }
+            .top li.dream a:hover{
+                background-position:0 -476px;
+            }
+            .top li.user{
+                padding:14px 0 0 18px;
+                width:130px;
+            }
+                .top li a.userhead{
+                    height: 30px;
+                    width:30px;
+                    display: block;
+                    background-position:-110px -146px;
+                    box-shadow:0 0 2px #ccc;
+                    margin:4px 10px 0 0;
+                    float:left;
+                }
+                .top li a.need{
+                    display: block
+                }
+                .top li a.mying, .top li span.mying{
+                    border:1px solid #dd4d06;
+                    height: 24px;
+                    width:100px;
+                    text-align: center;
+                    line-height: 24px;
+                    background: #ea560c;
+                    display: block;
+                    text-shadow:1px 1px 0 #752e0b;
+                    margin-top:8px;
+                    float:left;
+                    color:#fff;
+                    cursor:pointer;
+                    border-radius: 3px;
+                }
+                .top li span.mying:hover{
+                    text-decoration: underline;
+                }
+/* ��¼���� */
+.login{
+    width:340px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
+}
+.login iframe{
+    width:340px;
+    height: 300px;
+}
+    .login a.ks-ext-close{
+        position:absolute;
+        top:0;
+        right:5px;
+    }
+/* ʲô�������Ӧ������ */
+.whatying{
+    width:600px;
+    height: 500px;
+    overflow:hidden;
+}
+    .whatying .prev, .whatying .next{
+        color:#f60;
+        font-size:60px;
+        position: absolute;
+        font-weight: bold;
+        font-family: sans-serif;
+        cursor:pointer;
+        top:240px;
+        left:25px;
+        z-index: 10004;
+    }
+    .whatying .next{
+        left:555px;
+    }
+    .whatying .disable{
+        color:#ffcc9a;
+        cursor: auto;
+    }/**
+ * 顶部样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 14:25
+ */
+.wide{
+	width:990px;
+	margin:auto
+}
+.clear{
+	clear:both;
+}
+.h{
+	color:#f60;
+}/**
+ * 有求必应公益�?发布进度模块样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 13:59
+ */
+.step, .step2, .step3, .pub-succ i, .pub-succ b{
+	background: url(http://img03.taobaocdn.com/tps/i3/T1t9zuXeRoXXX0gx6h-987-124.png) no-repeat;
+}
+.step, .step2, .step3{
+	width:990px;
+	height: 30px;
+	margin:30px auto auto;
+}
+.step2{
+	background-position:0 -30px;
+}
+.step3{
+	background-position:0 -60px;
+}/**
+ * 有求必应公益�?项目发主内容�?
+ * Author: wb-jiangfeng
+ * Time: 2012-07-17 15:21
+ */
+.publish .left h3, .left span.pub-err, .budget input.money, .editmore a.showedit span{
+	background: url(http://img04.taobaocdn.com/tps/i4/T1qzfrXgFrXXaLz8cK-195-169.png) no-repeat;
+}
+.form-sub input.sub, .form-sub span.subing{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.publish{
+	width:990px;
+	margin:35px auto 80px;
+	border-top:2px solid #666;
+}
+	.publish .left{
+		float:left;
+		width:645px;
+		padding-left:10px;
+		float:left;
+	}
+		.publish .left h3{
+			height:17px;
+			width:158px;
+			text-indent: -999em;
+			margin-bottom:15px;
+			overflow: hidden;
+		}
+
+	/* 项目描述 */
+	.title{
+		padding-top:25px;
+		height: 120px;
+		position:relative;
+	}
+		.title .count input{
+			height: 33px;
+			padding:0 5px;
+			border:1px solid #d7d7d7;
+			border-right:none;
+			font-size:14px;
+			color:#999;
+			float:left;
+			line-height: 33px;
+			width:490px;
+			border-radius: 3px 0 0 3px;
+		}
+		.title .count em{
+			border:1px solid #d7d7d7;
+			border-left:none;
+			height: 33px;
+			display:block;
+			padding: 0 10px;
+			line-height: 33px;
+			float:left;
+			border-radius:0 3px 3px 0;
+		}
+			/* 错误提示 */
+			.left span.pub-err{
+				position:absolute;
+				background-position:-179px -68px;
+				padding-left: 20px;
+				height:16px;
+				line-height: 16px;
+				display:block;
+				color:#f00;
+			}
+			.title span.pub-err{
+				left:0;
+				top:98px;
+			}
+
+	/* 图片上传 */
+	.pic {
+		min-height: 120px;
+		height:auto !important; 
+    	height:120px; 
+		position:relative;
+	}
+		.left .pic h3{
+			background-position:0 -17px;
+			width:95px;
+		}
+		.left .pic span.pub-err{
+			left:220px;
+			top:35px;
+		}
+		.pic em, .budget em, .video em{
+			display:block;
+			color:#999;
+			padding-top:3px;
+		}
+	/* 您的预算 */
+	.budget{
+		height: 120px;
+		position:relative;
+	}
+		.left .budget h3{
+			background-position:0 -34px;
+			width:80px;
+		}
+		.budget .mn{
+			width:154px;
+			height: 27px;
+			overflow:hidden;
+		}
+			.budget input.money{
+				width:120px;
+				height: 27px;
+				border:none;
+				overflow:hidden;
+				padding:0 4px 0 30px;
+				background-position:0 -68px;
+				font-size:14px;
+				color:#999;
+			}
+		.left .budget span.pub-err{
+			left:220px;
+			top:35px;
+		}
+
+	/* 投标天数 */
+	.votetime{
+		height: 120px;
+		position:relative;
+	}
+		.left .votetime h3{
+			background-position:-83px -34px;
+			width:112px;
+		}
+		.votetime input{
+			height: 25px;
+			width:142px;
+			padding:0 5px;
+			line-height: 25px;
+			border:1px solid #d0d0d0;
+			color:#999;
+			border-radius:3px;
+		}
+		.left .votetime span.pub-err{
+			left:220px;
+			top:35px;
+		}
+	/* 招募天数 */
+		.left .recruit h3{
+			background-position:0 -51px;
+			width:112px;
+		}
+	/* 项目描述 */
+	.video{
+		height: 120px;
+	}
+		.video input{
+			height: 25px;
+			width:410px;
+			padding:0 5px;
+			line-height: 25px;
+			border:1px solid #d0d0d0;
+			color:#999;
+			border-radius:3px;
+		}
+		.video a{
+			color:#689900;
+			font-weight:bold;
+			margin-left:10px;
+		}
+
+	/* 富文本编辑器 */
+	.edit{
+
+	}
+		.editmore{
+			height: 18px;
+		    line-height: 18px;
+		    padding-bottom: 8px;
+		    width: 540px;
+		}
+			.editmore a.showedit {
+			    float: left;
+			    width: 84px;
+			}
+				.editmore a.showedit em {
+				    float: left;
+				    color:#666;
+				}
+				.editmore a.showedit span{
+				    background-position: -188px -3px;
+				    display: block;
+				    float: right;
+				    height: 4px;
+				    margin: 8px 0 0 3px;
+				    overflow: hidden;
+				    width: 7px;
+				}
+				/*.editmore a.showedit span:hover{
+					background-position: -188px right;
+				}*/
+			.editmore a.blue {
+			    float: right;
+			    color:#649901;
+			}
+		.edit textarea{
+			border:1px solid #ced4e0;
+			width:540px;
+			height: 390px;
+		}
+		.pub-age{
+			margin:20px 0 30px 0;
+			position:relative;
+		}
+			.pub-age input{
+				vertical-align: middle;
+			}
+			.left .pub-age span.pub-err{
+				left:300px;
+				top:1px;
+			}
+			.pub-age a{
+				color:#f60;
+			}
+	/* 提交表单 */
+	.form-sub{
+		height:50px;
+	}
+		.form-sub input.sub, .form-sub span.subing{
+			background-position:0 -204px;
+			width:102px;
+			height: 40px;
+			border:none;
+			font-size:14px;
+			color:#fff;
+			font-weight:bold;
+			text-shadow:1px 1px #390;
+			cursor:pointer;
+		}
+		.form-sub span.subing{
+			background-position:0 -244px;
+			display:block;
+			cursor:auto;
+			text-align:center;
+			line-height: 40px;
+		}
+	.publish .right{
+		background-color: #f3f3f3;
+		height: 1160px;
+		width:330px;
+		float:right;
+	}
+.ke-editor-status{
+	display: none;
+}/**
+ * 有求必应公益�?发布成功模块
+ * Author: wb-jiangfeng
+ * Time: 2012-07-17 11:31
+ */
+.aid a.vote, .aid a.vote span{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.pub-succ{
+	width:990px;
+	margin:auto;
+	padding-top:140px;
+	min-height: 400px;
+	height:auto !important;
+	height: 400px;
+}
+			.pub-succ h2 i{
+				height: 33px;
+				width:33px;
+				display: block;
+				float:left;
+				background-position:0 -91px; 
+				margin-left:315px;
+			}
+			.pub-succ h2 b{
+				background-position:-44px -91px;
+				height: 33px;
+				width:305px;
+				display: block;
+				text-indent: -999em;
+				overflow:hidden;
+				margin-left:10px;
+				float:left;
+			}
+			.aid h2 b{
+				background-position:-362px -91px;
+				width:350px;;
+			}
+	.pub-succ a.back{
+		clear: both;
+		float:left;
+		margin-left:360px;
+		color:#679703;
+	}
+	.pub-succ a.back:visited{
+		color:#679703
+	}
+	.pub-succ a.back:hover{
+		color:#679703
+	}
+
+	/* 马上去投�?*/
+	.aid a.vote{
+		clear:both;
+		height: 34px;
+		display:block;
+		padding-left:15px;
+		background-position: 0 0;
+		float:left;
+		margin:10px 0 0 360px;
+	}
+		.aid a.vote span{
+			height: 34px;
+			padding-right:16px;
+			display:block;
+			float:left;
+			background-position: right -34px;
+			line-height: 32px;
+			*line-height:34px;
+			color:#fff;
+			font-weight: bold;
+		}
+		.aid a.vote span:hover{
+			text-decoration: underline;
+		}
+
+/* invoice */
+.invoice{
+	clear:both;
+	width:300px;
+	float:left;
+	margin:20px 0 0 360px;
+	border-top:1px solid #ccc;
+	padding-top:20px;
+}
+.invoice em input{
+	vertical-align: middle;
+}
+.invoice ul{
+	padding:10px 0 0 14px;
+}
+.invoice ul li{
+	padding-bottom:10px;
+}
+.invoice label{
+	width:60px;
+	display: inline-block;
+}
+.invoice li input.txt{
+	border: 1px solid #D0D0D0;
+    border-radius: 3px 3px 3px 3px;
+    color: #999999;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    width: 142px;
+}
+.invoice a.vote{
+	float:left;
+	margin-left:60px;
+}
+.hasinvo{
+	clear:both;
+	width:300px;
+	float:left;
+	margin:20px 0 0 360px;
+	border:1px solid #093;
+	padding:10px;
+	color:#060;
+	background-color:#eaffee;
+}/**
+ * ҳ����ʽ
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 13:59
+ */
+.g_foot{
+    width: 960px;
+    margin: 0 auto;
+    font: 12px/1.5 tahoma,arial,"����";
+    padding: 7px 0 9px;
+    color: #b0b0b0;
+    text-align: left !important;
+    position: relative;
+    clear:both;
+}
+.g_foot a{
+    margin: 0 4px;
+    color: #3e3e3e;
+    text-decoration:none;
+}
+.g_foot a:hover{
+    color: #F60;
+    text-decoration: underline;
+
+}
+.g_foot-ali{
+    margin-right: 100px;
+    padding-left: 0;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 8px;
+}
+.g_foot-nohover{
+    cursor: default;
+}
+.g_foot-nohover:hover{
+    color:#3e3e3e !important;
+    text-decoration:none !important;
+}
+.g_foot-ali b {
+    margin: 0 4px;
+    color:#d3d3d3;
+    font-weight: normal;
+}
+.g_foot-nav{
+    margin-top: 8px;
+    line-height: 20px;
+}
+.g_foot-nav span{
+    margin-left: 50px;
+}
+.g_foot-toy{
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1MMPaXkNjXXaXezbh-48-70.png) no-repeat;
+    _background: url(http://img01.taobaocdn.com/tps/i1/T1XgzaXX0kXXaXezbh-48-70.png) no-repeat;
+    width: 69px;
+    height: 100px;
+    display: block;
+    right: 0px;
+    top:0px;
+}
+/* IE9 only */
+:root .g_foot-toy {
+    right:-20px\9;
+}
+.g_foot-line{
+    display: none;
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1I_56Xl0wXXXXXXXX-104-1.png) no-repeat;
+    width: 104px;
+    height: 1px;
+    right: 45px;
+    top:33px;
+}

@@ -1,0 +1,159 @@
+/**
+ * 有求必应公益版 卖家竞标
+ * Author: wb-jiangfeng
+ * Time: 2012-07-19 14:30
+ */
+.suppliers{
+    width:990px;
+    overflow:hidden;
+    float:left;
+	padding-bottom:40px
+}
+.suppliers h3, .pur-item h3{
+    border-bottom:1px solid #bebebe;
+    height:29px;
+    line-height: 29px;
+    padding-top:10px;
+}
+.suppliers h3 span, .pur-item h3 span{
+    float:left;
+    padding:0 10px;
+    font-weight:bold;
+    color:#fff;
+    border-top:1px solid #589318;
+    border-left:1px solid #589318;
+    border-right:1px solid #589318;
+    background-color: #85c442;
+}
+
+.suppliers ul{
+    width:1100px;
+    padding-top:30px;
+    float:left;
+    margin-bottom:-1px;
+}
+.suppliers li{
+    float:left;
+    width:178px;
+    height: 360px;
+    margin-right:25px;
+	position:relative;
+    _margin-right:22px;
+}
+.num{
+    height:23px;
+    width:100%;
+    line-height: 23px;
+    padding:7px 0;
+}
+.num b{
+    float:left;
+	font-size:14px;
+}
+.num a.btn-s{
+    float:right;
+}
+.num em{
+    float:right;
+	font-size:14px;
+}
+.num em span{
+	color:#f60;
+}
+.num input{
+	float:right;
+	background-position:-410px -63px;
+	width:45px;
+	height:23px;
+	line-height:23px;
+	text-align:center;
+	color:#fff;
+	border:none;
+}
+.suppliers .box{
+    border:1px solid #eee;
+    height:178px;
+    width:178px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    *display: block;
+    *font-size: 160px;
+    *font-family:Arial;
+    overflow:hidden;
+}
+.suppliers .box:hover{
+    border:1px solid #f60
+}
+.suppliers .box img {
+    vertical-align:middle;
+}
+.suppliers h4{
+    font-weight:normal;
+    line-height: 30px;
+    width:178px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.suppliers h4 a:link{
+    color:#85c442
+}
+.suppliers h4 a:visited{
+    color:#85c442
+}
+.suppliers h4 a:hover{
+    color:#f60
+}
+.suppliers li p{
+    color:#999;
+    padding-bottom:5px;
+}
+.suppliers dd.vte-price{
+    color:#333;
+    font-family: Verdana;
+}
+.suppliers dd.vte-price span{
+    color:#f60;
+    font-weight: bold
+}
+.vte-price em.old-price{
+    color:#989898;
+    text-decoration:line-through;
+    padding-bottom:5px;
+}
+.suppliers dd a.shop{
+    color:#545454;
+    text-decoration: underline
+}
+.suppliers dd.seller{
+    padding-top:5px;
+}
+.suppliers a.seller {
+    color:#f60;
+    float: right;
+}
+/*
+.suppliers dd span.credit{
+	width:16px;
+    height:12px;
+    display:block;
+    text-indent:-999em;
+    overflow:hidden;
+    cursor:pointer;
+    float:right;
+    background-position:-359px -69px;
+    margin-top:5px;
+}
+*/
+.suppliers dd span.credit{
+	display:none
+}
+.qual{
+	background:url(http://img01.taobaocdn.com/tps/i1/T1z1u9XchjXXXXXXXX-96-56.png) no-repeat;
+	width:96px;
+	height:56px;
+	position:absolute;
+	left:85px;
+	top:25px;
+    
+}

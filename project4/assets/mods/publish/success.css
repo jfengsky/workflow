@@ -1,0 +1,121 @@
+/**
+ * 有求必应公益版 发布成功模块
+ * Author: wb-jiangfeng
+ * Time: 2012-07-17 11:31
+ */
+.aid a.vote, .aid a.vote span{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.pub-succ{
+	width:990px;
+	margin:auto;
+	padding-top:140px;
+	min-height: 400px;
+	height:auto !important;
+	height: 400px;
+}
+			.pub-succ h2 i{
+				height: 33px;
+				width:33px;
+				display: block;
+				float:left;
+				background-position:0 -91px; 
+				margin-left:315px;
+			}
+			.pub-succ h2 b{
+				background-position:-44px -91px;
+				height: 33px;
+				width:305px;
+				display: block;
+				text-indent: -999em;
+				overflow:hidden;
+				margin-left:10px;
+				float:left;
+			}
+			.aid h2 b{
+				background-position:-362px -91px;
+				width:350px;;
+			}
+	.pub-succ a.back{
+		clear: both;
+		float:left;
+		margin-left:360px;
+		color:#679703;
+	}
+	.pub-succ a.back:visited{
+		color:#679703
+	}
+	.pub-succ a.back:hover{
+		color:#679703
+	}
+
+	/* 马上去投票 */
+	.aid a.vote{
+		clear:both;
+		height: 34px;
+		display:block;
+		padding-left:15px;
+		background-position: 0 0;
+		float:left;
+		margin:10px 0 0 360px;
+	}
+		.aid a.vote span{
+			height: 34px;
+			padding-right:16px;
+			display:block;
+			float:left;
+			background-position: right -34px;
+			line-height: 32px;
+			*line-height:34px;
+			color:#fff;
+			font-weight: bold;
+		}
+		.aid a.vote span:hover{
+			text-decoration: underline;
+		}
+
+/* invoice */
+.invoice{
+	clear:both;
+	width:300px;
+	float:left;
+	margin:20px 0 0 360px;
+	border-top:1px solid #ccc;
+	padding-top:20px;
+}
+.invoice em input{
+	vertical-align: middle;
+}
+.invoice ul{
+	padding:10px 0 0 14px;
+}
+.invoice ul li{
+	padding-bottom:10px;
+}
+.invoice label{
+	width:60px;
+	display: inline-block;
+}
+.invoice li input.txt{
+	border: 1px solid #D0D0D0;
+    border-radius: 3px 3px 3px 3px;
+    color: #999999;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    width: 142px;
+}
+.invoice a.vote{
+	float:left;
+	margin-left:60px;
+}
+.hasinvo{
+	clear:both;
+	width:300px;
+	float:left;
+	margin:20px 0 0 360px;
+	border:1px solid #093;
+	padding:10px;
+	color:#060;
+	background-color:#eaffee;
+}

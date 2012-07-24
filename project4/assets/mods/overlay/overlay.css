@@ -1,0 +1,123 @@
+/**
+ * 有求必应公益版 浮层 投票确认
+ * Author: wb-jiangfeng
+ * Time: 2012-07-19 14:47
+ */
+.vote-cnt .cnt-btn a{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.success .continue span, .success span.share{
+	background: url(http://img03.taobaocdn.com/tps/i3/T1t9zuXeRoXXX0gx6h-987-124.png) no-repeat;
+}
+.tender {
+    background:#fff;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 530px;
+    color:#333;
+}
+	.tender .title {
+	    background-color: #FF6600;
+	    color: #FFFFFF;
+	    height: 35px;
+	    line-height: 35px;
+	    padding: 0 15px;
+	}
+	.tender .gre{
+		background-color: #85c442;
+	}
+		.tender .title b {
+		    float: left;
+		    font-size: 14px;
+		}
+		.title a.close {
+		    color: #FFFFFF;
+		    float: right;
+		}
+	.tender .cnt{
+		padding:60px 60px;
+	}
+		.tender .cnt p.bid{
+			font-size: 14px;
+			text-align: center;
+			padding-bottom: 50px;
+		}
+		.vote-cnt .cnt-btn{
+			width:230px;
+			margin:auto;
+			height: 40px;
+		}
+			.vote-cnt .cnt-btn a{
+				width:102px;
+				height:40px;
+				display: block;
+				background-position:0 -204px;
+				float:left;
+				margin-right:10px;
+				text-align: center;
+				line-height: 36px;
+				color:#fff;
+				font-size:14px;
+				font-weight: bold;
+			}
+			.vote-cnt .cnt-btn a.cle{
+				background-position:0 -244px;
+			}
+	.success .continue{
+		line-height: 32px;
+		width:230px;
+		font-weight: bold;
+		margin:auto;
+	}
+		.success .continue a, .success .medal em a{
+			color:#5ba011
+		}
+		.success .continue span{
+			height: 32px;
+			width:32px;
+			display:block;
+			float:left;
+			margin-right:10px;
+			background-position:0 -91px;
+
+		}
+		.success span.share{
+			width:160px;
+			height: 25px;
+			line-height: 23px;
+			text-shadow:1px 1px #363;
+			display:block;
+			cursor:pointer;
+			color:#fff;
+			padding-left:14px;
+			text-align: center;
+			margin:10px auto;
+			background-position:-771px -96px;
+		}
+		.success span.share:hover{
+			text-decoration: underline;
+		}
+		.success .medal{
+			border:2px solid #d7ecc1;
+			background-color:#f9fff5;
+			padding:5px 10px;
+			text-align: center;
+			height: 86px;
+			margin-top:20px;
+			overflow:hidden;
+		}
+		.success .medal em{
+			text-decoration: center;
+			display: block;
+			width:100%;
+			float;left;
+		}
+	.medal ul{
+		float:left;
+		padding-top:10px;
+		padding-left:100px;
+	}
+	.medal li{
+		float:left;
+		margin-right:10px;
+	}

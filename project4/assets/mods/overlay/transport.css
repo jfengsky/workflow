@@ -1,0 +1,24 @@
+/**
+ * 有求必应公益版 浮层 快递查询
+ * Author: wb-jiangfeng
+ * Time: 2012-07-19 14:47
+ */
+.tender .transport{
+	padding:20px;
+}
+.transport p{
+	border:1px solid #ffcc7f;
+	color:#666;
+	padding:5px;
+	background-color: #ffffe5;
+	margin-bottom:10px;
+}
+.transport td{
+	vertical-align: top;
+	line-height: 24 px;
+}
+.transport .scroll{
+	height: 240px;
+	overflow-x:hidden;
+	overflow-y: auto;
+}

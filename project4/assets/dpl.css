@@ -1,0 +1,357 @@
+/**
+ * 顶部样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 14:25
+ */
+.top, .top a.logo, .top li.issu a, .top li.find a, .top li.dream a, .top li a.userhead, .top em.y_test{
+    background:url(http://img03.taobaocdn.com/tps/i3/T1RJ2wXXdcXXce7kDe-140-544.png) no-repeat
+}
+.top{
+    width:100%;
+    height:68px;
+    background-repeat: repeat-x;
+}
+    .top a.logo{
+        float:left;
+        width:140px;
+        height: 68px;
+        display: block;
+        text-indent: -999em;
+        overflow:hidden;
+        background-position:0 -68px;
+    }
+    .top em.y_test{
+        background-position:-101px -189px;
+
+        width:39px;
+        height:15px;
+        text-indent:-999em;
+        overflow: hidden;
+        display:block;
+        float:left;
+        margin:33px 0 0 8px;
+        display:inline;
+    }
+    .top ul{
+        float:right;
+    }
+        .top li{
+            float:left;
+            margin-right:-1px;
+        }
+            .top li a:link{
+                color:#fff;
+            }
+            .top li a:visited{
+                color:#fff;
+            }
+            .top li a:hover{
+                color:#fff;
+            }
+            .top li.issu a, .top li.find a, .top li.dream a{
+                width:92px;
+                height: 68px;
+                display:block;
+                text-indent: -999em;
+                overflow: hidden;
+            }
+            .top li.issu a{
+                background-position:0 -136px;
+            }
+            .top li.issu a:hover{
+                background-position:0 -204px;
+            }
+            .top li.find a{
+                background-position:0 -272px ;
+            }
+            .top li.find a:hover{
+                background-position:0 -340px;
+            }
+            .top li.dream a{
+                background-position:0 -408px ;
+            }
+            .top li.dream a:hover{
+                background-position:0 -476px;
+            }
+            .top li.user{
+                padding:14px 0 0 18px;
+                width:130px;
+            }
+                .top li a.userhead{
+                    height: 30px;
+                    width:30px;
+                    display: block;
+                    background-position:-110px -146px;
+                    box-shadow:0 0 2px #ccc;
+                    margin:4px 10px 0 0;
+                    float:left;
+                }
+                .top li a.need{
+                    display: block
+                }
+                .top li a.mying, .top li span.mying{
+                    border:1px solid #dd4d06;
+                    height: 24px;
+                    width:100px;
+                    text-align: center;
+                    line-height: 24px;
+                    background: #ea560c;
+                    display: block;
+                    text-shadow:1px 1px 0 #752e0b;
+                    margin-top:8px;
+                    float:left;
+                    color:#fff;
+                    cursor:pointer;
+                    border-radius: 3px;
+                }
+                .top li span.mying:hover{
+                    text-decoration: underline;
+                }
+/* 登录浮层 */
+.login{
+    width:340px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
+}
+.login iframe{
+    width:340px;
+    height: 300px;
+}
+    .login a.ks-ext-close{
+        position:absolute;
+        top:0;
+        right:5px;
+    }
+/* 什么是有求必应弹出层 */
+.whatying{
+    width:600px;
+    height: 500px;
+    overflow:hidden;
+}
+    .whatying .prev, .whatying .next{
+        color:#f60;
+        font-size:60px;
+        position: absolute;
+        font-weight: bold;
+        font-family: sans-serif;
+        cursor:pointer;
+        top:240px;
+        left:25px;
+        z-index: 10004;
+    }
+    .whatying .next{
+        left:555px;
+    }
+    .whatying .disable{
+        color:#ffcc9a;
+        cursor: auto;
+    }/**
+ * 椤堕儴鏍峰紡
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 14:25
+ */
+.wide{
+	width:990px;
+	margin:auto
+}
+.clear{
+	clear:both;
+}
+.h{
+	color:#f60;
+}/**
+ * 鏈夋眰蹇呭簲鍏泭鐗?娴眰 鎶曠エ纭
+ * Author: wb-jiangfeng
+ * Time: 2012-07-19 14:47
+ */
+.vote-cnt .cnt-btn a{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.success .continue span, .success span.share{
+	background: url(http://img03.taobaocdn.com/tps/i3/T1t9zuXeRoXXX0gx6h-987-124.png) no-repeat;
+}
+.tender {
+    background:#fff;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 530px;
+    color:#333;
+}
+	.tender .title {
+	    background-color: #FF6600;
+	    color: #FFFFFF;
+	    height: 35px;
+	    line-height: 35px;
+	    padding: 0 15px;
+	}
+	.tender .gre{
+		background-color: #85c442;
+	}
+		.tender .title b {
+		    float: left;
+		    font-size: 14px;
+		}
+		.title a.close {
+		    color: #FFFFFF;
+		    float: right;
+		}
+	.tender .cnt{
+		padding:60px 60px;
+	}
+		.tender .cnt p.bid{
+			font-size: 14px;
+			text-align: center;
+			padding-bottom: 50px;
+		}
+		.vote-cnt .cnt-btn{
+			width:230px;
+			margin:auto;
+			height: 40px;
+		}
+			.vote-cnt .cnt-btn a{
+				width:102px;
+				height:40px;
+				display: block;
+				background-position:0 -204px;
+				float:left;
+				margin-right:10px;
+				text-align: center;
+				line-height: 36px;
+				color:#fff;
+				font-size:14px;
+				font-weight: bold;
+			}
+			.vote-cnt .cnt-btn a.cle{
+				background-position:0 -244px;
+			}
+	.success .continue{
+		line-height: 32px;
+		width:230px;
+		font-weight: bold;
+		margin:auto;
+	}
+		.success .continue a, .success .medal em a{
+			color:#5ba011
+		}
+		.success .continue span{
+			height: 32px;
+			width:32px;
+			display:block;
+			float:left;
+			margin-right:10px;
+			background-position:0 -91px;
+
+		}
+		.success span.share{
+			width:160px;
+			height: 25px;
+			line-height: 23px;
+			text-shadow:1px 1px #363;
+			display:block;
+			cursor:pointer;
+			color:#fff;
+			padding-left:14px;
+			text-align: center;
+			margin:10px auto;
+			background-position:-771px -96px;
+		}
+		.success span.share:hover{
+			text-decoration: underline;
+		}
+		.success .medal{
+			border:2px solid #d7ecc1;
+			background-color:#f9fff5;
+			padding:5px 10px;
+			text-align: center;
+			height: 86px;
+			margin-top:20px;
+			overflow:hidden;
+		}
+		.success .medal em{
+			text-decoration: center;
+			display: block;
+			width:100%;
+			float;left;
+		}
+	.medal ul{
+		float:left;
+		padding-top:10px;
+		padding-left:100px;
+	}
+	.medal li{
+		float:left;
+		margin-right:10px;
+	}/**
+ * 页脚样式
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 13:59
+ */
+.g_foot{
+    width: 960px;
+    margin: 0 auto;
+    font: 12px/1.5 tahoma,arial,"宋体";
+    padding: 7px 0 9px;
+    color: #b0b0b0;
+    text-align: left !important;
+    position: relative;
+    clear:both;
+}
+.g_foot a{
+    margin: 0 4px;
+    color: #3e3e3e;
+    text-decoration:none;
+}
+.g_foot a:hover{
+    color: #F60;
+    text-decoration: underline;
+
+}
+.g_foot-ali{
+    margin-right: 100px;
+    padding-left: 0;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 8px;
+}
+.g_foot-nohover{
+    cursor: default;
+}
+.g_foot-nohover:hover{
+    color:#3e3e3e !important;
+    text-decoration:none !important;
+}
+.g_foot-ali b {
+    margin: 0 4px;
+    color:#d3d3d3;
+    font-weight: normal;
+}
+.g_foot-nav{
+    margin-top: 8px;
+    line-height: 20px;
+}
+.g_foot-nav span{
+    margin-left: 50px;
+}
+.g_foot-toy{
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1MMPaXkNjXXaXezbh-48-70.png) no-repeat;
+    _background: url(http://img01.taobaocdn.com/tps/i1/T1XgzaXX0kXXaXezbh-48-70.png) no-repeat;
+    width: 69px;
+    height: 100px;
+    display: block;
+    right: 0px;
+    top:0px;
+}
+/* IE9 only */
+:root .g_foot-toy {
+    right:-20px\9;
+}
+.g_foot-line{
+    display: none;
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1I_56Xl0wXXXXXXXX-104-1.png) no-repeat;
+    width: 104px;
+    height: 1px;
+    right: 45px;
+    top:33px;
+}

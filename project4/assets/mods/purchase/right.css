@@ -1,0 +1,32 @@
+
+/**
+ * 有求必应公益版 编辑添加采购需求列表 右侧部分
+ * Author: wb-jiangfeng
+ * Time: 12-7-18 10:25
+ */
+.purchase{
+	border-top: 2px solid #666666;
+    margin: 35px auto 80px;
+    width: 990px;
+}
+	.purchase .right{
+		float:right;
+		width:300px;
+		padding:0 10px 0 20px;
+		background-color:#f3f3f3;
+		height: 1160px;
+	}
+		.purchase .right h3{
+			color:#666;
+			font-weight:normal;
+			line-height: 30px;
+			padding:20px 0 10px 0;
+		}
+		.purchase .right h4{
+			font-size: 14px;
+			line-height: 30px;
+		}
+		.purchase .right p{
+			padding-bottom:20px;
+			line-height: 20px;
+		}

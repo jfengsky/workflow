@@ -1,0 +1,64 @@
+/**
+ * 有求必应公益版 冻结支付页面
+ * Author: wb-jiangfeng
+ * Time: 2012-07-18 14:56
+ */
+.pay .alipay{
+	background: url(http://img02.taobaocdn.com/tps/i2/T1yw_uXalmXXbdN4A3-101-34.png) no-repeat;
+}
+.pay input.sub{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.pay{
+	width:990px;
+	margin:50px auto 80px;
+}
+	.pay li{
+		margin-bottom:30px;
+	}
+		.pay label{
+			width:80px;
+			font-size: 14px;
+			display: inline-block;
+		}
+			.pay .alipay{
+				background-position:80px 10px;
+				padding:50px 0 0 80px;
+				margin-top:-40px;
+				color:#999;
+			}
+				.pay .alipay a{
+					color:#86c342
+				}
+				.pay b{
+					color:#f60;
+					font-size: 14px;
+					font-family: Verdana;
+				}
+				.pay input.num{
+					border: 1px solid #D0D0D0;
+				    border-radius: 3px 3px 3px 3px;
+				    color: #999999;
+				    height: 33px;
+				    line-height: 33px;
+				    padding: 0 5px;
+				    width: 142px
+				}
+			.pay .total{
+				width:410px;
+				height: 46px;
+				padding:0 10px;
+				border:2px solid #ffeacb;
+				font-size: 14px;
+				line-height: 46px;
+			}
+			.pay input.sub{
+				background-position: 0 -204px;
+				width:102px;
+				height: 40px;
+				border:none;
+				color:#fff;
+				font-size: 14px;
+				font-weight: bold;
+				cursor: pointer;
+			}

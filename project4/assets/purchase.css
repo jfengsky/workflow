@@ -1,0 +1,520 @@
+/**
+ * ∂•≤ø—˘ Ω
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 14:25
+ */
+.top, .top a.logo, .top li.issu a, .top li.find a, .top li.dream a, .top li a.userhead, .top em.y_test{
+    background:url(http://img03.taobaocdn.com/tps/i3/T1RJ2wXXdcXXce7kDe-140-544.png) no-repeat
+}
+.top{
+    width:100%;
+    height:68px;
+    background-repeat: repeat-x;
+}
+    .top a.logo{
+        float:left;
+        width:140px;
+        height: 68px;
+        display: block;
+        text-indent: -999em;
+        overflow:hidden;
+        background-position:0 -68px;
+    }
+    .top em.y_test{
+        background-position:-101px -189px;
+
+        width:39px;
+        height:15px;
+        text-indent:-999em;
+        overflow: hidden;
+        display:block;
+        float:left;
+        margin:33px 0 0 8px;
+        display:inline;
+    }
+    .top ul{
+        float:right;
+    }
+        .top li{
+            float:left;
+            margin-right:-1px;
+        }
+            .top li a:link{
+                color:#fff;
+            }
+            .top li a:visited{
+                color:#fff;
+            }
+            .top li a:hover{
+                color:#fff;
+            }
+            .top li.issu a, .top li.find a, .top li.dream a{
+                width:92px;
+                height: 68px;
+                display:block;
+                text-indent: -999em;
+                overflow: hidden;
+            }
+            .top li.issu a{
+                background-position:0 -136px;
+            }
+            .top li.issu a:hover{
+                background-position:0 -204px;
+            }
+            .top li.find a{
+                background-position:0 -272px ;
+            }
+            .top li.find a:hover{
+                background-position:0 -340px;
+            }
+            .top li.dream a{
+                background-position:0 -408px ;
+            }
+            .top li.dream a:hover{
+                background-position:0 -476px;
+            }
+            .top li.user{
+                padding:14px 0 0 18px;
+                width:130px;
+            }
+                .top li a.userhead{
+                    height: 30px;
+                    width:30px;
+                    display: block;
+                    background-position:-110px -146px;
+                    box-shadow:0 0 2px #ccc;
+                    margin:4px 10px 0 0;
+                    float:left;
+                }
+                .top li a.need{
+                    display: block
+                }
+                .top li a.mying, .top li span.mying{
+                    border:1px solid #dd4d06;
+                    height: 24px;
+                    width:100px;
+                    text-align: center;
+                    line-height: 24px;
+                    background: #ea560c;
+                    display: block;
+                    text-shadow:1px 1px 0 #752e0b;
+                    margin-top:8px;
+                    float:left;
+                    color:#fff;
+                    cursor:pointer;
+                    border-radius: 3px;
+                }
+                .top li span.mying:hover{
+                    text-decoration: underline;
+                }
+/* µ«¬º∏°≤„ */
+.login{
+    width:340px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
+}
+.login iframe{
+    width:340px;
+    height: 300px;
+}
+    .login a.ks-ext-close{
+        position:absolute;
+        top:0;
+        right:5px;
+    }
+/*  ≤√¥ «”–«Û±ÿ”¶µØ≥ˆ≤„ */
+.whatying{
+    width:600px;
+    height: 500px;
+    overflow:hidden;
+}
+    .whatying .prev, .whatying .next{
+        color:#f60;
+        font-size:60px;
+        position: absolute;
+        font-weight: bold;
+        font-family: sans-serif;
+        cursor:pointer;
+        top:240px;
+        left:25px;
+        z-index: 10004;
+    }
+    .whatying .next{
+        left:555px;
+    }
+    .whatying .disable{
+        color:#ffcc9a;
+        cursor: auto;
+    }/**
+ * È°∂ÈÉ®Ê†∑Âºè
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 14:25
+ */
+.wide{
+	width:990px;
+	margin:auto
+}
+.clear{
+	clear:both;
+}
+.h{
+	color:#f60;
+}/**
+ * ÊúâÊ±ÇÂøÖÂ∫îÂÖ¨ÁõäÁâ?ÂèëÂ∏ÉËøõÂ∫¶Ê®°ÂùóÊ†∑Âºè
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 13:59
+ */
+.step, .step2, .step3, .pub-succ i, .pub-succ b{
+	background: url(http://img03.taobaocdn.com/tps/i3/T1t9zuXeRoXXX0gx6h-987-124.png) no-repeat;
+}
+.step, .step2, .step3{
+	width:990px;
+	height: 30px;
+	margin:30px auto auto;
+}
+.step2{
+	background-position:0 -30px;
+}
+.step3{
+	background-position:0 -60px;
+}
+/**
+ * ÊúâÊ±ÇÂøÖÂ∫îÂÖ¨ÁõäÁâ?ÁºñËæëÊ∑ªÂä†ÈááË¥≠Èú?±ÇÂàóË°® Â∑¶‰æßÈááË¥≠Ê∏ÖÂçï
+ * Author: wb-jiangfeng
+ * Time: 12-7-18 10:25
+ */
+.pru-list h3, .list-edit a, .pru-list a.add, .pru-edit h3, .pru-edit h3, .editmore a.showedit span, .pru-edit p.err{
+	background: url(http://img04.taobaocdn.com/tps/i4/T1qzfrXgFrXXaLz8cK-195-169.png) no-repeat;
+}
+.pru-list a.next, .pru-edit input.sub{
+	background: url(http://img01.taobaocdn.com/tps/i1/T17kfvXaXhXXcNt.kh-180-284.png) no-repeat;
+}
+.pru-list{
+	float:left;
+	width:620px;
+}
+	.pru-list h3, .pru-edit h3{
+		height:17px;
+		width:97px;
+		display:block;
+		text-indent:-999px;
+		background-position:0 -128px;
+		overflow:hidden;
+		margin:18px 0 27px 0;
+	}
+		.list-title{
+			height: 37px;
+			width:100%;
+			margin-bottom:20px;
+		}
+			.list-title em{
+				height: 35px;
+				width:35px;
+				border:1px solid #86c543;
+				display:block;
+				color:#86c543;
+				line-height: 35px;
+				text-align: center;
+				font-size:20px;
+				border-radius: 2px;
+				font-family: Verdana;
+				float:left;
+			}
+			.list-title b{
+				color:#f60;
+				font-size:16px;
+				float:left;
+				height: 35px;
+				line-height: 35px;
+				font-family: Verdana;
+				padding:0 4px;
+			}
+			.list-title h4{
+				float:left;
+				font-size:14px;
+				height: 35px;
+				line-height: 35px;
+				width:500px;
+				white-space:nowrap;
+				overflow:hidden;
+			}
+		.list-main{
+			padding-bottom:20px;
+		}
+		.list-edit{
+			border-bottom:1px solid #ccc;
+			height: 57px;
+			margin-bottom:30px;
+		}
+			.list-edit a{
+				width:62px;
+				height:24px;
+				display: block;
+				background-position:0 -145px;
+				text-align: center;
+				line-height: 22px;
+				float:left;
+				margin-right:5px;
+				color:#646f73;
+				text-shadow:1px 1px #fff;
+			}
+		.pru-list a.add{
+			width:110px;
+			height:33px;
+			display: block;
+			background-position:0 -95px;
+			font-size: 14px;
+			line-height: 33px;
+			text-align:center;
+			padding-left:27px;
+			margin:13px auto;
+			color:#333;
+			text-shadow:1px 1px #fff;
+		}
+		.pru-list a.next{
+			background-position:0 -204px;
+			height:40px;
+			width:102px;
+			display:block;
+			text-align: center;
+			line-height: 36px;
+			color:#fff;
+			font-weight: bold;
+			font-size: 14px;
+			margin-top:80px;
+		}
+/**
+ * ÊúâÊ±ÇÂøÖÂ∫îÂÖ¨ÁõäÁâ?ÁºñËæëÊ∑ªÂä†ÈááË¥≠Èú?±ÇÂàóË°® Âè≥‰æßÈÉ®ÂàÜ
+ * Author: wb-jiangfeng
+ * Time: 12-7-18 10:25
+ */
+.purchase{
+	border-top: 2px solid #666666;
+    margin: 35px auto 80px;
+    width: 990px;
+}
+	.purchase .right{
+		float:right;
+		width:300px;
+		padding:0 10px 0 20px;
+		background-color:#f3f3f3;
+		height: 1160px;
+	}
+		.purchase .right h3{
+			color:#666;
+			font-weight:normal;
+			line-height: 30px;
+			padding:20px 0 10px 0;
+		}
+		.purchase .right h4{
+			font-size: 14px;
+			line-height: 30px;
+		}
+		.purchase .right p{
+			padding-bottom:20px;
+			line-height: 20px;
+		}
+
+/**
+ * ÊúâÊ±ÇÂøÖÂ∫îÂÖ¨ÁõäÁâ?ÁºñËæëÊ∑ªÂä†ÈááË¥≠Èú?±ÇÂàóË°® Âè≥‰æßÈÉ®ÂàÜ
+ * Author: wb-jiangfeng
+ * Time: 12-7-18 10:25
+ */
+.pru-edit{
+	float:left;
+	width:645px;
+}
+	.pru-edit ul{
+
+	}
+		.pru-edit li{
+			width:100%;
+			float:left;
+			padding-bottom:20px;
+		}
+			.pru-edit li label{
+				font-size:14px;
+				float:left;
+				width:90px;
+				height:33px;
+				line-height: 33px;
+				text-align: right;
+				padding-right:10px;
+			}
+			.pru-edit .count input{
+				height: 33px;
+				padding:0 5px;
+				border:1px solid #d7d7d7;
+				border-right:none;
+				font-size:14px;
+				color:#999;
+				float:left;
+				line-height: 33px;
+				width:470px;
+				border-radius: 3px 0 0 3px;
+			}
+			.pru-edit .count em{
+				border:1px solid #d7d7d7;
+				border-left:none;
+				height: 33px;
+				display:block;
+				padding: 0 10px;
+				line-height: 33px;
+				float:left;
+				border-radius:0 3px 3px 0;
+			}
+			.pru-edit li.pay input{
+				height: 33px;
+				width:142px;
+				padding:0 5px;
+				line-height: 33px;
+				border:1px solid #d0d0d0;
+				color:#999;
+				border-radius:3px;
+			}
+
+		.editmore{
+			height: 18px;
+		    line-height: 18px;
+		    padding-bottom: 8px;
+		    padding-top:7px;
+		    width: 620px;
+		    padding-left:10px;
+		}
+			.editmore a.showedit {
+			    float: left;
+			    width: 84px;
+			}
+				.editmore a.showedit em {
+				    float: left;
+				    color:#666;
+				}
+				.editmore a.showedit span{
+				    background-position: -188px -3px;
+				    display: block;
+				    float: right;
+				    height: 4px;
+				    margin: 8px 0 0 3px;
+				    overflow: hidden;
+				    width: 7px;
+				}
+				/*.editmore a.showedit span:hover{
+					background-position: -188px right;
+				}*/
+			.editmore a.blue {
+			    float: right;
+			    color:#649901;
+			}
+		.edt textarea{
+			border:1px solid #ced4e0;
+			width:530px;
+			height: 390px;
+			margin-left:100px;
+		}
+
+		.pru-edit .check{
+			padding:8px 0 0 100px;
+		}
+			.pru-edit .check li{
+				width:200px;
+			}
+				.pru-edit .check input{
+					vertical-align: middle;
+				}
+		.pru-edit input.sub{
+			background-position:0 -204px;
+			height:40px;
+			width:102px;
+			display:block;
+			cursor:pointer;
+			border:none;
+			text-align: center;
+			line-height: 36px;
+			color:#fff;
+			font-weight: bold;
+			font-size: 14px;
+			margin:80px 0 0 100px;
+		}
+		.pru-edit p.err{
+			height: 22px;
+			border:1px solid #f2dd66;
+			background-color: #fbf6ce;
+			line-height: 22px;
+			border-radius: 3px;
+			padding:0 5px 0 30px;
+			background-position:-170px -65px;
+			margin-top:10px;
+		}/**
+ * “≥Ω≈—˘ Ω
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 13:59
+ */
+.g_foot{
+    width: 960px;
+    margin: 0 auto;
+    font: 12px/1.5 tahoma,arial,"ÀŒÃÂ";
+    padding: 7px 0 9px;
+    color: #b0b0b0;
+    text-align: left !important;
+    position: relative;
+    clear:both;
+}
+.g_foot a{
+    margin: 0 4px;
+    color: #3e3e3e;
+    text-decoration:none;
+}
+.g_foot a:hover{
+    color: #F60;
+    text-decoration: underline;
+
+}
+.g_foot-ali{
+    margin-right: 100px;
+    padding-left: 0;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 8px;
+}
+.g_foot-nohover{
+    cursor: default;
+}
+.g_foot-nohover:hover{
+    color:#3e3e3e !important;
+    text-decoration:none !important;
+}
+.g_foot-ali b {
+    margin: 0 4px;
+    color:#d3d3d3;
+    font-weight: normal;
+}
+.g_foot-nav{
+    margin-top: 8px;
+    line-height: 20px;
+}
+.g_foot-nav span{
+    margin-left: 50px;
+}
+.g_foot-toy{
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1MMPaXkNjXXaXezbh-48-70.png) no-repeat;
+    _background: url(http://img01.taobaocdn.com/tps/i1/T1XgzaXX0kXXaXezbh-48-70.png) no-repeat;
+    width: 69px;
+    height: 100px;
+    display: block;
+    right: 0px;
+    top:0px;
+}
+/* IE9 only */
+:root .g_foot-toy {
+    right:-20px\9;
+}
+.g_foot-line{
+    display: none;
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1I_56Xl0wXXXXXXXX-104-1.png) no-repeat;
+    width: 104px;
+    height: 1px;
+    right: 45px;
+    top:33px;
+}

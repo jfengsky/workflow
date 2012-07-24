@@ -1,0 +1,73 @@
+/**
+ * Ò³½ÅÑùÊ½
+ * Author: wb-jiangfeng
+ * Time: 12-6-8 13:59
+ */
+.g_foot{
+    width: 960px;
+    margin: 0 auto;
+    font: 12px/1.5 tahoma,arial,"ËÎÌå";
+    padding: 7px 0 9px;
+    color: #b0b0b0;
+    text-align: left !important;
+    position: relative;
+    clear:both;
+}
+.g_foot a{
+    margin: 0 4px;
+    color: #3e3e3e;
+    text-decoration:none;
+}
+.g_foot a:hover{
+    color: #F60;
+    text-decoration: underline;
+
+}
+.g_foot-ali{
+    margin-right: 100px;
+    padding-left: 0;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 8px;
+}
+.g_foot-nohover{
+    cursor: default;
+}
+.g_foot-nohover:hover{
+    color:#3e3e3e !important;
+    text-decoration:none !important;
+}
+.g_foot-ali b {
+    margin: 0 4px;
+    color:#d3d3d3;
+    font-weight: normal;
+}
+.g_foot-nav{
+    margin-top: 8px;
+    line-height: 20px;
+}
+.g_foot-nav span{
+    margin-left: 50px;
+}
+.g_foot-toy{
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1MMPaXkNjXXaXezbh-48-70.png) no-repeat;
+    _background: url(http://img01.taobaocdn.com/tps/i1/T1XgzaXX0kXXaXezbh-48-70.png) no-repeat;
+    width: 69px;
+    height: 100px;
+    display: block;
+    right: 0px;
+    top:0px;
+}
+/* IE9 only */
+:root .g_foot-toy {
+    right:-20px\9;
+}
+.g_foot-line{
+    display: none;
+    position: absolute;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1I_56Xl0wXXXXXXXX-104-1.png) no-repeat;
+    width: 104px;
+    height: 1px;
+    right: 45px;
+    top:33px;
+}
