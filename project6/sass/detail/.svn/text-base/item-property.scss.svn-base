@@ -1,0 +1,146 @@
+/**
+ * 有求必应合买版 detail 商品图片switchable
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-18 14:22
+ */
+@import "global";
+
+.c2b-item-property{
+  float:right;
+  width:420px;
+  overflow:hidden;
+  h2{
+    font-size:14px;
+    line-height:40px;
+  }
+  .pro-info{
+    dl{
+      width:100%;
+      float:left;
+      height:32px;
+      line-height:32px;
+      &.dotted{
+        border-top:1px dotted #ccc;
+      }
+    }
+    dt{
+      width:50px;
+    }
+    dt, dd{
+      float:left;
+    }
+    dd{
+      color:#666;
+    }
+    dd.con{
+      width:70px;
+      text-align:center;
+      color:#333;
+    }
+    .market-price{
+      font-family:arial,verdana;
+      color:#999;
+    }
+    .pro-price{
+      em{
+        font-family:arial,verdana;
+        color:#f60;
+        font-size:16px;
+        span{
+          color:#999;
+        }
+      }
+      span.disprice{
+        background-color:#f60;
+        border-radius:1px;
+        color:#fff;
+        margin-left:5px;
+        border:1px solid #fd3400;
+        padding:0 5px;
+      }
+    }
+  }
+  p{
+    border:1px solid #e0e0e0;
+    background-color:#f5f5f5;
+    padding:10px;
+    color:#666;
+    margin-top:10px;
+  }
+}
+.c2b-buy{
+  margin-top:18px;
+  a.c2b-follow-buy, .c2b-hasfollow, a.c2b-buy-now, .c2b-hasbuy-now, .c2b-hasbuy, .c2b-end, .c2b-sel-seller{
+    width:162px;
+    height:47px;
+    display:block;
+    background:$detail-img;
+    background-position:0 -213px;
+    float:left;
+    @include oh;
+    &:hover{
+      background-position:0 -260px;
+    }
+  }
+  .c2b-buy-notice{
+    background:$detail-img;
+    background-position:-116px -94px;
+    height:31px;
+    width:148px;
+    float:left;
+    display:block;
+    text-align:center;
+    line-height:31px;
+    color:#878787;
+    margin:7px 0 0 6px;
+    a, em{
+      color:#f60;
+    }
+  }
+  .c2b-can{
+    line-height:31px;
+    float:left;
+    margin:7px 0 0 6px;
+  }
+  .c2b-hasfollow{
+    background-position:-116px 0;
+    &:hover{
+      background-position:-116px 0;
+    }
+  }
+  a.c2b-buy-now{
+    background-position:0 -306px;
+    &:hover{
+      background-position:0 -353px;
+    }
+  }
+  .c2b-hasbuy-now{
+    background-position:0 -401px;
+    &:hover{
+      background-position:0 -401px;
+    }
+  }
+  .c2b-hasbuy{
+    background-position:0 -448px;
+    &:hover{
+      background-position:0 -448px;
+    }
+  }
+  .c2b-end{
+    background-position:0 -495px;
+    &:hover{
+      background-position:0 -495px;
+    }
+  }
+  .c2b-sel-seller{
+      background-position:0 -593px;
+    &:hover{
+      background-position:0 -640px;
+    }
+  }
+}
+.c2b-c{
+  clear:both;
+  height:0;
+  overflow:hidden;
+}

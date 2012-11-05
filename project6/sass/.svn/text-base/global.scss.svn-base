@@ -1,0 +1,59 @@
+// 有求必应合买版 公共css配置文件 
+// wb-jiangfeng 2012-10-15 21:13
+
+// 合买发起者步骤背景图
+$step-img:url(http://img04.taobaocdn.com/tps/i4/T1ZOL4XaXdXXbWoO2h-990-240.png) no-repeat;
+
+// 合买跟单者步骤背景图
+$stepb-img:url(http://img01.taobaocdn.com/tps/i1/T1PVf4XedfXXbWoO2h-990-240.png) no-repeat;
+
+// 选中小勾图标
+$selected-img:url(http://img04.taobaocdn.com/tps/i4/T1gyzQXktgXXb9IoA_-11-11.jpg) no-repeat;
+
+@mixin oh{
+  text-indent:-999em;
+  overflow:hidden;
+}
+
+@mixin clear{
+  clear:both;
+  display:block;
+  height:0;
+  visibility:hidden;
+  *zoom:1;
+}
+
+// 价格字体
+$price-font:arial,verdana;
+// 价格颜色
+$price-color:#999;
+
+
+// 灰色背景
+$gray-bg:#f7f7f7;
+
+//内容宽度
+$wide990:990px;
+
+//detail右侧宽度
+$right-width:220px;
+
+// rank
+$rank-img:url(http://img03.taobaocdn.com/tps/i3/T1_bf3XhxfXXaPvRQy-217-324.png) no-repeat;
+
+// detail页面图片
+$detail-img:url(http://img02.taobaocdn.com/tps/i2/T1wCn4XhNaXXcDC9cc-279-687.png) no-repeat;
+
+// pay页面图片
+$pay-img:url(http://img04.taobaocdn.com/tps/i4/T1JtL5XapXXXb2SEvi-246-445.png) no-repeat;
+
+// 勋章图片
+$medalbig-img:url(http://img02.taobaocdn.com/tps/i2/T1jG64XjNaXXazyU6i-55-61.png) no-repeat;
+$medalsmall-img:url(http://img01.taobaocdn.com/tps/i1/T1tCb3XlxdXXb7lAbX-16-18.png) no-repeat;
+
+// 胜出图标
+$win-img:url(http://img04.taobaocdn.com/tps/i4/T1YwL2XopdXXcy..3V-82-101.png) no-repeat;
+$win-img24:url(http://img01.taobaocdn.com/tps/i1/T1aIzVXkVnXXcy..3V-82-101.png) no-repeat;
+
+// 跟单进度
+$detail-step:url(http://img02.taobaocdn.com/tps/i2/T1UkH4XidbXXb95Swh-740-469.png) no-repeat;

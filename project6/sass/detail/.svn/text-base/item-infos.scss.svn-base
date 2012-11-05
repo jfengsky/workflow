@@ -1,0 +1,84 @@
+/**
+ * 有求必应合买版 detail 商品详细信息
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-18 19:59
+ */
+@import "global";
+.transtep{
+  margin-top:20px;
+}
+.tstep1, .tstep2, .tstep3{
+  background:$detail-step;
+  width:740px;
+  height:79px;
+  float:left;
+}
+.tstep2{
+  background-position:0 -78px;
+}
+.tstep3{
+  background-position:0 -156px;
+}
+.c2b-item-info{
+  width:100%;
+  float:left;
+  margin-top:10px;
+  padding-top:20px;
+  h4{
+    background:$detail-img;
+    width:214px;
+    height:28px;
+    background-position:0 -127px;
+    @include oh
+  }
+  .c2b-item-tab{
+    width:100%;
+    float:left;
+    margin-top:16px;
+  }
+  .ks-switchable-nav{
+    border-bottom:1px solid #7a7a7a;
+    height:24px;
+    li{
+      float:left;
+      height:23px;
+      line-height:23px;
+      border-left:1px solid #d6d6d6;
+      border-top:1px solid #d6d6d6;
+      border-right:1px solid #d6d6d6;
+      padding:0 20px;
+      cursor:pointer;
+      &.ks-active{
+        background-color:#333;
+        border-left:1px solid #333;
+        border-top:1px solid #333;
+        border-right:1px solid #333;
+        color:#fff;
+        cursor:auto;
+      }
+    }
+  }
+  .ks-switchable-content{
+    .c2b-itemcnt{
+      overflow:hidden;
+      padding:10px 0;
+    }
+    .detail-show{
+      border-bottom:1px solid #333;
+      display:block;
+      height:10px;
+      overflow:hidden;
+      i{
+        background:$detail-img;
+        background-position:-225px -127px;
+        height:10px;
+        width:53px;
+        display:block;
+        overflow:hidden;
+        margin:auto;
+        cursor:pointer;
+        @include oh
+      }
+    }
+  }
+}

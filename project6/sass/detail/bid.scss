@@ -1,0 +1,314 @@
+/**
+ * 有求必应合买版 detail 竞标卖家
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-19 15:26
+ */
+@import "global";
+.c2b-bid{
+  border-top:1px solid #e6e6e6;
+  width:100%;
+  float:left;
+  margin-top:1px;
+  padding-top:13px;
+  .bdstep{
+    margin-top:15px;
+  }
+  .bstep1, .bstep2, .bstep3{
+    background:$detail-step;
+    background-position:0 -234px;
+    width:740px;
+    height:79px;
+    float:left;
+  }
+  .bstep2{
+    background-position:0 -312px;
+  }
+  .bstep3{
+    background-position:0 -390px;
+  }
+  h4{
+    background:$detail-img;
+    width:240px;
+    height:28px;
+    background-position:0 -155px;
+    @include oh
+  }
+  .c2b-bid-tab{
+    width:100%;
+    float:left;
+    margin-top:16px;
+    .ks-switchable-nav{
+      border-bottom:1px solid #7a7a7a;
+      height:24px;
+      display:block;
+      li{
+        float:left;
+        height:23px;
+        line-height:23px;
+        border-left:1px solid #d6d6d6;
+        border-top:1px solid #d6d6d6;
+        border-right:1px solid #d6d6d6;
+        padding:0 20px;
+        cursor:pointer;
+        a{
+          color:#333;
+        }
+        &.ks-active{
+          background-color:#333;
+          border-left:1px solid #333;
+          border-top:1px solid #333;
+          border-right:1px solid #333;
+          color:#fff;
+          cursor:auto;
+          a{
+            color:#fff;
+          }
+        }
+      }
+    }
+    p.bid-tip{
+      float:right;
+      margin-top:-22px;
+      a{
+        background:$detail-img;
+        background-position:-83px -43px;
+        width:14px;
+        height:14px;
+        display:inline-block;
+        @include oh
+      }
+    }
+    .ks-switchable-content{
+      border:1px solid #eaeaea;
+      margin-top:5px;
+      .noseller{
+        background:url(http://img02.taobaocdn.com/tps/i2/T1mBD3XX0dXXXZJs_d-93-121.png) no-repeat 210px 70px;
+        height:180px;
+        width:680px;
+        font-size:14px;
+        padding:120px 0 0 310px;
+      }
+    }
+    .bid-ctol{
+      border-bottom:1px solid #eaeaea;
+      .bid-c-rank{
+        height:29px;
+        background-color:#f5f5f5;
+        li{
+          float:left;
+          line-height:29px;
+          margin-left:10px;
+          &.rank-default{
+            border:1px solid #a6a6a6;
+            background-color:#fff;
+            height:18px;
+            line-height:18px;
+            padding:0 10px;
+            margin-top:5px;
+            cursor:pointer;
+          }
+          &.cur{
+            color:#f60;
+            a{
+              color:#f60;
+            }
+          }
+          &.rank-price{
+            border:1px solid #a6a6a6;
+            background-color:#fff;
+            height:18px;
+            line-height:18px;
+            padding:0 10px;
+            margin-top:5px;
+            cursor:pointer;
+            a{
+              color:#666;
+            }
+            i{
+              background:$detail-img;
+              background-position:-89px 0;
+              width:7px;
+              height:8px;
+              overflow:hidden;
+              display:inline-block;
+              margin-left:5px;
+            }
+          }
+        }
+      }
+    }
+    .item-list{
+      width:740px;
+      float:left;
+      overflow:hidden;
+      ul{
+        width:750px;
+        float:left;
+      }
+      li{
+        width:220px;
+        padding:13px;
+        border-right:1px solid #eaeaea;
+        border-top:1px solid #eaeaea;
+        position:relative;
+        float:left;
+        .c2b-bid-img{
+          width:220px;
+          height:220px;
+          overflow:hidden;
+          display: table-cell;
+          vertical-align:middle;
+          text-align:center;
+          *display: block;
+          *font-size: 192px;
+          *font-family:Arial;
+          img{
+            vertical-align:middle;
+          }
+        }
+        .bid-add, .bid-cancel{
+          position:absolute;
+          right:12px;
+          top:12px;
+          background:$detail-img;
+          background-position:-167px -362px;
+          width:71px;
+          height:23px;
+          padding-left:10px;
+          border:none;
+          cursor:pointer;
+        }
+        .bid-cancel{
+          background-position:-167px -385px;
+        }
+        h3{
+          line-height:20px;
+          a{
+            &:link{
+              color:#333;
+            }
+            &:visited{
+              color:#333;
+            }
+            &:hover{
+              color:#f60;
+            }
+          }
+        }
+        p{
+          color:#999;
+          line-height:20px;
+          height:40px;
+          overflow:hidden;
+        }
+        .bid-sku{
+          height:40px;
+          line-height:20px;
+          padding:5px 0;
+          color:#999;
+          overflow:hidden;
+          span{
+            padding-right:10px;
+            //white-space:nowrap;
+          }
+        }
+        .bid-seller{
+          border-top:1px dotted #bdbdbd;
+          padding-top:10px;
+          .bid-prc-sec{
+            width:100%;
+            float:left;
+            em{
+              height:18px;
+              line-height:18px;
+              background-color:#f60;
+              color:#fff;
+              display:inline-block;
+              padding:0 5px;
+            }
+            span{
+              color:#999;
+              text-decoration:line-through;
+            }
+          }
+          .seller-ads{
+            float:right;
+            color:#999;
+          }
+        }
+        .c2b-no{
+          background:$detail-img;
+          background-position:-239px -448px;
+          height:40px;
+          width:38px;
+          padding-left:2px;
+          color:#fff;
+          position:absolute;
+          left:0;
+          top:0;
+        }
+        .bid-win{
+          background:$win-img24;
+          _background:$win-img;
+          width:82px;
+          height:101px;
+          position:absolute;
+          left:18px;
+          top:23px;
+          @include oh
+        }
+      }
+    }
+  }
+  .c2b-page{
+    height:12px;
+    padding:20px 0 70px 0;
+    width:100%;
+    float:left;
+    border-bottom:1px solid #7a7a7a;
+    overflow:hidden;
+    line-height:12px;
+    color:#666;
+    text-align:center;
+    a.pg-first, a.pg-prev, a.pg-next, a.pg-last{
+      border:1px solid #d1d1d1;
+      height:10px;
+      width:10px;
+      line-height:10px;
+      display:inline-block;
+      background:$detail-img;
+      @include oh
+    }
+    .pg-item{
+      width:24px;
+      display:inline-block;
+      text-align:center;
+    }
+    a:link{
+      color:#666;
+    }
+    a:hover{
+      color:#f60;
+    }
+    a.pg-prev{
+      background-position:-249px -430px;
+    }
+    a.pg-first{
+      background-position:-239px -430px;
+    }
+    a.pg-next{
+      background-position:-259px -430px;
+    }
+    a.pg-last{
+      background-position:-269px -430px;
+    }
+    a.pg-disabled{
+      opacity:0.5;
+      _filter:alpha(opacity=50);
+      cursor:auto;
+    }
+    .pg-current{
+      color:#f60;
+    }
+  }
+}

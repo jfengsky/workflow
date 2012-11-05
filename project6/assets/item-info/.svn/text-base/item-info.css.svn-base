@@ -1,0 +1,116 @@
+/**
+ * 有求必应合买版 商品详情
+ * wb-jiangfeng@taobao.com 2012-10-16 09:53
+ * 
+ */
+.c2b-c {
+  clear: both; }
+
+.c2b-iteminfo {
+  width: 984px;
+  border: 3px solid #f60;
+  margin: 20px auto;
+  position: relative; }
+  .c2b-iteminfo .t-white, .c2b-iteminfo .b-white {
+    width: 944px;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    left: 20px;
+    overflow: hidden; }
+  .c2b-iteminfo .t-white {
+    top: -3px; }
+  .c2b-iteminfo .b-white {
+    bottom: -3px;
+    _height: 4px;
+    _bottom: -4px; }
+  .c2b-iteminfo .c2b-item {
+    width: 944px;
+    margin: auto;
+    min-height: 90px;
+    height: auto !important;
+    height: 90px; }
+    .c2b-iteminfo .c2b-item .c2b-item-pic {
+      float: left;
+      width: 90px;
+      height: 90px;
+      margin-right: 20px; }
+      .c2b-iteminfo .c2b-item .c2b-item-pic a {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        display: block;
+        width: 90px;
+        height: 90px;
+        overflow: hidden;
+        *font-size: 62px;
+        *font-family: Arial; }
+        .c2b-iteminfo .c2b-item .c2b-item-pic a img {
+          vertical-align: middle; }
+    .c2b-iteminfo .c2b-item .c2b-item-info {
+      float: left;
+      width: 460px;
+      overflow: hidden; }
+      .c2b-iteminfo .c2b-item .c2b-item-info h2 {
+        font-weight: normal;
+        font-size: 14px; }
+        .c2b-iteminfo .c2b-item .c2b-item-info h2 a:link {
+          color: #333; }
+        .c2b-iteminfo .c2b-item .c2b-item-info h2 a:visited {
+          color: #333; }
+        .c2b-iteminfo .c2b-item .c2b-item-info h2 a:hover {
+          color: #f60; }
+      .c2b-iteminfo .c2b-item .c2b-item-info dl {
+        clear: both;
+        padding: 2px 0;
+        color: #666; }
+        .c2b-iteminfo .c2b-item .c2b-item-info dl dt {
+          float: left;
+          line-height: 22px;
+          margin-right: 10px; }
+        .c2b-iteminfo .c2b-item .c2b-item-info dl dd {
+          float: left;
+          line-height: 22px;
+          font-family: arial, verdana;
+          font-size: 16px; }
+          .c2b-iteminfo .c2b-item .c2b-item-info dl dd span {
+            color: #999999; }
+          .c2b-iteminfo .c2b-item .c2b-item-info dl dd b {
+            color: #f60;
+            font-weight: normal; }
+      .c2b-iteminfo .c2b-item .c2b-item-info .c2b-sku li {
+        display: inline-block;
+        zoom: 1;
+        position: relative; }
+        .c2b-iteminfo .c2b-item .c2b-item-info .c2b-sku li a {
+          display: block;
+          zoom: 1;
+          border: 1px solid #ccc;
+          height: 17px;
+          line-height: 17px;
+          padding: 1px 10px;
+          font-size: 12px;
+          background-color: #fff;
+          overflow: hidden;
+          word-break: break-all;
+          color: #666;
+          text-decoration: none; }
+          .c2b-iteminfo .c2b-item .c2b-item-info .c2b-sku li a:hover {
+            color: #f60; }
+        .c2b-iteminfo .c2b-item .c2b-item-info .c2b-sku li.selected a {
+          color: #f60;
+          border: 1px solid #f60; }
+        .c2b-iteminfo .c2b-item .c2b-item-info .c2b-sku li.selected i {
+          background: url(http://img04.taobaocdn.com/tps/i4/T1gyzQXktgXXb9IoA_-11-11.jpg) no-repeat;
+          width: 11px;
+          height: 11px;
+          display: block;
+          position: absolute;
+          right: 0;
+          bottom: 0; }
+    .c2b-iteminfo .c2b-item p {
+      float: right;
+      width: 300px;
+      color: #999;
+      line-height: 22px; }

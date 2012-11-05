@@ -1,0 +1,67 @@
+/**
+ * 有求必应合买版 detail 发起人其它合买
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-19 15:26
+ */
+.c2b-other {
+  margin-top: 20px; }
+  .c2b-other h4 {
+    font-size: 14px;
+    border-bottom: 1px solid #bbb7b8;
+    height: 32px;
+    line-height: 32px; }
+  .c2b-other a.change {
+    float: right;
+    margin-top: -24px;
+    color: #666; }
+  .c2b-other .other-list ul {
+    overflow: hidden; }
+  .c2b-other .other-list li {
+    border-top: 1px dotted #7d7e79;
+    margin-top: -1px;
+    width: 100%;
+    float: left;
+    padding: 20px 0; }
+    .c2b-other .other-list li .pic {
+      width: 80px;
+      height: 80px;
+      float: left;
+      margin-right: 10px;
+      position: relative; }
+      .c2b-other .other-list li .pic a {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        *display: block;
+        *font-size: 70;
+        *font-family: Arial; }
+      .c2b-other .other-list li .pic img {
+        vertical-align: middle; }
+      .c2b-other .other-list li .pic i {
+        height: 12px;
+        width: 12px;
+        line-height: 12px;
+        text-align: center;
+        overflow: hidden;
+        background-color: #f60;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: "tahoma"; }
+    .c2b-other .other-list li a.title {
+      float: left;
+      width: 120px;
+      height: 40px;
+      line-height: 20px;
+      overflow: hidden;
+      color: #333; }
+
+.login .ks-ext-close {
+  position: absolute;
+  color: #666;
+  top: 5px;
+  right: 10px; }

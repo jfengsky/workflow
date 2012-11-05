@@ -1,0 +1,24 @@
+/**
+ * 有求必应合买版 合买步骤
+ * 发起人合买步骤 .c2b-step, .c2b-step2, .c2b-step3
+ * 跟单者合买步骤 .c2b-stepb, .c2b-stepb2, .c2b-stepb3
+ * wb-jiangfeng 2012-10-15 14:31
+ */
+@import "global";
+
+.c2b-step, .c2b-step2, .c2b-step3, .c2b-stepb, .c2b-stepb2, .c2b-stepb3{
+  height:80px;
+  width:990px;
+  margin:auto;
+  background:$step-img;
+  @include oh;
+}
+.c2b-stepb, .c2b-stepb2, .c2b-stepb3{
+  background:$stepb-img;
+}
+.c2b-step2, .c2b-stepb2{
+  background-position:0 -80px;
+}
+.c2b-step3, .c2b-stepb3{
+  background-position:0 -160px;
+}

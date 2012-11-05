@@ -1,0 +1,86 @@
+/**
+ * 有求必应合买版 抢红包浮层
+ * wb-jiangfeng@taobao.com 2012-10-23 10:36
+ * 
+ */
+.c2b-bag-overlay {
+  width: 490px;
+  height: 250px;
+  background-color: #fff;
+  padding: 70px 0 0 60px; }
+  .c2b-bag-overlay .bagclose {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer; }
+    .c2b-bag-overlay .bagclose:hover {
+      color: #f60; }
+  .c2b-bag-overlay i {
+    background: url(http://img04.taobaocdn.com/tps/i4/T1JtL5XapXXXb2SEvi-246-445.png) no-repeat;
+    background-position: -150px 0;
+    width: 96px;
+    height: 108px;
+    float: left;
+    margin-right: 10px; }
+    .c2b-bag-overlay i.noe {
+      width: 86px;
+      height: 87px;
+      background-position: -151px -108px; }
+  .c2b-bag-overlay .bag-info {
+    float: left; }
+    .c2b-bag-overlay .bag-info p {
+      font-size: 16px;
+      margin-top: 30px; }
+      .c2b-bag-overlay .bag-info p .h {
+        color: #f60; }
+      .c2b-bag-overlay .bag-info p .bag-money {
+        color: #f60;
+        font-size: 24px; }
+    .c2b-bag-overlay .bag-info .bag-btn {
+      margin-top: 40px; }
+      .c2b-bag-overlay .bag-info .bag-btn a.back-buyr {
+        background: url(http://img04.taobaocdn.com/tps/i4/T1JtL5XapXXXb2SEvi-246-445.png) no-repeat;
+        background-position: -116px -218px;
+        width: 112px;
+        height: 38px;
+        float: left;
+        margin-right: 10px;
+        text-indent: -999em;
+        overflow: hidden; }
+        .c2b-bag-overlay .bag-info .bag-btn a.back-buyr:hover {
+          background-position: -116px -256px; }
+      .c2b-bag-overlay .bag-info .bag-btn a.back-info {
+        background: url(http://img04.taobaocdn.com/tps/i4/T1JtL5XapXXXb2SEvi-246-445.png) no-repeat;
+        background-position: 0 -181px;
+        width: 112px;
+        height: 38px;
+        float: left;
+        margin-right: 10px;
+        text-indent: -999em;
+        overflow: hidden; }
+        .c2b-bag-overlay .bag-info .bag-btn a.back-info:hover {
+          background-position: 0 -218px; }
+      .c2b-bag-overlay .bag-info .bag-btn a.pay-view {
+        background: url(http://img04.taobaocdn.com/tps/i4/T1JtL5XapXXXb2SEvi-246-445.png) no-repeat;
+        background-position: 0 -294px;
+        width: 112px;
+        height: 38px;
+        float: left;
+        text-indent: -999em;
+        overflow: hidden; }
+
+.ks-overlay {
+  position: absolute;
+  left: -9999px;
+  top: -9999px; }
+
+.ks-ext-mask {
+  background-color: #000;
+  opacity: 0.4;
+  *filter: alpha(opacity=40); }
+
+.baglay .ks-ext-close {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #666; }

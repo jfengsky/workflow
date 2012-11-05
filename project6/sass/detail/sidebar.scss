@@ -1,0 +1,63 @@
+/**
+ * 有求必应合买版 左侧工具条
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-19 15:26
+ */
+
+.y-mei-back{
+    width: 63px;  
+    margin-left: 1016px;
+    position: fixed;
+    _position:absolute;
+    _top: expression(documentElement.scrollTop+26+"px");
+}
+a.y-mei-getredpacket,a.y-mei-getredpacket:hover{
+background:url(http://img02.taobaocdn.com/tps/i2/T1ZtT0XiXjXXXDBQzk-63-62.jpg) no-repeat;
+display:block;
+height:62px;
+width: 64px;
+margin-bottom: 2px;
+text-indent: -999em;
+
+}
+a.y-mei-mychipped{
+    display: block;
+    width: 64px;
+    height: 26px;
+    background: url(http://img01.taobaocdn.com/tps/i1/T12HD4Xm0aXXbc8kYx-151-106.jpg) 0px 0px no-repeat;
+    margin-bottom: 2px;
+    text-indent: -999em;
+}
+
+a.y-mei-mychipped:hover{
+    background-position:-88px 0px;
+}
+a.y-mei-help{
+    display: block;
+    width: 64px;
+    height: 26px;
+    background: url(http://img01.taobaocdn.com/tps/i1/T12HD4Xm0aXXbc8kYx-151-106.jpg) 0px -56px no-repeat;
+    margin-bottom: 2px;
+    text-indent: -999em;
+}
+a.y-mei-help:hover{
+    background-position:-88px -56px ;
+}
+a.y-mei-mybid{
+    display: block;
+    width: 64px;
+    height: 26px;
+    background: url(http://img01.taobaocdn.com/tps/i1/T12HD4Xm0aXXbc8kYx-151-106.jpg) 0px -28px no-repeat;
+    margin-bottom: 2px;
+    text-indent: -999em;
+}
+a.y-mei-mybid:hover{
+    background-position:-88px -28px ;
+}
+a.y-mei-totop{
+    display: block;
+    width: 64px;
+    height: 20px;
+    background: url(http://img01.taobaocdn.com/tps/i1/T12HD4Xm0aXXbc8kYx-151-106.jpg) 0px -86px no-repeat;
+    text-indent: -999em;
+}

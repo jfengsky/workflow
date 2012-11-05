@@ -1,0 +1,114 @@
+/**
+ * 有求必应合买版 冻结保证金
+ * wb-jiangfeng@taobao.com 2012-10-23 10:36
+ * 
+ */
+@import "global";
+.c2b-step{
+  margin-top:40px;
+}
+.c2b-pay{
+  width:$wide990;
+  margin:auto;
+  // border-bottom:1px solid #d1d7dc;
+  margin-bottom:20px;
+  .pay-info{
+    margin-top:15px;
+    border:2px solid #ffebcc;
+    padding:20px;
+    height:90px;
+    dl{
+      width:100%;
+      float:left;
+    }
+    dt{
+      font-size:14px;
+      float:left;
+    }
+    dd.h{
+      color:#f60;
+      font-size:20px;
+      font-family:Verdana;
+      float:left;
+      line-height:26px;
+    }
+    .froze-money{
+      height:30px;
+      line-height:30px;
+      .dd{
+        line-height:20px;
+      }
+    }
+    .pay-type{
+      height:46px;
+      line-height:46px;
+      i{
+        background:$pay-img;
+        display:block;
+        float:left;
+        width:99px;
+        height:32px;
+        @include oh
+      }
+      dd{
+        span{
+          color:#999;
+        }
+      }
+    }
+    p{
+      color:#999;
+      padding-bottom:10px;
+    }
+  }
+  .pay-item{
+    margin-top:13px;
+    padding:22px;
+    h4{
+      font-size:14px;
+      line-height:20px;
+    }
+    ul{
+      margin-top:10px;
+      color:#999;
+    }
+    li{
+      line-height:24px;
+    }
+  }
+  .pay-mobile{
+    padding:22px;
+    b{
+      font-size:14px;
+    }
+    span{
+      color:#999;
+    }
+    .err{
+      color:#f00;
+      padding-left:10px;
+    }
+    input{
+      border:1px solid #d5d5d5;
+      height:27px;
+      padding:0 10px;
+      margin:0 10px;
+    }
+  }
+  .topay{
+    padding:0 0 40px 22px;
+    input.next{
+      width:112px;
+      height:37px;
+      float:left;
+      background:$pay-img;
+      background-position:0 -34px;
+      border:none;
+      cursor:pointer;
+      &:hover{
+        background-position:0 -71px;
+      }
+      @include oh
+    }
+  }
+}

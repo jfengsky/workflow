@@ -1,0 +1,214 @@
+/**
+ * 有求必应合买版 发布需求需要填写的表单
+ * @author:wb-jiangfeng@taobao.com 
+ * @time:2012-10-16 14:25
+ */
+.c2b-step {
+  margin-top: 38px; }
+
+.c2b-price {
+  background-color: #f7f7f7;
+  width: 890px;
+  padding: 10px 0 10px 100px;
+  margin: auto; }
+  .c2b-price dl {
+    clear: both;
+    height: 28px;
+    line-height: 28px;
+    padding: 5px 0; }
+  .c2b-price dt {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 20px; }
+  .c2b-price dd {
+    float: left;
+    color: #666; }
+    .c2b-price dd li {
+      float: left;
+      width: 110px; }
+      .c2b-price dd li.pub-other-price, .c2b-price dd li.pub-other-num {
+        width: 240px;
+        position: relative; }
+        .c2b-price dd li.pub-other-price .yuan-icon, .c2b-price dd li.pub-other-num .yuan-icon {
+          height: 25px;
+          width: 26px;
+          display: block;
+          border: 1px solid #d6d6d6;
+          border-right: none;
+          background-color: #eee;
+          border-radius: 2px 0 0 2px;
+          color: #333;
+          text-align: center;
+          line-height: 25px;
+          font-size: 18px;
+          float: left; }
+        .c2b-price dd li.pub-other-price label, .c2b-price dd li.pub-other-num label {
+          position: absolute;
+          color: #999;
+          left: 32px; }
+        .c2b-price dd li.pub-other-price input, .c2b-price dd li.pub-other-num input {
+          height: 25px;
+          border: 1px solid #d6d6d6;
+          padding: 0 5px;
+          width: 125px;
+          border-radius: 0 2px 2px 0;
+          float: left; }
+      .c2b-price dd li.pub-other-num input {
+        border-radius: 2px;
+        width: 152px; }
+      .c2b-price dd li.pub-other-num label {
+        left: 5px; }
+      .c2b-price dd li .err-msg {
+        color: #f00; }
+
+.pub-title {
+  width: 950px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin: 20px auto;
+  height: 36px;
+  line-height: 36px;
+  position: relative; }
+  .pub-title label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 19px;
+    width: 136px;
+    text-align: right; }
+  .pub-title input {
+    color: #999;
+    width: 480px;
+    height: 33px;
+    border: 1px solid #ccc;
+    padding: 0 50px 0 5px;
+    border-radius: 2px;
+    line-height: 36px;
+    font-size: 14px;
+    float: left; }
+  .pub-title b {
+    font-weight: bold;
+    margin-left: -48px;
+    color: #666;
+    padding: 0 5px;
+    _height: 36px;
+    _line-heigh: 36px;
+    _display: block;
+    _float: left; }
+
+.pub-editor {
+  width: 950px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin: 20px auto;
+  /*
+  .editmore{
+    padding-bottom: 8px;
+    height: 18px;
+    line-height: 18px;
+    width: 540px;
+    a.showedit{
+      width:84px;
+      float:left;
+      em{
+        float:left;
+      }
+      span{
+        width:7px;
+        height:4px;
+        display:block;
+        float:right;
+        margin:8px 0 0 3px;
+        overflow:hidden;
+      }
+    }
+  }
+  */ }
+  .pub-editor label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 19px;
+    width: 136px;
+    text-align: right; }
+  .pub-editor .pub-item-ctn {
+    float: left; }
+
+.pub-mobile {
+  width: 950px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin: 20px auto; }
+  .pub-mobile label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 19px;
+    width: 136px;
+    text-align: right;
+    line-height: 33px; }
+  .pub-mobile input {
+    color: #999;
+    width: 120px;
+    height: 33px;
+    border: 1px solid #ccc;
+    padding: 0 50px 0 5px;
+    border-radius: 2px;
+    line-height: 36px;
+    font-size: 14px; }
+  .pub-mobile p {
+    padding-top: 10px;
+    color: #999;
+    padding-left: 154px; }
+
+.pub-button {
+  width: 796px;
+  padding: 20px 20px 20px 174px;
+  background-color: #f7f7f7;
+  margin: 20px auto 50px; }
+  .pub-button p {
+    font-weight: bold; }
+  .pub-button span.back {
+    height: 37px;
+    line-height: 37px;
+    width: 102px;
+    text-align: center;
+    display: inline-block; }
+
+.pub-age {
+  padding: 10px 0; }
+
+.pubsubmit, .pubmodify {
+  background: url(http://img04.taobaocdn.com/tps/i4/T1JtL5XapXXXb2SEvi-246-445.png) no-repeat;
+  background-position: 0 -407px;
+  border: none;
+  height: 37px;
+  width: 102px;
+  cursor: pointer;
+  float: left; }
+  .pubsubmit:hover, .pubmodify:hover {
+    background-position: -102px -407px; }
+
+#J_titleRemind {
+  position: absolute;
+  width: 480px;
+  top: 20px;
+  left: 22px;
+  font-weight: normal;
+  color: #999;
+  font-size: 12px; }
+
+.pubmodify {
+  background-position: 0 -369px; }
+  .pubmodify:hover {
+    background-position: -102px -369px; }

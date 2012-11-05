@@ -1,0 +1,69 @@
+/**
+ * 有求必应合买版 detail 商品图片switchable
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-18 14:22
+ */
+.c2b-main {
+  width: 990px;
+  margin: auto; }
+
+.c2b-left {
+  float: left;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  width: 740px;
+  overflow: hidden; }
+
+.c2b-item {
+  float: left; }
+  .c2b-item .ks-switchable-content {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    *display: block;
+    *font-size: 218px;
+    *font-family: Arial; }
+    .c2b-item .ks-switchable-content img {
+      vertical-align: middle; }
+  .c2b-item .ks-switchable-nav {
+    display: block;
+    padding-top: 20px; }
+    .c2b-item .ks-switchable-nav li {
+      height: 42px;
+      width: 42px;
+      padding: 1px;
+      background-color: #fff;
+      border: 1px solid #fff;
+      float: left;
+      cursor: pointer;
+      margin-right: 10px; }
+      .c2b-item .ks-switchable-nav li.ks-active {
+        border: 1px solid #ccc;
+        position: relative; }
+        .c2b-item .ks-switchable-nav li.ks-active i {
+          width: 11px;
+          height: 6px;
+          overflow: hidden;
+          background: url(http://img02.taobaocdn.com/tps/i2/T1wCn4XhNaXXcDC9cc-279-687.png) no-repeat;
+          background-position: -63px -19px;
+          display: block;
+          position: absolute;
+          top: -6px;
+          left: 17px; }
+      .c2b-item .ks-switchable-nav li span {
+        height: 40px;
+        width: 40px;
+        display: block;
+        border: 1px solid #ccc;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        *display: block;
+        *font-size: 35px;
+        *font-family: Arial; }
+        .c2b-item .ks-switchable-nav li span img {
+          vertical-align: middle; }

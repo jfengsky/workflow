@@ -1,0 +1,231 @@
+/**
+ * 有求必应合买版 detail 竞标卖家
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-19 15:26
+ */
+@import "global";
+.c2b-right{
+  float:right;
+  width:220px;
+  overflow:hidden;
+}
+.c2b-progress{
+  border:4px solid #f60;
+  width:182px;
+  padding:20px 15px 15px;
+  height:265px;
+  .c2b-last-time, .c2b-last-person{
+    width:100%;
+    float:left;
+    padding-bottom:10px;
+    line-height:23px;
+    dt{
+      font-weight:bold;
+      float:left;
+      margin-right:6px;
+      width:40px;
+      text-align:right;
+    }
+    dd{
+      float:left;
+      // var{
+      //   background:$detail-img;
+      //   background-position:-244px -362px;
+      //   width:35px;
+      //   height:23px;
+      //   display:inline-block;
+      //   color:#fff;
+      //   font-size:16px;
+      //   text-align:center;
+      // }
+      .cd s.hand{
+        background:$detail-img;
+        background-position:-244px -362px;
+        width:35px;
+        height:23px;
+        s.digital{
+          color:#fff;
+          width:17px;
+          text-align:center;
+          font-size:18px;
+        }
+      }
+    }
+  }
+  .c2b-last-person{
+    line-height:23px;
+    dd{
+      width:136px;
+      white-space:nowrap;
+      overflow:hidden;
+    }
+  }
+  .joined, .succ, .badbid{
+    height:27px;
+    line-height:27px;
+    text-align:center;
+    color:#666;
+    width:127px;
+    float:left;
+    margin-top:4px;
+    background-color:#f5f5f5;
+  }
+  .joined, .badbid{
+    width:182px;
+    b{
+      color:#f60;
+    }
+  }
+  .succ{
+    background-color:#f60;
+    color:#fff;
+    padding-left:49px;
+    text-align:left;
+    width:132px;
+    i{
+      background:$detail-img;
+      background-position:-62px -43px;
+      height:19px;
+      width:19px;
+      display:inline-block;
+      margin:5px 5px 0 0;
+      float:left;
+    }
+  }
+  .succ-seller{
+    width:100%;
+    float:left;
+    margin-top:16px;
+    i{
+      width:59px;
+      height:73px;
+      float:left;
+      margin-right:10px;
+      background:$detail-img;
+      background-position:-163px -520px;
+    }
+    b{
+      font-size:14px;
+      font-weight:bold;
+      float:left;
+      width:112px;
+      height:20px;
+      overflow:hidden;
+    }
+    dl{
+      width:112px;
+      float:left;
+    }
+    dt{
+      float:left;
+      width:107px;
+      line-height:23px;
+      .h{
+        color:#f60;
+      }
+    }
+  }
+  .pros{
+    height:6px;
+    width:100%;
+    float:left;
+    background-color:#fdb96e;
+    margin-top:10px;
+    overflow:hidden;
+    span{
+      background-color:#f60;
+      display:block;
+      height:6px;
+    }
+  }
+  .bad{
+    background-color:#b5b5b5;
+    span{
+      background-color:#808080;
+    }
+  }
+  .proper{
+    width:100%;
+    float:left;
+    dt{
+      float:left;
+    }
+    dd{
+      float:right;
+    }
+  }
+  .share{
+    width:50px;
+    text-align:center;
+    color:#666;
+    width:100%;
+    float:left;
+    padding-top:8px;
+    a{
+      display:block;
+      background:$detail-img;
+      background-position:-163px -409px;
+      display:block;
+      height:16px;
+      width:116px;
+      margin:10px auto;
+    }
+  }
+  .c2b-tips{
+    color:#999;
+    width:100%;
+    float:left;
+    margin-top:10px;
+    padding-top:10px;
+    border-top:1px dotted #999;
+    span{
+      color:#333;
+      font-weight:bold;
+    }
+  }
+  // .tips{
+  //   color:#666;
+  //   padding-left:26px;
+  //   li{
+  //     padding-left:14px;
+  //     line-height:22px;
+  //     background:$detail-img;
+  //     background-position:-277px -96px;
+  //     width:100%;
+  //     float:left;
+  //   }
+  // }
+  .succ-share{
+    border-top:1px dotted #a5a5a5;
+    width:100%;
+    float:left;
+    margin-top:20px;
+    line-height:20px;
+    padding-top:5px;
+    a{
+      display:block;
+      background:$detail-img;
+      background-position:-167px -409px;
+      display:inline-block;
+      height:16px;
+      width:56px;
+      margin:4px auto auto;
+    }
+  }
+  .bid-false{
+    font-size:14px;
+    text-align:center;
+    color:#f60;
+    margin-top:40px;
+    width:100%;
+    float:left;
+    i{
+      background:$detail-img;
+      background-position: -160px -448px;
+      width:71px;
+      height:72px;
+      display:block;
+      margin:auto;
+    }
+  }
+}

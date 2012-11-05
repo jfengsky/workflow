@@ -1,0 +1,96 @@
+/**
+ * 有求必应合买版 跟单成功
+ * wb-jiangfeng@taobao.com 2012-10-23 10:36
+ * 
+ */
+@import "global";
+.c2b-step{
+  margin-top:40px;
+}
+.c2b-pay-succ{
+  width:$wide990;
+  margin:auto;
+  // border-bottom:1px solid #d1d7dc;
+  margin-bottom:20px;
+  .succ-info{
+    width:500px;
+    margin:60px auto auto;
+    .tips{
+      height:20px;
+      line-height:20px;
+      display:block;
+      color:#f60;
+      text-align:center;
+      padding-bottom:20px;
+    }
+    p{
+      font-size:14px;
+      height:32px;
+      line-height:32px;
+      width:250px;
+      margin:auto auto 20px;
+      i{
+        background:$pay-img;
+        background-position:-118px -33px;
+        height:32px;
+        width:32px;
+        display:inline-block;
+        margin-right:14px;
+        float: left;
+      }
+      span{
+        float:left;
+        white-space:nowrap;
+      }
+    }
+    .succ-btn{
+      border-top:1px dotted #bebebe;
+      padding:24px 0 200px 110px;
+      float:left;
+      width:100%;
+      .mbag, .hbag, .fbag{
+        background:$pay-img;
+        background-position:0 -108px;
+        width:150px;
+        height:37px;
+        float: left;
+        cursor:pointer;
+        margin-right:10px;
+        &:hover{
+          background-position:0 -145px;
+        }
+        @include oh
+      }
+      .hbag{
+        background-position:0 -332px;
+        &:hover{
+          background-position:0 -332px;
+        }
+      }
+      .fbag{
+        width:229px;
+        background-position:0 -370px;
+        &:hover{
+          background-position:0 -370px;
+        }
+      }
+      a.back-buy, a.back-buyr{
+        background:$pay-img;
+        background-position:0 -256px;
+        width:112px;
+        height:38px;
+        float:left;
+        @include oh
+      }
+      a.back-buyr{
+        background-position:-116px -218px;
+        &:hover{
+          background-position:-116px -256px;
+        }
+      }
+    }
+  }
+  .clear{
+    @include clear
+  }
+}

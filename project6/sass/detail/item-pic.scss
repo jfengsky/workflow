@@ -1,0 +1,79 @@
+/**
+ * 有求必应合买版 detail 商品图片switchable
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-18 14:22
+ */
+@import "global";
+.c2b-main{
+  width:$wide990;
+  margin:auto;
+}
+.c2b-left{
+  float:left;
+  padding-top:10px;
+  border-top:1px solid #ccc;
+  width:$wide990 - $right-width - 30px;
+  overflow:hidden;
+}
+.c2b-item{
+  float:left;
+  .ks-switchable-content{
+    width:250px;
+    height:250px;
+    overflow:hidden;
+    margin-bottom:20px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    *display: block;
+    *font-size: 218px;
+    *font-family:Arial;
+    img{
+      vertical-align:middle;
+    }
+  }
+  .ks-switchable-nav{
+    display:block;
+    padding-top:20px;
+    li{
+      height:42px;
+      width:42px;
+      padding:1px;
+      background-color:#fff;
+      border:1px solid #fff;
+      float:left;
+      cursor:pointer;
+      margin-right:10px;
+      &.ks-active{
+        border:1px solid #ccc;
+        position:relative;
+        i{
+          width:11px;
+          height:6px;
+          overflow:hidden;
+          background:$detail-img;
+          background-position:-63px -19px;
+          display:block;
+          position:absolute;
+          top:-6px;
+          left:17px;
+        }
+      }
+      span{
+        height:40px;
+        width:40px;
+        display:block;
+        border:1px solid #ccc;
+        display: table-cell;
+        vertical-align:middle;
+        text-align:center;
+        *display: block;
+        *font-size: 35px;
+        *font-family:Arial;
+        img{
+          vertical-align:middle;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+/**
+ * 有求必应合买版  首页
+ * @author : 高瞻
+ * @time: 2012-10-18 19:59
+ * 
+ */
+body{
+        background-color: #f6f6f6;
+        background: url(http://img04.taobaocdn.com/tps/i4/T1W3jRXk4rXXcT1u_a-21-17.jpg) repeat;
+    }
+
+        .y-mei-main{
+            width: 990px;
+            margin:26px auto 0px;
+        }
+        .y-mei-step{
+            background: url(http://img02.taobaocdn.com/tps/i2/T1tUvWXiRfXXaEPfPm-989-196.jpg) no-repeat;
+            padding-top: 166px;
+        }
+        .y-mei-bottom{
+            background: url(http://img01.taobaocdn.com/tps/i1/T1GkjYXj4cXXaodo_j-991-175.jpg) no-repeat;
+            height: 175px;
+            margin-bottom: 56px;
+            *margin-top:60px;
+        }
+        .y-mei-tabs{
+            height: 35px;
+            width: 360px;
+            margin: 0px auto;
+            overflow: hidden;
+        }
+        a.y-mei-tab{
+            width: 116px;
+            float: left;
+            border:2px solid #d6d6d6;
+            background-color: #fff;
+            color: #000;
+            font-family: 微软雅黑;
+            font-size: 16px;
+            height: 31px;
+            display: block;
+            text-align: center;
+            line-height: 31px;
+        }
+        a.y-mei-tab-cur{
+            color: #fff;
+            background-color: #333;
+            border-color:#333;
+
+        }
+        .y-mei-product-main{
+             margin-right: -30px;
+             zoom:1;
+            overflow: hidden;
+            margin-top: 20px;
+
+        }
+        .y-mei-product-item{
+            width: 310px;
+            height: 445px;
+            background-color: #fff;
+            overflow: hidden;
+            margin-right: 30px;
+            float: left;
+            margin-bottom: 50px;
+        }
+        .y-mei-product-pic{
+            padding: 10px 15px 0px;
+            display: block;
+        }
+        .y-mei-product-info{
+            height: 156px;
+            background-color: #000;
+            padding: 10px 15px 0px;
+            color: #fff;
+        }
+        .y-mei-product-title{
+            font-size: 16px;
+            font-family: 黑体;
+            border-bottom: 1px dotted #fff;
+            padding-bottom: 2px;
+        }
+        .y-mei-product-count-down{
+            color: #999999;
+            padding: 3px 0px;
+        }
+        .y-mei-product-old-price{
+            color: #999;
+            margin-left: 24px;
+        }
+        .y-mei-product-new-price{
+            font-size: 30px;
+            color: #ff6600;
+
+        }
+        .y-mei-product-old-price span{
+            text-decoration: line-through;
+           font-size: 16px;
+        }
+        .y-mei-product-schedule{
+            height: 6px;
+            overflow: hidden;
+            line-height: 10px;
+            width: 280px;
+            background-color: #fdb96e;
+            margin-bottom: 3px;
+            margin-top: 10px;
+        }
+        .y-mei-product-schedule-cur{
+            background-color: #ff6600;
+            height: 6px;
+        }
+        .y-mei-documentary-num{
+            width: 240px;
+            display: inline-block;
+            zoom:1;
+            *display: inline;
+        }
+        .y-mei-product-comment{
+            height: 50px;
+            margin-top: -234px;
+            background-color: #F60;
+            position: relative;
+            opacity: 0.8;
+            padding: 9px 15px;
+            color: #fff;
+        }
+        .y-mei-product-commenter-box{
+            height: 50px;
+            margin-top: -50px;
+            width: 50px;
+            background:url(http://img04.taobaocdn.com/tps/i4/T1yd6YXnteXXaCG0rh-50-50.png) no-repeat;
+            _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img04.taobaocdn.com/tps/i4/T1yd6YXnteXXaCG0rh-50-50.png');
+            _background-image: none;
+            position: relative;
+        }
+        .y-mei-product-commenter{
+            float: left;
+            margin-right: 10px;
+        }
+        .g,a.g{
+            color:#999999;
+        }
+        .h,a.h{color:#ff6600;}
+
+        .y-mei-fail-poke{
+            width: 94px;
+            height: 94px;
+            position: relative;
+            margin-top: -456px;
+            background: url(http://img02.taobaocdn.com/tps/i2/T1LB6YXf4aXXaCKdTs-94-94.png) no-repeat;
+            _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img02.taobaocdn.com/tps/i2/T1LB6YXf4aXXaCKdTs-94-94.png');
+            _background-image: none;
+        }
+        .y-mei-true-poke{
+            width: 94px;
+            height: 94px;
+            position: relative;
+            margin-top: -456px;
+            background: url(http://img03.taobaocdn.com/tps/i3/T17pLYXnXfXXaCKdTs-94-94.png) no-repeat;
+            _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img03.taobaocdn.com/tps/i3/T17pLYXnXfXXaCKdTs-94-94.png');
+            _background-image: none;
+
+        }
+        .y-mei-fail .y-mei-product-title{
+            border-color:#a9a9a9;
+        }
+        .y-mei-fail .y-mei-product-schedule{
+            background-color: #b5b5b5;
+        }
+        .y-mei-fail .y-mei-product-schedule-cur{
+            background-color: #7f7f7f;
+        }
+        .y-mei-canbuy{
+            background: url(http://img01.taobaocdn.com/tps/i1/T1MRvYXmNaXXbrwtnA-277-36.jpg) no-repeat;
+            height: 37px;
+            margin-top: 10px;
+        }
+        .y-mei-cannotbuy{
+            background: url(http://img03.taobaocdn.com/tps/i3/T1k9DYXn8aXXaV8HTx-265-37.jpg) no-repeat;
+            height: 37px;
+            margin-top: 10px;
+        }
+        .y-mei-canbuy-btn,.y-mei-cannotbuy-btn{
+            width: 101px;
+            height: 36px;
+            text-indent: -999em;
+            display: block;
+        }
+        .y-mei-before .y-mei-product-price{
+            margin-top: 5px;
+        }
+        .y-mei-back{
+            width: 63px;
+            height: 95px;
+            margin-left: 1016px;
+            position: fixed;
+            _position:absolute;
+            _top: expression(documentElement.scrollTop+26+"px");
+        }
+        a.y-mei-mychipped{
+            display: block;
+            width: 64px;
+            height: 40px;
+            background: url(http://img03.taobaocdn.com/tps/i3/T1C0vZXdlXXXa9ry_z-256-106.jpg) -4px -5px no-repeat;
+            margin-bottom: 6px;
+            text-indent: -999em;
+        }
+        a.y-mei-mychipped:hover{
+            background-position:-95px -5px ;
+        }
+        a.y-mei-help{
+            display: block;
+            width: 64px;
+            height: 28px;
+            background: url(http://img03.taobaocdn.com/tps/i3/T1C0vZXdlXXXa9ry_z-256-106.jpg) -4px -49px no-repeat;
+            margin-bottom: 6px;
+            text-indent: -999em;
+        }
+        a.y-mei-help:hover{
+            background-position:-187px -49px ;
+        }
+        a.y-mei-totop{
+            display: block;
+            width: 64px;
+            height: 20px;
+            background: url(http://img03.taobaocdn.com/tps/i3/T1C0vZXdlXXXa9ry_z-256-106.jpg) -4px -82px no-repeat;
+            text-indent: -999em;
+        }

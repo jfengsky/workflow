@@ -1,0 +1,501 @@
+/**
+ * 有求必应合买版 detail 卖家投标入口
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-19 15:26
+ */
+@import "global";
+.c2b-seller-bid{
+  border:4px solid #229dfb;
+  width:186px;
+  padding:9px 13px 7px;
+  margin-top:19px;
+  .bid-title{
+    height:23px;
+    width:100%;
+    cursor:pointer;
+    h4{
+      float:left;
+      font-size:14px;
+    }
+    .bidder{
+      float:right;
+      span{
+        color:#229dfb;
+      }
+      i{
+        width:10px;
+        height:7px;
+        display:inline-block;
+        overflow:hidden;
+        background:$detail-img;
+        background-position:-225px -139px;
+        cursor:pointer;
+      }
+    }
+  }
+  .bid-btn{
+    height:76px;
+    margin-top:15px;
+    text-align:center;
+    a{
+      color:#06f;
+    }
+    a.tobid, em.hasbid, em.endbid{
+      width:112px;
+      height:37px;
+      display:block;
+      margin:auto;
+      background:$detail-img;
+      background-position:-167px -213px;
+      @include oh
+    }
+    span{
+      color:#666;
+      padding-top: 5px;
+      display: block;
+    }
+    em.hasbid{
+      background-position:-167px -287px;
+    }
+    em.endbid{
+      background-position:-167px -324px;
+    }
+  }
+  .tips{
+    color:#666;
+    padding-left:26px;
+    height:90px;
+    li{
+      padding-left:14px;
+      line-height:22px;
+      background:$detail-img;
+      background-position:-277px -96px;
+      width:100%;
+      float:left;
+    }
+  }
+}
+.c2b-bid-up{
+  border-bottom:1px dotted #229dfb;
+}
+
+.ks-ext-mask{
+  background-color: #000;
+  opacity:0.2;
+  filter:alpha(opacity=20);
+}
+
+
+
+.tender{
+    width:600px;
+    border:1px solid  #d1d1d1;
+    background: #fbfbfb;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
+}
+.tender .title{
+    height: 35px;
+    background-color:#0B7EB5;
+    line-height: 35px;
+    padding:0 15px;
+    color:#fff;
+
+}
+/*by wb-gaozhan*/
+.tender .f60{
+    background-color: #f60;
+}
+.tender .title b{
+    font-size: 14px;
+    float:left;
+}
+.title a.close{
+    float:right;
+    color:#fff;
+}
+.upload_tender{
+    width: 680px;
+    float:left;
+}
+.upload_tender .mb_5{
+    margin-bottom: 5px;
+}
+.upload_tender .tender-info{
+    background: url(http://img02.taobaocdn.com/tps/i2/T1Ry6nXeJXXXXAREz9-483-32.jpg) 111px 23px  no-repeat;
+    padding: 80px 0px 25px 0px;
+    width:680px;
+    float: left;
+}
+.upload_tender .price{
+    color: #ff6600;
+}
+.upload_tender .preview, .vstep .preview, .pro-vote .preview{
+    width: 231px;
+    border: 1px solid #d9d9d9;
+    margin-top: 8px;
+    clear: both;
+    -moz-box-shadow: 0px 2px 4px #DDD;
+    -webkit-box-shadow: 0px 2px 4px #DDD;
+    box-shadow: 0px 2px 4px #DDD;
+}
+.upload_tender .result_show, .vstep .result_show, .pro-vote .result_show{
+    border-bottom: 1px  dashed #c0c0c0;
+    margin:6px;
+}
+.upload_tender .preview .instruct{
+    height:90px;
+}
+.upload_tender .bid{
+    height: 35px;
+    line-height: 35px;
+    color: #ff6600;
+    font-weight: 700;
+    background-color: #f4f4f4;
+    border-top: 1px #fff solid;
+    padding-left:6px;
+}
+.upload_tender .bid span{
+    font-weight: normal;
+    color: #333333;
+}
+.tender-info{
+
+}
+.tender-info li{
+padding-top:13px;
+}
+.tender-info label{
+width:100px;
+float:left;
+text-align: right;
+height: 27px;
+line-height: 27px;
+padding-right:10px;
+}
+.tender-info .url, .tender-info .price, .tender-info textarea ,.vote-cnt textarea{
+border:1px solid #d1d1d1;
+background-color: #ececec;
+border-radius:3px 3px 3px 3px;
+height: 25px;
+width:300px;
+padding:0 5px;
+line-height: 25px;
+}
+.tender-info .price{
+width:100px;
+}
+.vote-cnt textarea{
+height: 88px;
+width:300px;
+float:left;
+}
+.tender .tender-updata{
+clear: both;
+padding-left:110px;
+}
+.tender-updata dd {
+width:100%;
+float:left;
+}
+.tender-updata dd em, .tender-updata dd span , .tender-updata dd a{
+float: left;
+}
+.tender-updata span.bord{
+border:1px solid #cdcbce;
+padding:1px;
+height: 7px;
+width:100px;
+overflow:hidden;
+display: block;
+margin:5px 10px 0 10px;
+}
+.tender-updata span.rate{
+  background-color: #f39800;
+  height: 7px;
+  display:block
+}
+.tender-info b{
+margin-top:8px;
+float:left;
+}
+.tender-info b.box span{
+width:170px;
+height:170px;
+display:table-cell;
+border:1px solid #dddddd;
+background-color:#ececed;
+vertical-align:middle;
+text-align: center;
+*display: block;
+*font-size: 148px;
+*font-family:Arial;
+}
+.tender-info b.box img{
+vertical-align:middle;
+}
+.updata-btn{
+clear:both;
+float:left;
+}
+.pack{
+clear:both;
+}
+.tender-btn{
+width:102px;
+margin:auto auto auto 108px;
+
+}
+.tender-btn input{
+background: url("http://img01.taobaocdn.com/tps/i1/T1e5jOXg0nXXXR03fI-474-604.png") no-repeat;
+background-position: -130px -514px;
+width: 102px;
+height: 37px;
+border:none;
+cursor:pointer;
+margin:auto;
+}
+.success{
+padding:27px;
+text-align: center;
+}
+.success em{
+padding:5px 0 10px 0;
+font-size:24px;
+color:#359800;
+font-weight: bold;
+display: block
+}
+.success a.close{
+width:86px;
+height: 26px;
+display:block;
+border:1px solid #a0a0a0;
+font-weight: bold;
+background-color: #ddd;
+line-height: 26px;
+margin:30px auto 40px auto;
+border-radius:2px 2px 2px 2px;
+}
+.success p{
+height: 34px;
+border:1px dashed #bebebe;
+background: #fff;
+padding:0 20px;
+line-height: 34px;
+text-align: left;
+}
+.success p span{
+color:#f60;
+font-weight: bold;
+}
+/**
+ *投标弹层
+ * Author: wb-jiangfeng
+ * Time: 12-6-14 上午10:54 
+ */
+.upload_tender .title_bg0b7eb5{background-color: #0b7eb5;}
+.upload_tender{
+    width: 680px;
+    float:left;
+}
+.upload_tender .tender-info{
+    background: url(http://img02.taobaocdn.com/tps/i2/T1Ry6nXeJXXXXAREz9-483-32.jpg) 111px 23px  no-repeat;
+    zoom:1;
+    overflow:hidden;
+}
+.tender-info li{
+    padding-top:13px;
+}
+/*by wb-gaozhan*/
+.vote-reason{
+    zoom:1;
+    overflow: hidden;
+}
+.tender-info label, .vote-cnt label{
+    width:100px;
+    float:left;
+    text-align: right;
+    height: 27px;
+    line-height: 27px;
+    padding-right:10px;
+}
+.tender-info .url, .tender-info .price, .tender-info textarea{
+    border:1px solid #d1d1d1;
+    background-color: #ececec;
+    border-radius:3px 3px 3px 3px;
+    height: 25px;
+    width:300px;
+    padding:0 5px;
+    line-height: 25px;
+}
+.tender-info textarea{
+    height: 50px;
+    width:300px;
+    float:left;
+}
+.tender .tender-updata{
+    clear: both;
+    padding-left:110px;
+}
+.tender-btn{
+    width:102px;
+    margin:auto auto auto 108px;
+
+}
+
+/*by wb-gaozhan 1010*/
+.tender-info .price{
+    color: #ff6600;
+    width:100px;
+}
+.tender-btn input{
+    border:none;
+    cursor:pointer;
+    margin:auto;
+}
+.pubing{
+    width: 101px;
+    height: 36px;
+    background: url(http://img03.taobaocdn.com/tps/i3/T1IXfRXb8dXXcF2S.3-102-42.jpg) 0px -3px no-repeat;
+    display: block;
+}
+/*选标,淘汰，恢复弹层*/
+.select-bin-step{
+    background: url(http://img03.taobaocdn.com/tps/i3/T1lq_rXmltXXaIWt27-490-180.jpg) no-repeat;
+    height:43px;
+    width: 490px;
+    text-indent:-999em;
+    margin: 0px auto 27px;
+}
+.select-step2{
+    background-position: -1px -1px;
+}
+.select-step3{
+    background-position: -1px -45px;
+}
+.select_tender .btn_affirm{
+    float: left;
+    margin-top:26px;
+}
+.select_tender .btn_cancel{
+    float: right;
+    margin-left: 20px;
+    display:inline;
+    margin-top:26px;
+}
+.select_tender .btn_knowed{
+    margin: 26px auto 0px;
+}
+
+
+/*sku*/
+.propOption{
+    clear: both;
+    zoom:1;
+    overflow: hidden;
+    padding:10px 0px 0px 107px
+}
+.propOption dt{
+    float: left;
+    line-height: 22px;
+    margin-right: 10px;
+}
+.propOption dt{
+    float: left;
+    line-height: 22px;
+}
+.propOption  .c2b-sku li{
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+    *display:inline;
+    padding: 0px;
+    margin-right: 10px;
+}
+.propOption  .c2b-sku li a{
+    display: block;
+    zoom: 1;
+    border: 1px solid #CCC;
+    height: 17px;
+    line-height: 17px;
+    padding: 1px 10px;
+    font-size: 12px;
+    background-color: white;
+    overflow: hidden;
+    word-break: break-all;
+    color: #666;
+    text-decoration: none;
+}
+.propOption .c2b-sku li.selected a{
+    color: #F60;
+    border: 1px solid #F60;
+}
+.propOption .c2b-sku li.selected i{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1gyzQXktgXXb9IoA_-11-11.jpg) no-repeat;
+    width: 11px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*by wb-gaozhan 橘黄按钮*/
+.tender .cnt {
+    padding: 60px 60px;
+}
+.vote-cnt .cnt-btn {
+    width: 230px;
+    margin: 35px auto 0px;
+    height: 40px;
+}
+.vote-cnt .cnt-btn a.crt, .model-btn a:hover {
+    background-position: -5px -157px;
+}
+.vote-cnt .cnt-btn a.crt, .model-btn a {
+    background: url(http://img04.taobaocdn.com/tps/i4/T1y_vTXdtjXXXqLUnr-357-199.png)  -5px -113px no-repeat;
+    text-indent: -999em;
+    width: 102px;
+    height: 37px;
+    display: block;
+    float: left;
+}
+.vote-cnt .cnt-btn a.cle {
+    background: url(http://img04.taobaocdn.com/tps/i4/T1y_vTXdtjXXXqLUnr-357-199.png) -117px -113px no-repeat;
+    text-indent: -999em;
+    width: 102px;
+    height: 37px;
+    display: block;
+    float: right;
+}
+.vote-cnt .cnt-btn a.cancel, .bidseller .bidclose {
+    background: url(http://img04.taobaocdn.com/tps/i4/T1y_vTXdtjXXXqLUnr-357-199.png)  -237px -4px no-repeat;
+    text-indent: -999em;
+    width: 112px;
+    height: 37px;
+    display: block;
+    margin: 0 auto;
+}
+.vote-cnt .cnt-btn a.cancel, .bidseller .bidclose:hover {
+    background-position: -237px -48px;
+}
+.bidrule {
+    padding-top:15px;
+    border-top:1px solid #ccc;
+    width:100%;
+    float:left;
+    line-height: 24px;
+}
+
+.bidrule em{
+    text-align: right;
+    padding-right:10px;
+    width:100px;
+    display:block;
+    float: left;
+}
+
+.bidrule ul{
+    float:left; 
+    padding:0 0 30px 0; 
+    color:#666;
+}

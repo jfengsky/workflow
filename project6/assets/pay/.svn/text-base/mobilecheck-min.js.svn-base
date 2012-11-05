@@ -1,0 +1,1 @@
+KISSY.add(function(e,a,c){var d={check:function(b){return/^\d{11}$/.test(b)?true:false}};c.on("#J_mobilenumber","blur",function(){var b=a.val("#J_mobilenumber");d.check(b)?a.hide("#J_mobilerr"):a.show("#J_mobilerr")})},{requires:["dom","event"]});

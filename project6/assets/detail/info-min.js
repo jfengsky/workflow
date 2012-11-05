@@ -1,0 +1,1 @@
+KISSY.add(function(b,a,c,d){b=a.val("#J_desc");if(b!=""){window.callback=function(e){a.html("#J_editor",e.toString())};try{d({type:"get",url:b,dataType:"jsonp"})}catch(f){}}c.on("#J_showinfos","click",function(){a.removeAttr("#J_itemcnt","style");a.hide("#J_showinfos")})},{requires:["dom","event","ajax"]});

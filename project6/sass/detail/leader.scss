@@ -1,0 +1,197 @@
+/**
+ * 有求必应合买版 detail 发起人信息
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-17 14:50
+ */
+@import "global";
+.c2b-path{
+  width:$wide990;
+  margin:auto;
+  padding-top:38px;
+  a:link, a:visited{
+    color:#333;
+  }
+  a:hover{
+    color:#f60;
+  }
+}
+.c2b-leader{
+  height:57px;
+  width:$wide990;
+  padding-top:20px;
+  margin:auto auto 25px;
+}
+.leader-head{
+  width:62px;
+  height:62px;
+  float:left;
+  position:relative;
+  span{
+    width:62px;
+    height:62px;
+    display:block;
+    background:url(http://img04.taobaocdn.com/tps/i4/T1uIj4Xh8eXXXeF16k-62-62.png) no-repeat;
+    _background:$detail-img;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+}
+.leader-item{
+  height:56px;
+  border-top:1px solid #dcdcdc;
+  border-left:1px solid #dcdcdc;
+  border-right:1px solid #dcdcdc;
+  border-bottom:1px dashed #a8a8a8;
+  float:left;
+  width:907px;
+  background-color:#f1f1f1;
+  position:relative;
+  margin-left:19px;
+  i{
+    width:11px;
+    height:16px;
+    display:block;
+    position:absolute;
+    left:-11px;
+    top:12px;
+    background:$detail-img;
+    background-position:-62px 0;
+  }
+  .leader-info{
+    height:40px;
+    float:left;
+    border-right:1px solid #c3c3c3;
+    margin:8px 0 0 13px;
+    width:180px;
+    overflow:hidden;
+    _display:inline;
+    a{
+      color:#666;
+      &:hover{
+        color:#f60;
+      }
+    }
+    em{
+      width:40px;
+      height:15px;
+      display:inline-block;
+      background-color:#333;
+      color:#fff;
+      text-align:center;
+      line-height:15px;
+    }
+  }
+}
+.item-title{
+  padding:14px 0 0 16px;
+  float:left;
+  width:446px;
+  span.sybt, span.sybb{
+    width:15px;
+    height:12px;
+    display:block;
+    float:left;
+    background:$detail-img;
+    background-position:-73px 0;
+  }
+  span.sybb{
+    margin-top:18px;
+    background-position:-73px -6px;
+  }
+  p{
+    font-size:14px;
+    float:left;
+    padding:5px 20px 0;
+    white-space:nowrap;
+    overflow:hidden;
+  }
+}
+.item-rank{
+  background:#fbf9fa;
+  float:left;
+  height:56px;
+  border-left:1px solid #d5d5d5;
+  margin-left:30px;
+  width:220px;
+  overflow:hidden;
+  border-bottom:1px solid #ededed;
+  _display:inline;
+  b{
+    background:$rank-img;
+    width:120px;
+    height:54px;
+    display:block;
+    @include oh;
+    float:left;
+    // margin:13px 0 0 10px;
+  }
+  span{
+    width:100px;
+    height:54px;
+    display:block;
+    float:left;
+    background:$rank-img;
+  }
+  .rk0{
+    background-position:-120px 0;
+  }
+  .rk1{
+    background-position:0 -54px;
+  }
+  .rk2{
+    background-position:-120px -54px;
+  }
+  .rk3{
+    background-position:0 -108px;
+  }
+  .rk4{
+    background-position:-120px -108px;
+  }
+  .rk5{
+    background-position:0 -162px;
+  }
+  .rk6{
+    background-position:-120px -162px;
+  }
+  .rk7{
+    background-position:0 -216px;
+  }
+  .rk8{
+    background-position:-120px -216px;
+  }
+  .rk9{
+    background-position:0 -270px;
+  }
+  .rk10{
+    background-position:-120px -270px;
+  }
+}
+.c2b-medal{
+  position:absolute;
+  width:288px;
+  height:63px;
+  padding:10px;
+  border:1px solid #ccc;
+  background-color:#fff;
+  top:56px;
+  left:-1px;
+  .medal-img{
+    width:55px;
+    height:62px;
+    background:$medalbig-img;
+    float:left;
+    margin-right:10px;
+  }
+  .medal-info{
+    float:left;
+    p{
+      color:#666;
+    }
+    a.rt{
+      float:right;
+      color:#333;
+      margin-top:5px;
+    }
+  }
+}

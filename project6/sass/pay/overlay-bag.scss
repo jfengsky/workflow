@@ -1,0 +1,100 @@
+/**
+ * 有求必应合买版 抢红包浮层
+ * wb-jiangfeng@taobao.com 2012-10-23 10:36
+ * 
+ */
+@import "global";
+
+.c2b-bag-overlay{
+  width:490px;
+  height:250px;
+  background-color:#fff;
+  padding:70px 0 0 60px;
+  .bagclose{
+    position:absolute;
+    right:10px;
+    top:5px;
+    cursor:pointer;
+    &:hover{
+      color:#f60;
+    }
+  }
+  i{
+    background:$pay-img;
+    background-position:-150px 0;
+    width:96px;
+    height:108px;
+    float:left;
+    margin-right:10px;
+    &.noe{
+      width:86px;
+      height:87px;
+      background-position:-151px -108px;
+    }
+  }
+  .bag-info{
+    float:left;
+    p{
+      font-size:16px;
+      margin-top:30px;
+      .h{
+        color:#f60;
+      }
+      .bag-money{
+        color:#f60;
+        font-size:24px;
+      }
+    }
+    .bag-btn{
+      margin-top:40px;
+      a.back-buyr{
+        background:$pay-img;
+        background-position:-116px -218px;
+        width:112px;
+        height:38px;
+        float:left;
+        margin-right:10px;
+        &:hover{
+          background-position:-116px -256px;
+        }
+        @include oh
+      }
+      a.back-info{
+        background:$pay-img;
+        background-position:0 -181px;
+        width:112px;
+        height:38px;
+        float:left;
+        margin-right:10px;
+        &:hover{
+          background-position:0 -218px;
+        }
+        @include oh
+      }
+      a.pay-view{
+        background:$pay-img;
+        background-position:0 -294px;
+        width:112px;
+        height:38px;
+        float:left;
+        @include oh
+      }
+    }
+  }
+}
+.ks-overlay {
+  position:absolute;
+  left:-9999px;
+  top:-9999px;
+}
+.ks-ext-mask{
+  background-color:#000;
+  opacity:0.4;
+  *filter:alpha(opacity=40);
+}
+.baglay .ks-ext-close{
+  position:absolute;
+  right:0;
+  top:5px;
+  color:#666;
+}

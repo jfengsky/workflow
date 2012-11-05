@@ -1,0 +1,1 @@
+KISSY.add(function(a,b,c){new c.Tabs("#J_c2bitemPic",{switchTo:0});b.on("#J_bidcancel","click",function(){a.get("#J_cancelGroup").submit()});b.on("#J_bidnow","click",function(){a.get("#J_groupBuy").submit()})},{requires:["event","switchable"]});

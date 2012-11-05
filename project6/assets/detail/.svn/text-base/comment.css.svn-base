@@ -1,0 +1,19 @@
+/**
+ * 有求必应合买版 detail 点评
+ * @author : wb-jiangfeng@taobao.com 
+ * @time: 2012-10-19 15:26
+ */
+.c2b-comt {
+  border-top: 1px solid #e6e6e6;
+  width: 100%;
+  float: left;
+  margin-top: 1px;
+  padding-top: 13px;
+  margin-bottom: 50px; }
+  .c2b-comt h4 {
+    background: url(http://img02.taobaocdn.com/tps/i2/T1wCn4XhNaXXcDC9cc-279-687.png) no-repeat;
+    width: 277px;
+    height: 29px;
+    background-position: 0 -184px;
+    text-indent: -999em;
+    overflow: hidden; }
