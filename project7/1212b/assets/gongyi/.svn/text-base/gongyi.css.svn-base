@@ -1,0 +1,79 @@
+/**
+ * 公益模块
+ * @author: wb-jiangfeng <wb-jiangfeng@taobao.com>
+ * @time  : 2012-11-26 19:08
+ * @return: 
+ */
+.c2b-gongyi {
+  width: 990px;
+  height: 350px;
+  margin: auto;
+  padding: 10px 0 60px 0;
+  overflow: hidden; }
+  .c2b-gongyi .c2b-gy-line {
+    border-bottom: 1px solid #ccc;
+    display: block;
+    height: 0px;
+    overflow: hidden; }
+  .c2b-gongyi h4 {
+    width: 130px;
+    text-align: center;
+    background-color: #fff;
+    margin: -10px auto auto; }
+  .c2b-gongyi a.c2b-gy-banner {
+    float: left; }
+
+.c2b-gongyi-info {
+  width: 485px;
+  height: 295px;
+  background-color: #0b9444;
+  float: right;
+  margin-top: 40px; }
+  .c2b-gongyi-info p {
+    width: 430px;
+    color: #fff;
+    margin: auto;
+    padding: 20px 0 15px 0;
+    border-bottom: 1px solid #53c434;
+    _padding: 0 0 15px 0; }
+  .c2b-gongyi-info .c2b-gy-step {
+    margin-left: 20px;
+    _margin-top: 20px; }
+
+.c2b-rais {
+  padding: 20px;
+  color: #fff;
+  font-size: 14px;
+  _padding: 0 20px; }
+  .c2b-rais dl {
+    width: 100%;
+    float: left;
+    margin-bottom: 8px;
+    display: inline; }
+  .c2b-rais dt {
+    width: 70px;
+    height: 20px;
+    background-color: #53c434;
+    text-align: center;
+    float: left; }
+  .c2b-rais dd {
+    float: left;
+    margin-left: 6px; }
+  .c2b-rais .c2b-to-rais {
+    width: 196px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    text-shadow: 1px 1px 1px #333;
+    background-color: #53c434;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 3px; }
+  .c2b-rais img {
+    float: right;
+    margin-top: -76px; }
+
+.c2b-gy-banner {
+  margin-top: 40px; }

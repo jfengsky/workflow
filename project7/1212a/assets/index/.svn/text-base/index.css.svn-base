@@ -1,0 +1,262 @@
+/**
+ * 有球必应 1212活动首页
+ * @author: jfeng(wb-jiangfeng@taobao.com)
+ * @time: 2012-11-15 18:51
+ */
+.f-clear {
+  clear: both; }
+
+.f-hide {
+  display: none; }
+
+.f-show {
+  display: block; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+.content-1212 .w990, .content-1212 .banner {
+  background: url(http://img04.taobaocdn.com/tps/i4/T1BgojXiRcXXamyzrh-990-277.jpg) no-repeat; }
+
+.content-1212 .category a.circle, .content-1212 .category .circle span {
+  background: url(http://img03.taobaocdn.com/tps/i3/T1LHIkXdxaXXaYXEPm-462-951.png) no-repeat;
+  _background: url(http://img01.taobaocdn.com/tps/i1/T10Z7kXd4aXXaYXEPm-462-951.png) no-repeat; }
+
+.content-1212 {
+  background: #f3f3f3;
+  border-bottom: 1px solid #999; }
+  .content-1212 .w990 {
+    width: 990px;
+    height: 650px;
+    margin: auto;
+    background-position: center 445px; }
+  .content-1212 .banner {
+    height: 111px;
+    width: 100%;
+    margin-top: 30px;
+    display: inline-block;
+    background-position: 0 -205px; }
+    .content-1212 .banner .user-nav {
+      float: right;
+      width: 207px;
+      padding: 40px 5px 0 0;
+      position: relative;
+      *z-index: 990; }
+    .content-1212 .banner a:link, .content-1212 .banner a:visited {
+      color: #888; }
+    .content-1212 .banner a:hover {
+      color: #f60; }
+    .content-1212 .banner .ks-switchable-triger {
+      float: left;
+      width: 62px;
+      height: 29px;
+      padding-right: 9px;
+      line-height: 29px;
+      text-align: right;
+      background: url(http://img03.taobaocdn.com/tps/i3/T1wlAkXahXXXaqtRfa-7-23.png) no-repeat 64px -6px; }
+      .content-1212 .banner .ks-switchable-triger:hover {
+        background-position: 64px 13px; }
+    .content-1212 .banner .ks-switchable-triger:hover + .ks-switchable-panel {
+      display: block; }
+    .content-1212 .banner .last {
+      background: none;
+      width: 61px;
+      padding: 0; }
+    .content-1212 .banner .ks-switchable-panel {
+      position: absolute;
+      display: none; }
+      .content-1212 .banner .ks-switchable-panel ul {
+        padding-bottom: 1px; }
+      .content-1212 .banner .ks-switchable-panel li {
+        width: 71px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center; }
+      .content-1212 .banner .ks-switchable-panel:hover {
+        display: block; }
+    .content-1212 .banner .trb1, .content-1212 .banner .trb2 {
+      border: 1px solid #e8e8e8;
+      background-color: #fff;
+      border-top: none;
+      width: 71px;
+      top: 67px;
+      left: 2px;
+      z-index: 990; }
+    .content-1212 .banner .trb2 {
+      left: 74px; }
+  .content-1212 .category {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    *z-index: 300; }
+    .content-1212 .category li, .content-1212 .category li .cts {
+      position: absolute; }
+    .content-1212 .category li .cts:hover {
+      z-index: 1000; }
+    .content-1212 .category .circle {
+      display: block; }
+    .content-1212 .category .circle span {
+      display: block;
+      text-indent: -999em;
+      overflow: hidden; }
+  .content-1212 .mz {
+    height: 231px;
+    width: 231px;
+    top: 37px;
+    left: 310px;
+    z-index: 100; }
+    .content-1212 .mz a.circle {
+      height: 231px;
+      width: 231px;
+      display: block;
+      background-position: -231px 0; }
+      .content-1212 .mz a.circle span {
+        height: 231px;
+        width: 231px; }
+      .content-1212 .mz a.circle:hover span {
+        background-position: -231px 0; }
+  .content-1212 .cate-mz {
+    height: 230px;
+    width: 230px; }
+  .content-1212 .c3 {
+    height: 171px;
+    width: 171px;
+    left: 220px;
+    top: 290px;
+    z-index: 90; }
+    .content-1212 .c3 a.circle {
+      height: 171px;
+      width: 171px;
+      display: block;
+      background-position: -171px -435px; }
+      .content-1212 .c3 a.circle span {
+        height: 171px;
+        width: 171px;
+        background-position: 0 -435px; }
+      .content-1212 .c3 a.circle:hover span {
+        background-position: -171px -435px; }
+  .content-1212 .baby {
+    height: 194px;
+    width: 194px;
+    left: 570px;
+    top: 130px;
+    z-index: 80; }
+    .content-1212 .baby a.circle {
+      height: 194px;
+      width: 194px;
+      display: block;
+      background-position: -194px -236px; }
+      .content-1212 .baby a.circle span {
+        height: 194px;
+        width: 194px;
+        background-position: 0 -236px; }
+      .content-1212 .baby a.circle:hover span {
+        background-position: -194px -236px; }
+  .content-1212 .jiadian {
+    height: 164px;
+    width: 164px;
+    left: 60px;
+    top: 130px;
+    z-index: 80; }
+    .content-1212 .jiadian a.circle {
+      height: 164px;
+      width: 164px;
+      display: block;
+      background-position: 0 -774px; }
+      .content-1212 .jiadian a.circle span {
+        height: 164px;
+        width: 164px;
+        background-position: 0 -774px; }
+      .content-1212 .jiadian a.circle:hover span {
+        background-position: -164px -774px; }
+  .content-1212 .baihuo {
+    height: 162px;
+    width: 162px;
+    left: 720px;
+    top: 280px;
+    z-index: 80; }
+    .content-1212 .baihuo a.circle {
+      height: 162px;
+      width: 162px;
+      display: block;
+      background-position: 0 -609px; }
+      .content-1212 .baihuo a.circle span {
+        height: 162px;
+        width: 162px;
+        background-position: 0 -609px; }
+      .content-1212 .baihuo a.circle:hover span {
+        background-position: -162px -609px; }
+  .content-1212 .jia {
+    height: 173px;
+    width: 173px;
+    left: 61px;
+    top: 213px;
+    z-index: 70; }
+    .content-1212 .jia .circle {
+      height: 173px;
+      width: 173px;
+      background: url(http://img02.taobaocdn.com/tps/i2/T1FuwiXoBfXXbt67bN-402-393.png) no-repeat -229px 0;
+      _background: url(http://img03.taobaocdn.com/tps/i3/T1WEZjXgtXXXbt67bN-402-393.png) no-repeat -229px 0; }
+  .content-1212 .clothes {
+    height: 132px;
+    width: 132px;
+    left: 734px;
+    top: 75px;
+    z-index: 60; }
+    .content-1212 .clothes .circle {
+      height: 132px;
+      width: 132px;
+      display: block;
+      background: url(http://img02.taobaocdn.com/tps/i2/T1FuwiXoBfXXbt67bN-402-393.png) no-repeat -164px -229px;
+      _background: url(http://img03.taobaocdn.com/tps/i3/T1WEZjXgtXXXbt67bN-402-393.png) no-repeat -164px -229px; }
+  .content-1212 .sport {
+    height: 164px;
+    width: 164px;
+    left: 555px;
+    top: 318px;
+    z-index: 50; }
+    .content-1212 .sport .circle {
+      height: 164px;
+      width: 164px;
+      display: block;
+      background: url(http://img02.taobaocdn.com/tps/i2/T1FuwiXoBfXXbt67bN-402-393.png) no-repeat 0 -229px;
+      _background: url(http://img03.taobaocdn.com/tps/i3/T1WEZjXgtXXXbt67bN-402-393.png) no-repeat 0 -229px; }
+  .content-1212 .othera {
+    height: 229px;
+    width: 229px;
+    left: 420px;
+    top: 50px;
+    z-index: 40; }
+    .content-1212 .othera .circle {
+      height: 229px;
+      width: 229px;
+      display: block;
+      background: url(http://img02.taobaocdn.com/tps/i2/T1FuwiXoBfXXbt67bN-402-393.png) no-repeat 0 0;
+      _background: url(http://img03.taobaocdn.com/tps/i3/T1WEZjXgtXXXbt67bN-402-393.png) no-repeat 0 0; }
+  .content-1212 .otherb {
+    height: 100px;
+    width: 100px;
+    left: 480px;
+    top: 280px;
+    z-index: 40; }
+    .content-1212 .otherb .circle {
+      height: 100px;
+      width: 100px;
+      display: block;
+      background: url(http://img02.taobaocdn.com/tps/i2/T1FuwiXoBfXXbt67bN-402-393.png) no-repeat -296px -173px;
+      _background: url(http://img03.taobaocdn.com/tps/i3/T1WEZjXgtXXXbt67bN-402-393.png) no-repeat -296px -173px; }
+  .content-1212 .otherc {
+    height: 68px;
+    width: 68px;
+    left: 265px;
+    top: 60px;
+    z-index: 40; }
+    .content-1212 .otherc .circle {
+      height: 68px;
+      width: 68px;
+      display: block;
+      background: url(http://img02.taobaocdn.com/tps/i2/T1FuwiXoBfXXbt67bN-402-393.png) no-repeat -296px -273px;
+      _background: url(http://img03.taobaocdn.com/tps/i3/T1WEZjXgtXXXbt67bN-402-393.png) no-repeat -296px -273px; }

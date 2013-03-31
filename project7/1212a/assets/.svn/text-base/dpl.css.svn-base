@@ -1,0 +1,14 @@
+.f-clear {
+  clear: both; }
+
+.f-hide {
+  display: none; }
+
+.f-show {
+  display: block; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }

@@ -1,0 +1,76 @@
+/**
+ * 右侧悬停跟随类目导航条
+ * @author: wb-jiangfeng <wb-jiangfeng@taobao.com>
+ * @time  : 2012-11-26 15:12
+ * @return: 
+ */
+@import "global";
+.c2b-rightbar{
+  width:90px;
+  height:298px;
+  background-color:#ff780c;
+  border-radius:10px 0 0 10px;
+  position:fixed;
+  top:100px;
+  right:0;
+  ul{
+    width:65px;
+    padding:15px 0 0 14px;
+    li{
+      border-bottom:1px solid #ff933b;
+      font-size:14px;
+      height: 35px;
+      line-height: 35px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-align: center;
+      a{
+        &:link, &:visited{
+          color:#26211d;
+        }
+        &:hover{
+          color:#fff;
+          text-decoration:none
+        }
+      }
+      &.cur{
+        a{
+          color:#fff;
+        }
+      }
+    }
+  }
+  b{
+    height:33px;
+    line-height: 33px;
+    background-color:#25221d;
+    display:block;
+    border-radius:0 0 0 10px;
+    margin-top:-1px;
+    color:#ff790d;
+    text-align: center;
+    cursor:pointer;
+    font-size:16px;
+    padding-left:24px;
+    em{
+      float:left;
+    }
+    span{
+      border-style:solid; 
+      border-width:8px; 
+      border-color:#25221d #25221d #ff790d #25221d; 
+      height:0; 
+      width:0;
+      display:block; 
+      font-size:0;
+      float:left;
+      margin:6px 0 0 2px;
+    }
+    &:hover{
+      color:#fff;
+      span{
+        border-color:#25221d #25221d #fff #25221d;
+      }
+    }
+  }
+}

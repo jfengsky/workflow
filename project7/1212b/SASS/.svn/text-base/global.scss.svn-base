@@ -1,0 +1,33 @@
+// 宽度
+$wide:984px;
+
+// // step 图片
+// $step-img:url(../../PSD/step.png) no-repeat;
+
+// //美妆图片区
+// $mz-first-img:url(../../PSD/test1.png) no-repeat;
+// $mz-firstbg-img:url(../../PSD/mz-bg-pub2.png) no-repeat;
+
+// // 底部导航条
+// $bottombar-img:url(../../PSD/bottombar2.png) no-repeat;
+
+// // 35px 头像圆圈遮罩
+// $head_mask8-img:url(../../PSD/circle_35_8.png) no-repeat;
+// $head_mask24-img:url(../../PSD/circle_35_24.png) no-repeat;
+
+// step 图片
+$step-img:url(http://img03.taobaocdn.com/tps/i3/T1fpMkXkJaXXa7.zzh-990-323.png) no-repeat;
+
+//美妆图片区
+//$mz-first-img:url(../../PSD/test1.png) no-repeat;
+$mz-firstbg-img:url(http://img01.taobaocdn.com/tps/i1/T12ZccXcliXXXBNZgH-494-1230.png) no-repeat;
+
+// 底部导航条
+$bottombar-img:url(http://img04.taobaocdn.com/tps/i4/T16G.jXbtdXXaEIt7E-712-48.png) no-repeat;
+
+// 35px 头像圆圈遮罩
+$head_mask8-img:url(http://img02.taobaocdn.com/tps/i2/T17K7jXbFcXXb1HYPe-35-35.png) no-repeat;
+$head_mask24-img:url(http://img03.taobaocdn.com/tps/i3/T1UugjXX8bXXb1HYPe-35-35.png) no-repeat;
+//字体颜色区
+$font-black:#101010;
+$org:#f60;

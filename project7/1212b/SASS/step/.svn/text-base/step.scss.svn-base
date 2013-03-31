@@ -1,0 +1,64 @@
+/**
+ * 顶部进度条预热步骤模块
+ * @author: wb-jiangfeng <wb-jiangfeng@taobao.com>
+ * @time  : 2012-11-23 14:18
+ * @return: 
+ */
+@import "global";
+.c2b-stepa{
+  width:$wide;
+  height:84px;
+  margin:auto auto 12px;
+  background:$step-img;
+  ul{
+    padding:40px 0 0 0;
+    float:left;
+    width:246px;
+  }
+  li{
+    float:left;
+    padding:0 8px 0 20px;
+  }
+  em{
+    width:229px;
+    padding:54px 0 0 18px;
+    float:left;
+  }
+  .c2b-pub, .c2b-join{
+    width:246px;
+    height:84px;
+    float:left;
+    text-indent:-999em;
+    overflow:hidden;
+  }
+  .c2b-join{
+    width:486px;
+  }
+}
+.c2b-stepb{
+  position:relative;
+  background-position:0 -84px;
+  .c2b-pub{
+    width:494px;
+  }
+  .c2b-join{
+    width:240px;
+  }
+  .c2b-step-notice{
+    width:495px;
+    height:88px;
+    background:$step-img -246px -168px;
+    text-indent:-999em;
+    overflow:hidden;
+    position:absolute;
+    left:246px;
+    top:84px;
+    display:none;
+    z-index:1000;
+  }
+  &:hover{
+    .c2b-step-notice{
+      display:block;
+    }
+  }
+}

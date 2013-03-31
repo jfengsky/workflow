@@ -1,0 +1,2 @@
+KISSY.add(function(m,n,g){return function(h,f,i,j){var a=this,e=!1,k="elasticBoth elasticIn elasticOut easeInStrong easeOutStrong easeBothStrong".split(" ");this._tween=function(b){var a=k[Math.floor(6*Math.random())],c=0,d=0,l=0.5<Math.random()?!0:!1;periodis=8+Math.floor(10*Math.random());e?e=!1:(c=i+Math.floor(Math.random()*f),d=j+Math.floor(Math.random()*f),l&&(c=0-c,d=0-d),e=!0);b=g(h,{left:c,top:d},periodis,a,b);b.stop();return b};this.moving=function(){a._tween(a.moving).run()}}},{requires:["dom",
+"anim"]});

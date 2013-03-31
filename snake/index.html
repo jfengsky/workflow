@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>贪吃蛇</title>
+  <link rel="stylesheet" type="text/css" href="snake.css">
+</head>
+<body>
+<h1>贪吃蛇</h1>
+<div class="setting">
+  <h2>游戏设置：</h2>
+  <ul>
+    <li>游戏难度：<select id="J_level">
+      <option value="1" selected>1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select></li>
+    <li>场景大小: <select id="J_area">
+      <option value="10" selected>10x10</option>
+      <option value="12">12x12</option>
+      <option value="14">14x14</option>
+      <option value="16">16x16</option>
+      <option value="18">18x18</option>
+      <option value="20">20x20</option>
+    </select></li>
+    <!--<li>场景大小：<input type="text" id="J_width" value="10"> x <input type="text" id="J_height" value="10"></li>-->
+    <li>得分：<b id="J_score">0</b></li>
+    <li><input type="button" value="开始游戏" id="J_start" style="width:60px;"/></li>
+  </ul>
+</div>
+<div class="scene" id="J_scene">
+
+  <div class="food" id="J_food"></div>
+</div>
+<script type="text/javascript" src="snake.js"></script>
+</body>
+</html>

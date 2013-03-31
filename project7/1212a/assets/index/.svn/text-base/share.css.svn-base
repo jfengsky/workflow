@@ -1,0 +1,44 @@
+/**
+ * 有球必应 1212活动页面 下面分享模块
+ * @author: jfeng(wb-jiangfeng@taobao.com)
+ * @time: 2012-11-29 15:01
+ */
+.f-clear {
+  clear: both; }
+
+.f-hide {
+  display: none; }
+
+.f-show {
+  display: block; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+.hm-share {
+  width: 990px;
+  margin-left: 50%;
+  position: absolute;
+  left: -495px;
+  bottom: 0; }
+  .hm-share dl, .hm-share dd {
+    float: left; }
+  .hm-share dd {
+    margin-right: 10px; }
+    .hm-share dd a:link, .hm-share dd a:visited {
+      color: #333; }
+    .hm-share dd a:hover {
+      color: #f60; }
+  .hm-share .toshare {
+    float: right;
+    line-height: 16px; }
+    .hm-share .toshare span {
+      width: 120px;
+      height: 16px;
+      display: inline-block;
+      cursor: pointer;
+      background: url(http://img01.taobaocdn.com/tps/i1/T10Z7kXd4aXXaYXEPm-462-951.png) no-repeat -342px -590px;
+      _background: url(http://img03.taobaocdn.com/tps/i3/T1LHIkXdxaXXaYXEPm-462-951.png) no-repeat -342px -590px; }

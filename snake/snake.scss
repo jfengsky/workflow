@@ -1,0 +1,65 @@
+/**
+ * 贪吃蛇样全局样式
+ * @author: jfeng (jfengsky@gmail.com)
+ * @Date: 13-2-26 18:31
+ */
+
+$snake_color:#666;
+$food_color:#adff2f;
+
+body,h1,h2,ul,li{
+  margin:0;
+  padding:0;
+  font-size:12px;
+}
+h1{
+  width:100%;
+  height:40px;
+  line-height:40px;
+  font-size:28px;
+  color:#fff;
+  text-indent:20px;
+  background-color:#333;
+}
+.setting{
+  padding:10px 20px;
+  background-color:#eee;
+  height:50px;
+  margin-bottom:10px;
+  h2{
+    font-size:16px;
+    line-height:28px;
+  }
+  ul{
+    height:50px;
+  }
+  li{
+    float:left;
+    list-style: none;
+    width:20%;
+    heigth:22px;
+    line-height:22px;
+    padding-right:10px;
+    input{
+      width:40px;
+    }
+    b{
+      color:#f60;
+      font-size:18px;
+    }
+  }
+}
+.scene{
+  margin:auto;
+  position:relative;
+  span, b{
+    height:20px;
+    width:20px;
+    display:block;
+    background-color:$snake_color;
+    position:absolute;
+  }
+  b{
+    background-color:$food_color;
+  }
+}

@@ -1,0 +1,74 @@
+/**
+ * 底部悬停跟随类目导航条
+ * @author: wb-jiangfeng <wb-jiangfeng@taobao.com>
+ * @time  : 2012-11-26 16:34
+ * @return: 
+ */
+@import "global";
+.c2b-btmbar{
+  height: 48px;
+  width:100%;
+  overflow:hidden;
+  background-color:#272727;
+  box-shadow:-2px -2px 10px rgba(0,0,0,0.3);
+  position:fixed;
+  bottom:0;
+  z-index:998;
+  .w990{
+    width:990px;
+    height: 48px;
+    margin:auto;
+    overflow:hidden;
+    background-color:#1e1e1e;
+  }
+  ul{
+    float:left;
+    width:624px;
+    height:48px;
+    background:$bottombar-img;
+  }
+  li{
+    a{
+      width:104px;
+      height:48px;
+      text-indent:-999em;
+      overflow:hidden;
+      float:left;
+      background-color:#000;
+      opacity:0;
+      filter:alpha(opacity=0);
+      &:hover{
+        opacity:0.12;
+        filter:alpha(opacity=12);
+      }
+    }
+    float:left;
+  }
+  em{
+    width:174px;
+    float:left;
+    text-align: center;
+    line-height:48px;
+    font-size:14px;
+    color:#fff;
+    a{
+      &:link, &:visited{
+        color:#fff;
+      }
+      &:hover{
+        color:$org;
+      }
+    }
+  }
+  .c2b-mine{
+    width:90px;
+    height:27px;
+    line-height:27px;
+    float:right;
+    font-size:14px;
+    color:$org;
+    background:$bottombar-img -624px 0;
+    padding:0 0 0 100px;
+    margin-top:10px;
+  }
+}
